@@ -1,0 +1,25 @@
+@StagedCertified.Artifact.forward : ∀ {Op : Type} {classify : Op → Option AccessAnalysis.Arithmetic}
+  {source : Source Op} {meaning : Op → Int → Int → Int} {regs : Registers} {out : State Heap}
+  (artifact : StagedCertified.Artifact classify source),
+  AccessAnalysis.ArithmeticSound classify meaning →
+    artifact.SolverSound →
+      SourceExec meaning source { regs := regs, memory := [] } out →
+        ∃ targetOut indices,
+          MixedTarget.Execution meaning artifact.backend.code
+              { regs := regs, memory := ([], ProgramState.emptyStreams artifact.backend.fifoArrays) } targetOut ∧
+            Hybrid.Related (fun x => x ∈ BufferNames.sourceVars source) (fun a => a ∈ artifact.backend.fifoArrays)
+              (Hybrid.Alternatives.HoldsAny artifact.backend.fifoArrays artifact.backend.after) out targetOut indices
+@StagedCertified.Artifact.backward : ∀ {Op : Type} {classify : Op → Option AccessAnalysis.Arithmetic}
+  {source : Source Op} {meaning : Op → Int → Int → Int} {regs : Registers} {targetOut : State MixedTarget.Storage}
+  (artifact : StagedCertified.Artifact classify source),
+  AccessAnalysis.ArithmeticSound classify meaning →
+    artifact.SolverSound →
+      MixedTarget.Execution meaning artifact.backend.code
+          { regs := regs, memory := ([], ProgramState.emptyStreams artifact.backend.fifoArrays) } targetOut →
+        ∃ out indices,
+          SourceExec meaning source { regs := regs, memory := [] } out ∧
+            Hybrid.Related (fun x => x ∈ BufferNames.sourceVars source) (fun a => a ∈ artifact.backend.fifoArrays)
+              (Hybrid.Alternatives.HoldsAny artifact.backend.fifoArrays artifact.backend.after) out targetOut indices
+'PaperCore.StagedCertified.Artifact.forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaperCore.StagedCertified.Artifact.backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+notation: definitional AST equality, parameter constants, branch and reverse loop checked

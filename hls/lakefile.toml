@@ -1,0 +1,22 @@
+name = "irComparison"
+version = "0.1.0"
+defaultTargets = ["IRComparison"]
+
+[[require]]
+name = "paperCore"
+path = "../papercore"
+
+[[require]]
+name = "lean4lean"
+git = "https://github.com/digama0/lean4lean.git"
+rev = "3dc52e0cd8a218e09de9ead031f52a2675734fe7"
+
+[[lean_lib]]
+name = "IRComparison"
+srcDir = "src"
+roots = ["IRComparison"]
+
+[[lean_lib]]
+name = "NativeRHL"
+srcDir = "src"
+roots = ["NativeRHL.ExprAnalysis", "NativeRHL.Arithmetic", "NativeRHL.TargetFacts"]

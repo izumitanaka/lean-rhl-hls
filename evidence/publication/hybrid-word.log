@@ -1,0 +1,17 @@
+starting BV32 compiler
+compact pipeline selected; fresh Z3 response checked
+BV32 overflow, whole-array elimination, SMT entry, and control execution agree
+interleaved: source, whole-array policy, and control agree
+nonadjacent: source, whole-array policy, and control agree
+intervening-read: source, whole-array policy, and control agree
+public-output: source, whole-array policy, and control agree
+filter: native BV32 source, window/FIFO and control agree
+reverse-address: native BV32 source, window/FIFO and control agree
+stride-two: native BV32 source, window/FIFO and control agree
+dilated: native BV32 source, window/FIFO and control agree
+dilated-reverse: native BV32 source, window/FIFO and control agree
+negative-step: native BV32 source, window/FIFO and control agree
+reverse-memory: native BV32 source, window/FIFO and control agree
+zero-count: wrapped counter and failure behavior agree
+wrapped-start: wrapped counter and failure behavior agree
+negative-counter: wrapped counter and failure behavior agree

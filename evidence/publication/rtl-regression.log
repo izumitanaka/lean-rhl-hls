@@ -1,0 +1,2584 @@
+⚠ [7/355] Replayed IRComparison.Circuit.Graph
+warning: src/IRComparison/Circuit/Graph.lean:59:18: This simp argument is unused:
+  he
+
+Hint: Omit it from the simp argument list.
+  simp [Outcome,̵h̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/Graph.lean:62:23: This simp argument is unused:
+  he
+
+Hint: Omit it from the simp argument list.
+  simp only [Outcome,̵h̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8/355] Replayed IRComparison.Circuit.Structured
+warning: src/IRComparison/Circuit/Structured.lean:42:68: This simp argument is unused:
+  Runtime.payload
+
+Hint: Omit it from the simp argument list.
+  simp only [̵A̵c̵t̵i̵o̵n̵.̵n̵o̵d̵e̵,̵A̵c̵t̵i̵o̵n̵.̵e̵v̵a̵l̵,̵e̵x̵e̵c̵u̵t̵e̵,̵P̵a̵y̵l̵o̵a̵d̵.̵a̵t̵,̵R̵u̵n̵t̵i̵m̵e̵.̵p̵a̵y̵l̵o̵a̵d̵]̵[̲A̲c̲t̲i̲o̲n̲.̲n̲o̲d̲e̲,̲ ̲A̲c̲t̲i̲o̲n̲.̲e̲v̲a̲l̲,̲ ̲e̲x̲e̲c̲u̲t̲e̲,̲ ̲P̲a̲y̲l̲o̲a̲d̲.̲a̲t̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/Structured.lean:160:97: This simp argument is unused:
+  hr
+
+Hint: Omit it from the simp argument list.
+  simp [PayloadOutcome,̵h̵r̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/Structured.lean:163:61: This simp argument is unused:
+  hr
+
+Hint: Omit it from the simp argument list.
+  simp [PayloadOutcome,̵h̵r̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [11/355] Replayed IRComparison.Core.StateLowering
+warning: src/IRComparison/Core/StateLowering.lean:35:85: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [Imperative.Cmd.eval, Functional.Term.eval, List.getElem?_cons_zero,̵ ̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/StateLowering.lean:43:85: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [Imperative.Cmd.eval, Functional.Term.eval, List.getElem?_cons_zero,̵ ̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/StateLowering.lean:51:85: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [Imperative.Cmd.eval, Functional.Term.eval, List.getElem?_cons_zero,̵ ̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/StateLowering.lean:53:49: This simp argument is unused:
+  he
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵e̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/StateLowering.lean:54:41: This simp argument is unused:
+  hw
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵w̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/StateLowering.lean:63:56: This simp argument is unused:
+  ht
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/StateLowering.lean:70:85: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [Imperative.Cmd.eval, Functional.Term.eval, List.getElem?_cons_zero,̵ ̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/StateLowering.lean:80:85: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [Imperative.Cmd.eval, Functional.Term.eval, List.getElem?_cons_zero,̵ ̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/StateLowering.lean:91:85: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [Imperative.Cmd.eval, Functional.Term.eval, List.getElem?_cons_zero,̵ ̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/StateLowering.lean:107:105: This simp argument is unused:
+  ht
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [13/355] Replayed IRComparison.Core.SnapshotControlIR
+warning: src/IRComparison/Core/SnapshotControlIR.lean:101:108: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵[̲b̲i̲n̲d̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/SnapshotControlIR.lean:113:45: This simp argument is unused:
+  he
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵e̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/SnapshotControlIR.lean:139:47: This simp argument is unused:
+  he
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵e̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/SnapshotControlIR.lean:141:45: This simp argument is unused:
+  hw
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵w̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/SnapshotControlIR.lean:149:45: This simp argument is unused:
+  he
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵e̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/SnapshotControlIR.lean:167:47: This simp argument is unused:
+  hb
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵b̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/SnapshotControlIR.lean:182:45: This simp argument is unused:
+  he
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵e̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/SnapshotControlIR.lean:191:45: This simp argument is unused:
+  he
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵e̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [14/355] Replayed IRComparison.Core.ControlIR
+warning: src/IRComparison/Core/ControlIR.lean:130:23: This simp argument is unused:
+  Expr.eval
+
+Hint: Omit it from the simp argument list.
+  simp only [step, E̵x̵p̵r̵.̵e̵v̵a̵l̵,̵ ̵List.range', List.foldlM_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/ControlIR.lean:132:67: This simp argument is unused:
+  hb
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵b̵,̵ ̵resume, bind, Option.bind]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/ControlIR.lean:158:63: This simp argument is unused:
+  List.singleton_append
+
+Hint: Omit it from the simp argument list.
+  simp only [lower, List.cons_append, List.append_assoc, L̵i̵s̵t̵.̵s̵i̵n̵g̵l̵e̵t̵o̵n̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵step, he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/ControlIR.lean:159:44: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [Imperative.Cmd.eval, he,̵ ̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/ControlIR.lean:168:45: This simp argument is unused:
+  ha
+
+Hint: Omit it from the simp argument list.
+  simp [h̵a̵,̵ ̵resume]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/ControlIR.lean:176:80: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [lower, List.singleton_append, step, he, Imperative.Cmd.eval,̵ ̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/ControlIR.lean:187:49: This simp argument is unused:
+  hb
+
+Hint: Omit it from the simp argument list.
+  simp [h̵b̵,̵ ̵resume]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [16/355] Replayed IRComparison.Core.ProgramControlIR
+warning: src/IRComparison/Core/ProgramControlIR.lean:238:67: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [̵l̵o̵w̵e̵r̵,̵L̵i̵s̵t̵.̵a̵p̵p̵e̵n̵d̵_̵a̵s̵s̵o̵c̵,̵I̵m̵p̵e̵r̵a̵t̵i̵v̵e̵.̵P̵r̵o̵g̵r̵a̵m̵.̵e̵v̵a̵l̵,̵h̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]̵[̲l̲o̲w̲e̲r̲,̲ ̲L̲i̲s̲t̲.̲a̲p̲p̲e̲n̲d̲_̲a̲s̲s̲o̲c̲,̲ ̲I̲m̲p̲e̲r̲a̲t̲i̲v̲e̲.̲P̲r̲o̲g̲r̲a̲m̲.̲e̲v̲a̲l̲,̲ ̲h̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [23/355] Replayed IRComparison.Core.CommunicationIR
+warning: src/IRComparison/Core/CommunicationIR.lean:46:17: unused variable `b`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/IRComparison/Core/CommunicationIR.lean:49:21: unused variable `b`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/IRComparison/Core/CommunicationIR.lean:55:20: unused variable `r`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+ℹ [26/355] Replayed PaperCore.Semantics
+info: src/PaperCore/Semantics.lean:78:0: 'PaperCore.stream_read_empty' depends on axioms: [propext]
+info: src/PaperCore/Semantics.lean:79:0: 'PaperCore.memory_read_missing' depends on axioms: [propext]
+⚠ [27/355] Replayed PaperCore.Correspondence
+warning: src/PaperCore/Correspondence.lean:8:12: This simp argument is unused:
+  List.lookup
+
+Hint: Omit it from the simp argument list.
+  simp [put,̵L̵i̵s̵t̵.̵l̵o̵o̵k̵u̵p̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/Correspondence.lean:15:33: This simp argument is unused:
+  ne
+
+Hint: Omit it from the simp argument list.
+  simp [put, ̲List.lookup,n̵e̵,̵ ̲hn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/Correspondence.lean:24:30: This simp argument is unused:
+  hk
+
+Hint: Omit it from the simp argument list.
+  simp [put, ̲List.lookup, ̲hk̵,̵h̵n, ̲hkn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/Correspondence.lean:24:36: This simp argument is unused:
+  hkn
+
+Hint: Omit it from the simp argument list.
+  simp [̵p̵u̵t̵,̵L̵i̵s̵t̵.̵l̵o̵o̵k̵u̵p̵,̵h̵k̵,̵h̵n̵,̵h̵k̵n̵]̵[̲p̲u̲t̲,̲ ̲L̲i̲s̲t̲.̲l̲o̲o̲k̲u̲p̲,̲ ̲h̲k̲,̲ ̲h̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: src/PaperCore/Correspondence.lean:185:0: 'PaperCore.Contents.length_eq' depends on axioms: [propext]
+info: src/PaperCore/Correspondence.lean:186:0: 'PaperCore.Contents.update_unrepresented' depends on axioms: [propext]
+info: src/PaperCore/Correspondence.lean:187:0: 'PaperCore.read_buffer' does not depend on any axioms
+info: src/PaperCore/Correspondence.lean:188:0: 'PaperCore.write_buffer' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/Correspondence.lean:189:0: 'PaperCore.Corresponds.read_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/Correspondence.lean:190:0: 'PaperCore.Corresponds.write_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [28/355] Replayed PaperCore.AccessAnalysis
+warning: src/PaperCore/AccessAnalysis.lean:31:29: This simp argument is unused:
+  Int.add_mul
+
+Hint: Omit it from the simp argument list.
+  simp [Affine.eval, ̲zero, ̲Int.a̵d̵d̵_̵mul,̵I̵n̵t̵.̵m̵u̵l̵_add, ̲Int.mul_assoc, ̲Int.mul_comm, ̲Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:31:53: This simp argument is unused:
+  Int.mul_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [̵A̵f̵f̵i̵n̵e̵.̵e̵v̵a̵l̵,̵z̵e̵r̵o̵,̵I̵n̵t̵.̵a̵d̵d̵_̵m̵u̵l̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵d̵d̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵s̵s̵o̵c̵,̵I̵n̵t̵.̵m̵u̵l̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵m̵u̵l̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵[̲A̲f̲f̲i̲n̲e̲.̲e̲v̲a̲l̲,̲ ̲z̲e̲r̲o̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲m̲u̲l̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲d̲d̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲c̲o̲m̲m̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:223:19: This simp argument is unused:
+  inferred
+
+Hint: Omit it from the simp argument list.
+  simp only ̵[̵i̵n̵f̵e̵r̵r̵e̵d̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:258:36: This simp argument is unused:
+  Except.bind
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵n̵a̵l̵y̵z̵e̵,̵h̵a̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵]̵[̲a̲n̲a̲l̲y̲z̲e̲,̲ ̲h̲a̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:258:48: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵n̵a̵l̵y̵z̵e̵,̵h̵a̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵]̵[̲a̲n̲a̲l̲y̲z̲e̲,̲ ̲h̲a̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:261:41: This simp argument is unused:
+  Except.bind
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵n̵a̵l̵y̵z̵e̵,̵h̵a̵,̵h̵b̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵]̵[̲a̲n̲a̲l̲y̲z̲e̲,̲ ̲h̲a̲,̲ ̲h̲b̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:261:53: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵n̵a̵l̵y̵z̵e̵,̵h̵a̵,̵h̵b̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵]̵[̲a̲n̲a̲l̲y̲z̲e̲,̲ ̲h̲a̲,̲ ̲h̲b̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:263:28: This simp argument is unused:
+  Except.bind
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵n̵a̵l̵y̵z̵e̵,̵h̵a̵,̵h̵b̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵]̵[̲a̲n̲a̲l̲y̲z̲e̲,̲ ̲h̲a̲,̲ ̲h̲b̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:263:40: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵n̵a̵l̵y̵z̵e̵,̵h̵a̵,̵h̵b̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵]̵[̲a̲n̲a̲l̲y̲z̲e̲,̲ ̲h̲a̲,̲ ̲h̲b̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: src/PaperCore/AccessAnalysis.lean:290:0: 'PaperCore.AccessAnalysis.infer_sound' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/AccessAnalysis.lean:291:0: 'PaperCore.AccessAnalysis.analyze_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [29/355] Replayed PaperCore.LoopAnalysis
+info: src/PaperCore/LoopAnalysis.lean:121:0: 'PaperCore.LoopAnalysis.sites_faithful' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/LoopAnalysis.lean:122:0: 'PaperCore.LoopAnalysis.reports_faithful' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/LoopAnalysis.lean:123:0: 'PaperCore.LoopAnalysis.inspect_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [30/355] Replayed PaperCore.WindowAnalysis
+info: src/PaperCore/WindowAnalysis.lean:118:0: 'PaperCore.WindowAnalysis.bounds_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/WindowAnalysis.lean:128:0: 'PaperCore.WindowAnalysis.infer_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/WindowAnalysis.lean:129:0: 'PaperCore.WindowAnalysis.runtime_covered' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [31/355] Replayed IRComparison.Memory.WindowSchedule
+warning: src/IRComparison/Memory/WindowSchedule.lean:55:14: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [33/355] Replayed IRComparison.Frontend.NativeWindowExpr
+warning: src/IRComparison/Frontend/NativeWindowExpr.lean:97:65: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [̵E̵x̵p̵r̵.̵e̵v̵a̵l̵,̵a̵d̵d̵r̵e̵s̵s̵_̵c̵o̵r̵r̵e̵c̵t̵[̲E̲x̲p̲r̲.̲e̲v̲a̲l̲,̲ ̲a̲d̲d̲r̲e̲s̲s̲_̲c̲o̲r̲r̲e̲c̲t̲ ha x y s l̵o̵c̵a̵l̵s̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]̵l̲o̲c̲a̲l̲s̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [35/355] Replayed IRComparison.Frontend.NativeWindowPlan
+warning: src/IRComparison/Frontend/NativeWindowPlan.lean:84:10: unused variable `old`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [45/355] Replayed IRComparison.Hybrid.HybridWindowRead
+warning: src/IRComparison/Hybrid/HybridWindowRead.lean:49:88: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [̵R̵e̵a̵d̵C̵o̵d̵e̵.̵e̵v̵a̵l̵,̵V̵a̵l̵u̵e̵.̵e̵v̵a̵l̵,̵H̵y̵b̵r̵i̵d̵A̵d̵d̵r̵e̵s̵s̵.̵v̵a̵l̵u̵e̵_̵c̵o̵r̵r̵e̵c̵t̵[̲R̲e̲a̲d̲C̲o̲d̲e̲.̲e̲v̲a̲l̲,̲ ̲V̲a̲l̲u̲e̲.̲e̲v̲a̲l̲,̲ ̲H̲y̲b̲r̲i̲d̲A̲d̲d̲r̲e̲s̲s̲.̲v̲a̲l̲u̲e̲_̲c̲o̲r̲r̲e̲c̲t̲ address ha h̵m̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]̵h̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [46/355] Replayed IRComparison.Core.AffineAddress
+warning: src/IRComparison/Core/AffineAddress.lean:31:46: This simp argument is unused:
+  Int.toNat_of_nonneg hn
+
+Hint: Omit it from the simp argument list.
+  simp [̵E̵x̵p̵r̵.̵e̵v̵a̵l̵,̵a̵.̵c̵o̵r̵r̵e̵c̵t̵[̲E̲x̲p̲r̲.̲e̲v̲a̲l̲,̲ ̲a̲.̲c̲o̲r̲r̲e̲c̲t̲ i x y s ls h̵g̵,̵I̵n̵t̵.̵t̵o̵N̵a̵t̵_̵o̵f̵_̵n̵o̵n̵n̵e̵g̵ ̵h̵n̵]̵h̲g̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/AffineAddress.lean:58:58: This simp argument is unused:
+  Int.add_mul
+
+Hint: Omit it from the simp argument list.
+  simp [̵E̵x̵p̵r̵.̵e̵v̵a̵l̵,̵a̵a̵.̵c̵o̵r̵r̵e̵c̵t̵[̲E̲x̲p̲r̲.̲e̲v̲a̲l̲,̲ ̲a̲a̲.̲c̲o̲r̲r̲e̲c̲t̲ i x y s ls h̵,̵L̵i̵n̵e̵a̵r̵.̵e̵v̵a̵l̵,̵I̵n̵t̵.̵a̵d̵d̵_̵m̵u̵l̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵d̵d̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵s̵s̵o̵c̵,̵I̵n̵t̵.̵m̵u̵l̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵m̵u̵l̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵h̲,̲ ̲L̲i̲n̲e̲a̲r̲.̲e̲v̲a̲l̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲d̲d̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲s̲s̲o̲c̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲c̲o̲m̲m̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/AffineAddress.lean:58:82: This simp argument is unused:
+  Int.mul_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [̵E̵x̵p̵r̵.̵e̵v̵a̵l̵,̵a̵a̵.̵c̵o̵r̵r̵e̵c̵t̵[̲E̲x̲p̲r̲.̲e̲v̲a̲l̲,̲ ̲a̲a̲.̲c̲o̲r̲r̲e̲c̲t̲ i x y s ls h̵,̵L̵i̵n̵e̵a̵r̵.̵e̵v̵a̵l̵,̵I̵n̵t̵.̵a̵d̵d̵_̵m̵u̵l̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵d̵d̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵s̵s̵o̵c̵,̵I̵n̵t̵.̵m̵u̵l̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵m̵u̵l̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵h̲,̲ ̲L̲i̲n̲e̲a̲r̲.̲e̲v̲a̲l̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲m̲u̲l̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲d̲d̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲c̲o̲m̲m̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Core/AffineAddress.lean:98:108: This simp argument is unused:
+  Int.add_left_comm
+
+Hint: Omit it from the simp argument list.
+  simp [̵L̵i̵n̵e̵a̵r̵.̵e̵v̵a̵l̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵d̵d̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵s̵s̵o̵c̵,̵I̵n̵t̵.̵m̵u̵l̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵m̵u̵l̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵a̵d̵d̵_̵a̵s̵s̵o̵c̵,̵I̵n̵t̵.̵a̵d̵d̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵[̲L̲i̲n̲e̲a̲r̲.̲e̲v̲a̲l̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲d̲d̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲s̲s̲o̲c̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲c̲o̲m̲m̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲a̲s̲s̲o̲c̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [50/355] Replayed IRComparison.Memory.SymbolicWindowExpr
+warning: src/IRComparison/Memory/SymbolicWindowExpr.lean:88:65: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [̵E̵x̵p̵r̵.̵e̵v̵a̵l̵,̵v̵i̵e̵w̵.̵c̵o̵r̵r̵e̵c̵t̵[̲E̲x̲p̲r̲.̲e̲v̲a̲l̲,̲ ̲v̲i̲e̲w̲.̲c̲o̲r̲r̲e̲c̲t̲ i x y s locals v̵a̵l̵i̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵,̵L̵i̵n̵e̵a̵r̵.̵e̵v̵a̵l̵,̵h̵c̵]̵v̲a̲l̲i̲d̲,̲ ̲L̲i̲n̲e̲a̲r̲.̲e̲v̲a̲l̲,̲ ̲h̲c̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [52/355] Replayed IRComparison.Memory.SymbolicWindowSchedule
+warning: src/IRComparison/Memory/SymbolicWindowSchedule.lean:44:14: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/IRComparison/Memory/SymbolicWindowSchedule.lean:47:60: This simp argument is unused:
+  Int.add_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [̵k̵e̵y̵s̵,̵L̵i̵s̵t̵.̵g̵e̵t̵E̵l̵e̵m̵?̵_̵m̵a̵p̵,̵j̵.̵p̵r̵o̵p̵e̵r̵t̵y̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵d̵d̵,̵I̵n̵t̵.̵a̵d̵d̵_̵a̵s̵s̵o̵c̵,̵I̵n̵t̵.̵a̵d̵d̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵[̲k̲e̲y̲s̲,̲ ̲L̲i̲s̲t̲.̲g̲e̲t̲E̲l̲e̲m̲?̲_̲m̲a̲p̲,̲ ̲j̲.̲p̲r̲o̲p̲e̲r̲t̲y̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲d̲d̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲c̲o̲m̲m̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [53/355] Replayed IRComparison.Hybrid.HybridSymbolicRead
+warning: src/IRComparison/Hybrid/HybridSymbolicRead.lean:43:54: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [̵R̵e̵a̵d̵C̵o̵d̵e̵.̵e̵v̵a̵l̵,̵V̵a̵l̵u̵e̵.̵e̵v̵a̵l̵,̵h̵a̵d̵d̵r̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]̵[̲R̲e̲a̲d̲C̲o̲d̲e̲.̲e̲v̲a̲l̲,̲ ̲V̲a̲l̲u̲e̲.̲e̲v̲a̲l̲,̲ ̲h̲a̲d̲d̲r̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [56/355] Replayed PaperCore.IndexSequence
+warning: src/PaperCore/IndexSequence.lean:31:19: This simp argument is unused:
+  Int.natCast_add
+
+Hint: Omit it from the simp argument list.
+  simp only [̵I̵n̵t̵.̵n̵a̵t̵C̵a̵s̵t̵_̵a̵d̵d̵,̵ ̵I̵n̵t̵.̵n̵a̵t̵C̵a̵s̵t̵_̵s̵u̵c̵c̵,̵[̲I̲n̲t̲.̲n̲a̲t̲C̲a̲s̲t̲_̲s̲u̲c̲c̲,̲ Int.ofNat_one, Int.add_mul, Int.one_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/IndexSequence.lean:31:54: This simp argument is unused:
+  Int.ofNat_one
+
+Hint: Omit it from the simp argument list.
+  simp only [Int.natCast_add, Int.natCast_succ, I̵n̵t̵.̵o̵f̵N̵a̵t̵_̵o̵n̵e̵,̵ ̵Int.add_mul, Int.one_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/IndexSequence.lean:39:19: This simp argument is unused:
+  Int.natCast_add
+
+Hint: Omit it from the simp argument list.
+  simp only [̵I̵n̵t̵.̵n̵a̵t̵C̵a̵s̵t̵_̵a̵d̵d̵,̵ ̵I̵n̵t̵.̵n̵a̵t̵C̵a̵s̵t̵_̵s̵u̵c̵c̵,̵[̲I̲n̲t̲.̲n̲a̲t̲C̲a̲s̲t̲_̲s̲u̲c̲c̲,̲ Int.ofNat_one, Int.add_mul, Int.one_mul] at eq
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/IndexSequence.lean:39:54: This simp argument is unused:
+  Int.ofNat_one
+
+Hint: Omit it from the simp argument list.
+  simp only [Int.natCast_add, Int.natCast_succ, Int.o̵f̵N̵at̵_̵o̵n̵e̵,̵ ̵I̵n̵t̵.̵a̵dd_mul, Int.one_mul] at eq
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: src/PaperCore/IndexSequence.lean:184:0: 'PaperCore.IndexSequence.mem_entries_integer' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/IndexSequence.lean:185:0: 'PaperCore.IndexSequence.eq_entries_iff' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/IndexSequence.lean:186:0: 'PaperCore.IndexSequence.append_entries' depends on axioms: [propext, Quot.sound]
+ℹ [58/355] Replayed PaperCore.SMT.SMTSemantics
+info: src/PaperCore/SMT/SMTSemantics.lean:107:0: 'PaperCore.SMTMeaning.encode_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [59/355] Replayed PaperCore.SMT.Model
+info: src/PaperCore/SMT/Model.lean:55:0: 'PaperCore.Model.decode_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/SMT/Model.lean:81:0: 'PaperCore.Model.decode_assignment' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [60/355] Replayed PaperCore.SMT.SMTReply
+info: src/PaperCore/SMT/SMTReply.lean:106:0: 'PaperCore.SMTReply.lookup_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [61/355] Replayed PaperCore.SMT.SMTRequest
+info: src/PaperCore/SMT/SMTRequest.lean:68:0: 'PaperCore.SMTRequest.check_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [62/355] Replayed PaperCore.SMT.SMTConnection
+info: src/PaperCore/SMT/SMTConnection.lean:55:0: 'PaperCore.SMTConnection.accept_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/SMT/SMTConnection.lean:56:0: 'PaperCore.SMTConnection.choose_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/SMT/SMTConnection.lean:75:0: 'PaperCore.SMTConnection.acceptResponse_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [63/355] Replayed PaperCore.IndexSequenceSMT
+info: src/PaperCore/IndexSequenceSMT.lean:62:0: 'PaperCore.IndexSequence.equality_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/IndexSequenceSMT.lean:63:0: 'PaperCore.IndexSequence.candidateResponse_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [65/355] Replayed IRComparison.Hybrid.HybridSymbolicProducerLoop
+warning: src/IRComparison/Hybrid/HybridSymbolicProducerLoop.lean:52:124: This simp argument is unused:
+  Int.add_left_comm
+
+Hint: Omit it from the simp argument list.
+  simp [̵L̵i̵n̵e̵a̵r̵.̵e̵v̵a̵l̵,̵i̵n̵d̵e̵x̵,̵P̵l̵a̵n̵.̵s̵e̵q̵u̵e̵n̵c̵e̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵d̵d̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵s̵s̵o̵c̵,̵I̵n̵t̵.̵m̵u̵l̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵m̵u̵l̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵a̵d̵d̵_̵a̵s̵s̵o̵c̵,̵I̵n̵t̵.̵a̵d̵d̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵[̲L̲i̲n̲e̲a̲r̲.̲e̲v̲a̲l̲,̲ ̲i̲n̲d̲e̲x̲,̲ ̲P̲l̲a̲n̲.̲s̲e̲q̲u̲e̲n̲c̲e̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲d̲d̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲s̲s̲o̲c̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲c̲o̲m̲m̲,̲
+  ̲ ̲ ̲ ̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲a̲s̲s̲o̲c̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [66/355] Replayed IRComparison.Memory.CompactRouting
+warning: src/IRComparison/Memory/CompactRouting.lean:17:24: This simp argument is unused:
+  Nat.add_sub_add_right
+
+Hint: Omit it from the simp argument list.
+  simp [̵N̵a̵t̵.̵a̵d̵d̵_̵s̵u̵b̵_̵a̵d̵d̵_̵r̵i̵g̵h̵t̵,̵I̵n̵t̵.̵n̵a̵t̵C̵a̵s̵t̵_̵a̵d̵d̵,̵I̵n̵t̵.̵a̵d̵d̵_̵m̵u̵l̵,̵I̵n̵t̵.̵a̵d̵d̵_̵a̵s̵s̵o̵c̵,̵I̵n̵t̵.̵a̵d̵d̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵[̲I̲n̲t̲.̲n̲a̲t̲C̲a̲s̲t̲_̲a̲d̲d̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲m̲u̲l̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲a̲s̲s̲o̲c̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲c̲o̲m̲m̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Memory/CompactRouting.lean:39:26: This simp argument is unused:
+  Int.sub_mul
+
+Hint: Omit it from the simp argument list.
+  simp [minus, ̲Linear.eval, ̲Int.sub_m̵u̵l̵,̵I̵n̵t̵.̵s̵u̵b̵_̵eq_add_neg, ̲Int.add_mul, ̲Int.neg_mul, ̲Int.neg_add,
+  ̲ ̲ ̲ ̲ ̲Int.add_assoc, ̲Int.add_comm, ̲Int.add_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Memory/CompactRouting.lean:184:71: This simp argument is unused:
+  Int.add_left_comm
+
+Hint: Omit it from the simp argument list.
+  simp [̵s̵h̵i̵f̵t̵L̵i̵n̵e̵a̵r̵,̵L̵i̵n̵e̵a̵r̵.̵e̵v̵a̵l̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵d̵d̵,̵I̵n̵t̵.̵a̵d̵d̵_̵a̵s̵s̵o̵c̵,̵I̵n̵t̵.̵a̵d̵d̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵[̲s̲h̲i̲f̲t̲L̲i̲n̲e̲a̲r̲,̲ ̲L̲i̲n̲e̲a̲r̲.̲e̲v̲a̲l̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲d̲d̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲a̲s̲s̲o̲c̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [67/355] Replayed IRComparison.Hybrid.HybridCompactFIFO
+warning: src/IRComparison/Hybrid/HybridCompactFIFO.lean:86:21: This simp argument is unused:
+  hl
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵l̵,̵←̵ ̵e̵q̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵m̵a̵p̵_̵n̵o̵n̵e̵]̵[̲←̲ ̲e̲q̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲m̲a̲p̲_̲n̲o̲n̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Hybrid/HybridCompactFIFO.lean:92:21: This simp argument is unused:
+  hl
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵l̵,̵←̵ ̵e̵q̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵[̲←̲ ̲e̲q̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Hybrid/HybridCompactFIFO.lean:110:17: This simp argument is unused:
+  hl
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵l̵,̵←̵ ̵e̵q̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵m̵a̵p̵_̵n̵o̵n̵e̵]̵[̲←̲ ̲e̲q̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲m̲a̲p̲_̲n̲o̲n̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Hybrid/HybridCompactFIFO.lean:115:17: This simp argument is unused:
+  hl
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵l̵,̵←̵ ̵e̵q̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵[̲←̲ ̲e̲q̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [68/355] Replayed IRComparison.Hybrid.HybridCompactReceiver
+warning: src/IRComparison/Hybrid/HybridCompactReceiver.lean:44:18: unused variable `input`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/IRComparison/Hybrid/HybridCompactReceiver.lean:44:24: unused variable `x`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/IRComparison/Hybrid/HybridCompactReceiver.lean:44:26: unused variable `y`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [69/355] Replayed IRComparison.Hybrid.HybridCompactDuplex
+warning: src/IRComparison/Hybrid/HybridCompactDuplex.lean:73:21: This simp argument is unused:
+  hl
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵l̵,̵←̵ ̵e̵q̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵m̵a̵p̵_̵n̵o̵n̵e̵]̵[̲←̲ ̲e̲q̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲m̲a̲p̲_̲n̲o̲n̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Hybrid/HybridCompactDuplex.lean:79:21: This simp argument is unused:
+  hl
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵l̵,̵←̵ ̵e̵q̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵[̲←̲ ̲e̲q̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Hybrid/HybridCompactDuplex.lean:99:17: This simp argument is unused:
+  hl
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵l̵,̵←̵ ̵e̵q̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵m̵a̵p̵_̵n̵o̵n̵e̵]̵[̲←̲ ̲e̲q̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲m̲a̲p̲_̲n̲o̲n̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Hybrid/HybridCompactDuplex.lean:99:42: This simp argument is unused:
+  Option.map_none
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵l̵,̵←̵ ̵e̵q̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵m̵a̵p̵_̵n̵o̵n̵e̵]̵[̲h̲l̲,̲ ̲←̲ ̲e̲q̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Hybrid/HybridCompactDuplex.lean:104:17: This simp argument is unused:
+  hl
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵l̵,̵←̵ ̵e̵q̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵[̲←̲ ̲e̲q̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [71/355] Replayed IRComparison.Memory.FunctionalWindowBody
+warning: src/IRComparison/Memory/FunctionalWindowBody.lean:24:63: This simp argument is unused:
+  Bool.true_eq
+
+Hint: Omit it from the simp argument list.
+  simp only [sequence, ̲Bool.false_eq_true,B̵o̵o̵l̵.̵t̵r̵u̵e̵_̵e̵q̵,̵ ̲↓reduceIte, ̲Functional.Term.eval,
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲List.getElem?_cons_zero, ̲bind, ̲Option.bind] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Memory/FunctionalWindowBody.lean:25:61: This simp argument is unused:
+  Option.bind_none
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵a̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵n̵o̵n̵e̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]̵[̲h̲a̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲_̲s̲o̲m̲e̲]̲ at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Memory/FunctionalWindowBody.lean:25:78: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵a̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵n̵o̵n̵e̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]̵[̲h̲a̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲_̲n̲o̲n̲e̲]̲ at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Memory/FunctionalWindowBody.lean:28:55: This simp argument is unused:
+  Option.bind_none
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵a̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵n̵o̵n̵e̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]̵[̲h̲a̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲_̲s̲o̲m̲e̲]̲ at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Memory/FunctionalWindowBody.lean:28:72: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵a̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵n̵o̵n̵e̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]̵[̲h̲a̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲_̲n̲o̲n̲e̲]̲ at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Memory/FunctionalWindowBody.lean:33:63: This simp argument is unused:
+  Bool.true_eq
+
+Hint: Omit it from the simp argument list.
+  simp only [̵s̵e̵q̵u̵e̵n̵c̵e̵,̵B̵o̵o̵l̵.̵f̵a̵l̵s̵e̵_̵e̵q̵_̵t̵r̵u̵e̵,̵B̵o̵o̵l̵.̵t̵r̵u̵e̵_̵e̵q̵,̵↓̵r̵e̵d̵u̵c̵e̵I̵t̵e̵,̵F̵u̵n̵c̵t̵i̵o̵n̵a̵l̵.̵T̵e̵r̵m̵.̵e̵v̵a̵l̵,̵L̵i̵s̵t̵.̵g̵e̵t̵E̵l̵e̵m̵?̵_̵c̵o̵n̵s̵_̵z̵e̵r̵o̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵[̲s̲e̲q̲u̲e̲n̲c̲e̲,̲ ̲B̲o̲o̲l̲.̲f̲a̲l̲s̲e̲_̲e̲q̲_̲t̲r̲u̲e̲,̲ ̲↓̲r̲e̲d̲u̲c̲e̲I̲t̲e̲,̲ ̲F̲u̲n̲c̲t̲i̲o̲n̲a̲l̲.̲T̲e̲r̲m̲.̲e̲v̲a̲l̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲L̲i̲s̲t̲.̲g̲e̲t̲E̲l̲e̲m̲?̲_̲c̲o̲n̲s̲_̲z̲e̲r̲o̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Memory/FunctionalWindowBody.lean:96:25: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only ̵[̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Memory/FunctionalWindowBody.lean:119:21: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only ̵[̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [74/355] Replayed IRComparison.Memory.FunctionalWindowPlan
+warning: src/IRComparison/Memory/FunctionalWindowPlan.lean:61:10: unused variable `old`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/IRComparison/Memory/FunctionalWindowPlan.lean:118:48: This simp argument is unused:
+  Option.map_id_fun
+
+Hint: Omit it from the simp argument list.
+  simp only [̵O̵p̵t̵i̵o̵n̵.̵m̵a̵p̵_̵m̵a̵p̵,̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵,̵O̵p̵t̵i̵o̵n̵.̵m̵a̵p̵_̵i̵d̵_̵f̵u̵n̵]̵[̲O̲p̲t̲i̲o̲n̲.̲m̲a̲p̲_̲m̲a̲p̲,̲ ̲F̲u̲n̲c̲t̲i̲o̲n̲.̲c̲o̲m̲p̲_̲d̲e̲f̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Memory/FunctionalWindowPlan.lean:128:48: This simp argument is unused:
+  Option.map_id_fun
+
+Hint: Omit it from the simp argument list.
+  simp only [̵O̵p̵t̵i̵o̵n̵.̵m̵a̵p̵_̵m̵a̵p̵,̵F̵u̵n̵c̵t̵i̵o̵n̵.̵c̵o̵m̵p̵_̵d̵e̵f̵,̵O̵p̵t̵i̵o̵n̵.̵m̵a̵p̵_̵i̵d̵_̵f̵u̵n̵]̵[̲O̲p̲t̲i̲o̲n̲.̲m̲a̲p̲_̲m̲a̲p̲,̲ ̲F̲u̲n̲c̲t̲i̲o̲n̲.̲c̲o̲m̲p̲_̲d̲e̲f̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [76/355] Replayed IRComparison.Memory.StreamFusion
+warning: src/IRComparison/Memory/StreamFusion.lean:81:28: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [← sourceEq,b̵i̵n̵d̵,̵ ̲Option.bind]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Memory/StreamFusion.lean:81:33: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [← s̵o̵u̵r̵c̵e̵E̵q̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵s̲o̲u̲r̲c̲e̲E̲q̲,̲ ̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [81/355] Replayed IRComparison.Hybrid.HybridWindowPlan
+warning: src/IRComparison/Hybrid/HybridWindowPlan.lean:51:10: unused variable `old`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [86/355] Replayed IRComparison.Hybrid.HybridCompactStage
+warning: src/IRComparison/Hybrid/HybridCompactStage.lean:21:13: unused variable `x`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/IRComparison/Hybrid/HybridCompactStage.lean:21:15: unused variable `y`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/IRComparison/Hybrid/HybridCompactStage.lean:36:24: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [hl,b̵i̵n̵d̵,̵ ̲Option.bind] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Hybrid/HybridCompactStage.lean:36:29: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵l̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵[̲h̲l̲,̲ ̲b̲i̲n̲d̲]̲ at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [94/355] Replayed IRComparison.Hybrid.HybridCompactDuplexControl
+warning: src/IRComparison/Hybrid/HybridCompactDuplexControl.lean:62:29: This simp argument is unused:
+  Option.map_id_fun
+
+Hint: Omit it from the simp argument list.
+  simp only [List.nil_append,̵O̵p̵t̵i̵o̵n̵.̵m̵a̵p̵_̵i̵d̵_̵f̵u̵n̵] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [102/355] Replayed IRComparison.Memory.AlternativeStageFusion
+warning: src/IRComparison/Memory/AlternativeStageFusion.lean:66:28: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [← sourceEq,b̵i̵n̵d̵,̵ ̲Option.bind]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Memory/AlternativeStageFusion.lean:66:33: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [← s̵o̵u̵r̵c̵e̵E̵q̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵s̲o̲u̲r̲c̲e̲E̲q̲,̲ ̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [105/355] Replayed IRComparison.Hybrid.HybridBlocksControl
+warning: src/IRComparison/Hybrid/HybridBlocksControl.lean:60:31: This simp argument is unused:
+  Option.map_id_fun
+
+Hint: Omit it from the simp argument list.
+  simp only [List.nil_append,̵O̵p̵t̵i̵o̵n̵.̵m̵a̵p̵_̵i̵d̵_̵f̵u̵n̵] at loaded
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [114/355] Replayed IRComparison.Hybrid.HybridPipeline
+warning: src/IRComparison/Hybrid/HybridPipeline.lean:39:36: This simp argument is unused:
+  memoryBlocks_correct
+
+Hint: Omit it from the simp argument list.
+  simp only [̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵m̵e̵m̵o̵r̵y̵B̵l̵o̵c̵k̵s̵_̵c̵o̵r̵r̵e̵c̵t̵]̵[̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [132/355] Replayed IRComparison.Circuit.SystemVerilog.ConcreteFields
+warning: src/IRComparison/Circuit/SystemVerilog/ConcreteFields.lean:78:10: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  simp only [List.flatMap_cons, ̲List.cons_append, ̲List.nil_append, ̲List.map_cons, ̲declaration,
+            L̵i̵s̵t̵.̵ap̵p̵e̵n̵d̵_̵a̵s̵s̵o̵c̵,̵a̵tom, ̲readDeclarations, ̲readAtom, ̲Option.some.injEq, ̲↓reduceIte, ̲read_width w hd,
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲read_name, ̲bind, ̲Option.bind, ̲ih h̵t̵,̵h̲t̲,̲ ̲physicalDeclaration]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/ConcreteFields.lean:78:59: This simp argument is unused:
+  Option.some.injEq
+
+Hint: Omit it from the simp argument list.
+  simp only [List.flatMap_cons, ̲List.cons_append, ̲List.nil_append, ̲List.map_cons, ̲declaration,
+            List.append_assoc, ̲atom, ̲readDeclarations, ̲readAtom,O̵p̵t̵i̵o̵n̵.̵s̵o̵m̵e̵.̵i̵n̵j̵E̵q̵,̵ ̲↓reduceIte, ̲read_width w hd,
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲read_name, ̲bind, ̲Option.bind, ̲ih h̵t̵,̵h̲t̲,̲ ̲physicalDeclaration]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/ConcreteFields.lean:78:315: This simp argument is unused:
+  physicalDeclaration
+
+Hint: Omit it from the simp argument list.
+  simp [̵r̵e̵a̵d̵A̵t̵o̵m̵,̵p̵h̵y̵s̵i̵c̵a̵l̵D̵e̵c̵l̵a̵r̵a̵t̵i̵o̵n̵,̵[̲r̲e̲a̲d̲A̲t̲o̲m̲,̲
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲show w̵-̵1̵+̵1̵=̵w̵w̲ ̲-̲ ̲1̲ ̲+̲ ̲1̲ ̲=̲ ̲w̲ by change 0 < w at hd; omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/ConcreteFields.lean:81:8: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  simp only [List.flatMap_cons, ̲List.cons_append, ̲List.nil_append, ̲List.map_cons, ̲declaration,
+          L̵i̵s̵t̵.̵ap̵p̵e̵n̵d̵_̵a̵s̵s̵o̵c̵,̵a̵tom, ̲readDeclarations, ̲readAtom, ̲Option.some.injEq, ̲↓reduceIte, ̲read_width w hd, ̲read_name,
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲read_capacity, ̲bind, ̲Option.bind, ̲ih h̵t̵,̵h̲t̲,̲ ̲physicalDeclaration]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/ConcreteFields.lean:105:85: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  simp only [̵L̵i̵s̵t̵.̵f̵l̵a̵t̵M̵a̵p̵_̵c̵o̵n̵s̵,̵L̵i̵s̵t̵.̵c̵o̵n̵s̵_̵a̵p̵p̵e̵n̵d̵,̵L̵i̵s̵t̵.̵n̵i̵l̵_̵a̵p̵p̵e̵n̵d̵,̵L̵i̵s̵t̵.̵m̵a̵p̵_̵c̵o̵n̵s̵,̵w̵i̵r̵e̵,̵L̵i̵s̵t̵.̵a̵p̵p̵e̵n̵d̵_̵a̵s̵s̵o̵c̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵a̵t̵o̵m̵,̵r̵e̵a̵d̵W̵i̵r̵e̵s̵,̵r̵e̵a̵d̵_̵w̵i̵d̵t̵h̵[̲L̲i̲s̲t̲.̲f̲l̲a̲t̲M̲a̲p̲_̲c̲o̲n̲s̲,̲ ̲L̲i̲s̲t̲.̲c̲o̲n̲s̲_̲a̲p̲p̲e̲n̲d̲,̲ ̲L̲i̲s̲t̲.̲n̲i̲l̲_̲a̲p̲p̲e̲n̲d̲,̲ ̲L̲i̲s̲t̲.̲m̲a̲p̲_̲c̲o̲n̲s̲,̲ ̲w̲i̲r̲e̲,̲ ̲a̲t̲o̲m̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲r̲e̲a̲d̲W̲i̲r̲e̲s̲,̲ ̲r̲e̲a̲d̲_̲w̲i̲d̲t̲h̲ _ w̵.̵p̵o̵s̵i̵t̵i̵v̵e̵,̵r̵e̵a̵d̵_̵n̵a̵m̵e̵,̵e̵x̵p̵r̵e̵s̵s̵i̵o̵n̵_̵r̵e̵a̵d̵b̵a̵c̵k̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵d̵i̵f̵_̵p̵o̵s̵ ̵w̵.̵p̵o̵s̵i̵t̵i̵v̵e̵,̵i̵h̵,̵w̵i̵r̵e̵R̵e̵a̵d̵b̵a̵c̵k̵]̵w̲.̲p̲o̲s̲i̲t̲i̲v̲e̲,̲ ̲r̲e̲a̲d̲_̲n̲a̲m̲e̲,̲ ̲e̲x̲p̲r̲e̲s̲s̲i̲o̲n̲_̲r̲e̲a̲d̲b̲a̲c̲k̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲d̲i̲f̲_̲p̲o̲s̲ ̲w̲.̲p̲o̲s̲i̲t̲i̲v̲e̲,̲ ̲i̲h̲,̲ ̲w̲i̲r̲e̲R̲e̲a̲d̲b̲a̲c̲k̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [137/355] Replayed IRComparison.Circuit.SystemVerilog.ConcreteModule
+warning: src/IRComparison/Circuit/SystemVerilog/ConcreteModule.lean:87:13: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [b̵i̵n̵d̵,̵Option.bind]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/ConcreteModule.lean:87:18: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [bind,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/ConcreteModule.lean:89:13: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [b̵i̵n̵d̵,̵Option.bind]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/ConcreteModule.lean:89:18: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [bind,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [138/355] Replayed IRComparison.Circuit.Emit
+warning: src/IRComparison/Circuit/Emit.lean:117:11: Local variable 'yes' resembles constructor 'IRComparison.Circuit.RTL.Validity.yes' - write '.yes' (with a dot) or 'IRComparison.Circuit.RTL.Validity.yes' to use the constructor.
+
+Note: This linter can be disabled with `set_option linter.constructorNameAsVariable false`
+warning: src/IRComparison/Circuit/Emit.lean:117:15: Local variable 'no' resembles constructor 'IRComparison.Circuit.RTL.Validity.no' - write '.no' (with a dot) or 'IRComparison.Circuit.RTL.Validity.no' to use the constructor.
+
+Note: This linter can be disabled with `set_option linter.constructorNameAsVariable false`
+⚠ [147/355] Replayed IRComparison.Circuit.BitMachine
+warning: src/IRComparison/Circuit/BitMachine.lean:49:40: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [b̵i̵n̵d̵,̵Option.bind, ̲bitExecute_correct _ (h hf)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [149/355] Replayed IRComparison.Circuit.RTL.Combinational
+warning: src/IRComparison/Circuit/RTL/Combinational.lean:65:75: This simp argument is unused:
+  Term.eval
+
+Hint: Omit it from the simp argument list.
+  simp [combinational, ̲Combinational.eval, ̲Validity.eval, ̲defined, ̲value,T̵e̵r̵m̵.̵e̵v̵a̵l̵,̵
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲Circuit.Expr.bitEval, ̲hj, ̲arrayInput, ̲negative, ̲show ¬0 ≤ index from by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/RTL/Combinational.lean:68:71: This simp argument is unused:
+  Term.eval
+
+Hint: Omit it from the simp argument list.
+  simp [̵c̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵,̵C̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵.̵e̵v̵a̵l̵,̵V̵a̵l̵i̵d̵i̵t̵y̵.̵e̵v̵a̵l̵,̵d̵e̵f̵i̵n̵e̵d̵,̵T̵e̵r̵m̵.̵e̵v̵a̵l̵,̵v̵a̵l̵u̵e̵,̵C̵i̵r̵c̵u̵i̵t̵.̵E̵x̵p̵r̵.̵b̵i̵t̵E̵v̵a̵l̵,̵h̵j̵,̵a̵r̵r̵a̵y̵I̵n̵p̵u̵t̵,̵n̵e̵g̵a̵t̵i̵v̵e̵,̵i̵n̵s̵i̵d̵e̵]̵[̲c̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲,̲ ̲C̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲.̲e̲v̲a̲l̲,̲ ̲V̲a̲l̲i̲d̲i̲t̲y̲.̲e̲v̲a̲l̲,̲ ̲d̲e̲f̲i̲n̲e̲d̲,̲ ̲v̲a̲l̲u̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲C̲i̲r̲c̲u̲i̲t̲.̲E̲x̲p̲r̲.̲b̲i̲t̲E̲v̲a̲l̲,̲ ̲h̲j̲,̲ ̲a̲r̲r̲a̲y̲I̲n̲p̲u̲t̲,̲ ̲n̲e̲g̲a̲t̲i̲v̲e̲,̲ ̲i̲n̲s̲i̲d̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/RTL/Combinational.lean:81:45: This simp argument is unused:
+  Validity.eval
+
+Hint: Omit it from the simp argument list.
+  simp [̵c̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵,̵C̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵.̵e̵v̵a̵l̵,̵V̵a̵l̵i̵d̵i̵t̵y̵.̵e̵v̵a̵l̵,̵h̵h̵,̵C̵i̵r̵c̵u̵i̵t̵.̵E̵x̵p̵r̵.̵b̵i̵t̵E̵v̵a̵l̵,̵h̵a̵]̵[̲c̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲,̲ ̲C̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲.̲e̲v̲a̲l̲,̲ ̲h̲h̲,̲ ̲C̲i̲r̲c̲u̲i̲t̲.̲E̲x̲p̲r̲.̲b̲i̲t̲E̲v̲a̲l̲,̲ ̲h̲a̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/RTL/Combinational.lean:87:47: This simp argument is unused:
+  Validity.eval
+
+Hint: Omit it from the simp argument list.
+  simp [̵c̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵,̵C̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵.̵e̵v̵a̵l̵,̵V̵a̵l̵i̵d̵i̵t̵y̵.̵e̵v̵a̵l̵,̵d̵a̵,̵h̵h̵,̵C̵i̵r̵c̵u̵i̵t̵.̵E̵x̵p̵r̵.̵b̵i̵t̵E̵v̵a̵l̵,̵h̵a̵,̵h̵b̵]̵[̲c̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲,̲ ̲C̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲.̲e̲v̲a̲l̲,̲ ̲d̲a̲,̲ ̲h̲h̲,̲ ̲C̲i̲r̲c̲u̲i̲t̲.̲E̲x̲p̲r̲.̲b̲i̲t̲E̲v̲a̲l̲,̲ ̲h̲a̲,̲ ̲h̲b̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/RTL/Combinational.lean:90:47: This simp argument is unused:
+  Validity.eval
+
+Hint: Omit it from the simp argument list.
+  simp [̵c̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵,̵C̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵.̵e̵v̵a̵l̵,̵V̵a̵l̵i̵d̵i̵t̵y̵.̵e̵v̵a̵l̵,̵d̵a̵,̵d̵b̵,̵T̵e̵r̵m̵.̵e̵v̵a̵l̵,̵v̵a̵,̵v̵b̵,̵C̵i̵r̵c̵u̵i̵t̵.̵E̵x̵p̵r̵.̵b̵i̵t̵E̵v̵a̵l̵,̵h̵a̵,̵h̵b̵]̵[̲c̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲,̲ ̲C̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲.̲e̲v̲a̲l̲,̲ ̲d̲a̲,̲ ̲d̲b̲,̲ ̲T̲e̲r̲m̲.̲e̲v̲a̲l̲,̲ ̲v̲a̲,̲ ̲v̲b̲,̲ ̲C̲i̲r̲c̲u̲i̲t̲.̲E̲x̲p̲r̲.̲b̲i̲t̲E̲v̲a̲l̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲h̲a̲,̲ ̲h̲b̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/RTL/Combinational.lean:109:45: This simp argument is unused:
+  Validity.eval
+
+Hint: Omit it from the simp argument list.
+  simp [̵c̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵,̵C̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵.̵e̵v̵a̵l̵,̵V̵a̵l̵i̵d̵i̵t̵y̵.̵e̵v̵a̵l̵,̵h̵h̵,̵C̵i̵r̵c̵u̵i̵t̵.̵E̵x̵p̵r̵.̵b̵i̵t̵E̵v̵a̵l̵,̵h̵c̵]̵[̲c̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲,̲ ̲C̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲.̲e̲v̲a̲l̲,̲ ̲h̲h̲,̲ ̲C̲i̲r̲c̲u̲i̲t̲.̲E̲x̲p̲r̲.̲b̲i̲t̲E̲v̲a̲l̲,̲ ̲h̲c̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/RTL/Combinational.lean:116:49: This simp argument is unused:
+  Validity.eval
+
+Hint: Omit it from the simp argument list.
+  simp [̵c̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵,̵C̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵.̵e̵v̵a̵l̵,̵V̵a̵l̵i̵d̵i̵t̵y̵.̵e̵v̵a̵l̵,̵d̵c̵,̵v̵c̵,̵h̵h̵,̵C̵i̵r̵c̵u̵i̵t̵.̵E̵x̵p̵r̵.̵b̵i̵t̵E̵v̵a̵l̵,̵h̵c̵,̵y̵e̵s̵,̵h̵a̵]̵[̲c̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲,̲ ̲C̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲.̲e̲v̲a̲l̲,̲ ̲d̲c̲,̲ ̲v̲c̲,̲ ̲h̲h̲,̲ ̲C̲i̲r̲c̲u̲i̲t̲.̲E̲x̲p̲r̲.̲b̲i̲t̲E̲v̲a̲l̲,̲ ̲h̲c̲,̲ ̲y̲e̲s̲,̲ ̲h̲a̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/RTL/Combinational.lean:119:49: This simp argument is unused:
+  Validity.eval
+
+Hint: Omit it from the simp argument list.
+  simp [̵c̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵,̵C̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵.̵e̵v̵a̵l̵,̵V̵a̵l̵i̵d̵i̵t̵y̵.̵e̵v̵a̵l̵,̵d̵c̵,̵v̵c̵,̵d̵a̵,̵T̵e̵r̵m̵.̵e̵v̵a̵l̵,̵v̵a̵,̵C̵i̵r̵c̵u̵i̵t̵.̵E̵x̵p̵r̵.̵b̵i̵t̵E̵v̵a̵l̵,̵h̵c̵,̵y̵e̵s̵,̵h̵a̵]̵[̲c̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲,̲ ̲C̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲.̲e̲v̲a̲l̲,̲ ̲d̲c̲,̲ ̲v̲c̲,̲ ̲d̲a̲,̲ ̲T̲e̲r̲m̲.̲e̲v̲a̲l̲,̲ ̲v̲a̲,̲ ̲C̲i̲r̲c̲u̲i̲t̲.̲E̲x̲p̲r̲.̲b̲i̲t̲E̲v̲a̲l̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲h̲c̲,̲ ̲y̲e̲s̲,̲ ̲h̲a̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/RTL/Combinational.lean:124:49: This simp argument is unused:
+  Validity.eval
+
+Hint: Omit it from the simp argument list.
+  simp [̵c̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵,̵C̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵.̵e̵v̵a̵l̵,̵V̵a̵l̵i̵d̵i̵t̵y̵.̵e̵v̵a̵l̵,̵d̵c̵,̵v̵c̵,̵h̵h̵,̵C̵i̵r̵c̵u̵i̵t̵.̵E̵x̵p̵r̵.̵b̵i̵t̵E̵v̵a̵l̵,̵h̵c̵,̵z̵e̵r̵o̵,̵h̵b̵]̵[̲c̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲,̲ ̲C̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲.̲e̲v̲a̲l̲,̲ ̲d̲c̲,̲ ̲v̲c̲,̲ ̲h̲h̲,̲ ̲C̲i̲r̲c̲u̲i̲t̲.̲E̲x̲p̲r̲.̲b̲i̲t̲E̲v̲a̲l̲,̲ ̲h̲c̲,̲ ̲z̲e̲r̲o̲,̲ ̲h̲b̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/RTL/Combinational.lean:127:49: This simp argument is unused:
+  Validity.eval
+
+Hint: Omit it from the simp argument list.
+  simp [̵c̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵,̵C̵o̵m̵b̵i̵n̵a̵t̵i̵o̵n̵a̵l̵.̵e̵v̵a̵l̵,̵V̵a̵l̵i̵d̵i̵t̵y̵.̵e̵v̵a̵l̵,̵d̵c̵,̵v̵c̵,̵d̵b̵,̵T̵e̵r̵m̵.̵e̵v̵a̵l̵,̵v̵b̵,̵C̵i̵r̵c̵u̵i̵t̵.̵E̵x̵p̵r̵.̵b̵i̵t̵E̵v̵a̵l̵,̵h̵c̵,̵z̵e̵r̵o̵,̵h̵b̵]̵[̲c̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲,̲ ̲C̲o̲m̲b̲i̲n̲a̲t̲i̲o̲n̲a̲l̲.̲e̲v̲a̲l̲,̲ ̲d̲c̲,̲ ̲v̲c̲,̲ ̲d̲b̲,̲ ̲T̲e̲r̲m̲.̲e̲v̲a̲l̲,̲ ̲v̲b̲,̲ ̲C̲i̲r̲c̲u̲i̲t̲.̲E̲x̲p̲r̲.̲b̲i̲t̲E̲v̲a̲l̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲h̲c̲,̲ ̲z̲e̲r̲o̲,̲ ̲h̲b̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [161/355] Replayed IRComparison.Circuit.TakeSound
+warning: src/IRComparison/Circuit/TakeSound.lean:15:55: This simp argument is unused:
+  he
+
+Hint: Omit it from the simp argument list.
+  simp [observeTake, ̲Payload.setWire, ̲Payload.setQueue,h̵e̵,̵ ̲receiveHead]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/TakeSound.lean:62:8: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/IRComparison/Circuit/TakeSound.lean:40:40: This simp argument is unused:
+  he
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵e̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [163/355] Replayed IRComparison.Circuit.LoadOneSound
+warning: src/IRComparison/Circuit/LoadOneSound.lean:28:15: This simp argument is unused:
+  loadOne
+
+Hint: Omit it from the simp argument list.
+  simp only [l̵o̵a̵d̵O̵n̵e̵,̵Action.eval, ̲Action.node, ̲execute, ̲Payload.at, ̲Expr.eval, ̲bind, ̲Option.bind,
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲WindowFIFO.Load.eval]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/LoadOneSound.lean:32:15: This simp argument is unused:
+  loadOne
+
+Hint: Omit it from the simp argument list.
+  simp only [l̵o̵a̵d̵O̵n̵e̵,̵Action.eval, ̲Action.node, ̲execute, ̲Payload.at, ̲hm n̵,̵n̲,̲ ̲WindowFIFO.Load.eval]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [164/355] Replayed IRComparison.Circuit.LoadsSound
+warning: src/IRComparison/Circuit/LoadsSound.lean:70:12: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/IRComparison/Circuit/LoadsSound.lean:70:12: Try `simp at lifted` instead of `simpa using lifted`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/IRComparison/Circuit/LoadsSound.lean:74:12: Try `simp at lifted` instead of `simpa using lifted`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [171/355] Replayed IRComparison.Circuit.CompactLoadsSound
+warning: src/IRComparison/Circuit/CompactLoadsSound.lean:69:12: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/IRComparison/Circuit/CompactLoadsSound.lean:69:12: Try `simp at lifted` instead of `simpa using lifted`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/IRComparison/Circuit/CompactLoadsSound.lean:73:12: Try `simp at lifted` instead of `simpa using lifted`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [173/355] Replayed IRComparison.Circuit.StageParts
+warning: src/IRComparison/Circuit/StageParts.lean:25:8: unused variable `q`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/IRComparison/Circuit/StageParts.lean:26:8: unused variable `cap`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/IRComparison/Circuit/StageParts.lean:63:8: unused variable `q`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/IRComparison/Circuit/StageParts.lean:64:8: unused variable `cap`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/IRComparison/Circuit/StageParts.lean:64:14: unused variable `iv`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [179/355] Replayed IRComparison.Circuit.WindowIteration
+warning: src/IRComparison/Circuit/WindowIteration.lean:51:19: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [b̵i̵n̵d̵,̵Option.bind]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/WindowIteration.lean:51:24: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [bind,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [192/355] Replayed IRComparison.Circuit.ResourceFrame
+warning: src/IRComparison/Circuit/ResourceFrame.lean:96:21: This simp argument is unused:
+  StateT.run
+
+Hint: Omit it from the simp argument list.
+  simp [̵c̵o̵u̵n̵t̵e̵d̵,̵h̵z̵,̵S̵t̵a̵t̵e̵T̵.̵r̵u̵n̵,̵p̵u̵r̵e̵,̵S̵t̵a̵t̵e̵T̵.̵p̵u̵r̵e̵]̵[̲c̲o̲u̲n̲t̲e̲d̲,̲ ̲h̲z̲,̲ ̲p̲u̲r̲e̲,̲ ̲S̲t̲a̲t̲e̲T̲.̲p̲u̲r̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [198/355] Replayed IRComparison.Circuit.ExpandedProjection
+warning: src/IRComparison/Circuit/ExpandedProjection.lean:61:35: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [̵O̵p̵t̵i̵o̵n̵.̵m̵a̵p̵_̵s̵o̵m̵e̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵p̵u̵r̵e̵,̵t̵r̵i̵m̵T̵r̵i̵p̵l̵e̵,̵t̵r̵i̵m̵I̵n̵s̵t̵r̵u̵c̵t̵i̵o̵n̵R̵e̵s̵u̵l̵t̵,̵t̵r̵i̵m̵_̵e̵r̵a̵s̵e̵]̵[̲O̲p̲t̲i̲o̲n̲.̲m̲a̲p̲_̲s̲o̲m̲e̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲,̲ ̲p̲u̲r̲e̲,̲ ̲t̲r̲i̲m̲T̲r̲i̲p̲l̲e̲,̲ ̲t̲r̲i̲m̲I̲n̲s̲t̲r̲u̲c̲t̲i̲o̲n̲R̲e̲s̲u̲l̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲t̲r̲i̲m̲_̲e̲r̲a̲s̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/ExpandedProjection.lean:61:40: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [Option.map_some, ̲bind,O̵ ̲pt̵i̵o̵n̵.̵b̵i̵n̵d̵,̵p̵ure, ̲trimTriple, ̲trimInstructionResult, ̲trim_erase]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [208/355] Replayed IRComparison.Circuit.InstructionSound
+warning: src/IRComparison/Circuit/InstructionSound.lean:102:19: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [b̵i̵n̵d̵,̵Option.bind]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/InstructionSound.lean:108:63: This simp argument is unused:
+  hout
+
+Hint: Omit it from the simp argument list.
+  simp [outputQueues, ̲eraseData,̵h̵o̵u̵t̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [224/355] Replayed IRComparison.Circuit.StorageNumeric
+warning: src/IRComparison/Circuit/StorageNumeric.lean:10:58: This simp argument is unused:
+  Runtime.setWire
+
+Hint: Omit it from the simp argument list.
+  simp [̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵W̵i̵r̵e̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵A̵r̵r̵a̵y̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵Q̵u̵e̵u̵e̵,̵l̵i̵v̵e̵]̵[̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲A̲r̲r̲a̲y̲,̲ ̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲Q̲u̲e̲u̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲l̲i̲v̲e̲]̲ at stopped
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/StorageNumeric.lean:13:36: This simp argument is unused:
+  Runtime.setArray
+
+Hint: Omit it from the simp argument list.
+  simp [̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵W̵i̵r̵e̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵A̵r̵r̵a̵y̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵Q̵u̵e̵u̵e̵,̵l̵i̵v̵e̵]̵[̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲W̲i̲r̲e̲,̲ ̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲Q̲u̲e̲u̲e̲,̲ ̲l̲i̲v̲e̲]̲ at stopped
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/StorageNumeric.lean:13:53: This simp argument is unused:
+  Runtime.setQueue
+
+Hint: Omit it from the simp argument list.
+  simp [̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵W̵i̵r̵e̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵A̵r̵r̵a̵y̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵Q̵u̵e̵u̵e̵,̵l̵i̵v̵e̵]̵[̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲W̲i̲r̲e̲,̲ ̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲A̲r̲r̲a̲y̲,̲ ̲l̲i̲v̲e̲]̲ at stopped
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/StorageNumeric.lean:20:24: This simp argument is unused:
+  Runtime.setWire
+
+Hint: Omit it from the simp argument list.
+  simp [̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵W̵i̵r̵e̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵A̵r̵r̵a̵y̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵Q̵u̵e̵u̵e̵,̵l̵i̵v̵e̵]̵[̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲A̲r̲r̲a̲y̲,̲ ̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲Q̲u̲e̲u̲e̲,̲ ̲l̲i̲v̲e̲]̲ at stopped
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/StorageNumeric.lean:20:40: This simp argument is unused:
+  Runtime.setArray
+
+Hint: Omit it from the simp argument list.
+  simp [̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵W̵i̵r̵e̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵A̵r̵r̵a̵y̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵Q̵u̵e̵u̵e̵,̵l̵i̵v̵e̵]̵[̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲W̲i̲r̲e̲,̲ ̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲Q̲u̲e̲u̲e̲,̲ ̲l̲i̲v̲e̲]̲ at stopped
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/StorageNumeric.lean:20:57: This simp argument is unused:
+  Runtime.setQueue
+
+Hint: Omit it from the simp argument list.
+  simp [̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵W̵i̵r̵e̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵A̵r̵r̵a̵y̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵Q̵u̵e̵u̵e̵,̵l̵i̵v̵e̵]̵[̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲W̲i̲r̲e̲,̲ ̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲A̲r̲r̲a̲y̲,̲ ̲l̲i̲v̲e̲]̲ at stopped
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/StorageNumeric.lean:23:20: This simp argument is unused:
+  Runtime.setWire
+
+Hint: Omit it from the simp argument list.
+  simp [̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵W̵i̵r̵e̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵A̵r̵r̵a̵y̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵Q̵u̵e̵u̵e̵,̵l̵i̵v̵e̵]̵[̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲A̲r̲r̲a̲y̲,̲ ̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲Q̲u̲e̲u̲e̲,̲ ̲l̲i̲v̲e̲]̲ at stopped
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/StorageNumeric.lean:23:36: This simp argument is unused:
+  Runtime.setArray
+
+Hint: Omit it from the simp argument list.
+  simp [̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵W̵i̵r̵e̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵A̵r̵r̵a̵y̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵Q̵u̵e̵u̵e̵,̵l̵i̵v̵e̵]̵[̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲W̲i̲r̲e̲,̲ ̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲Q̲u̲e̲u̲e̲,̲ ̲l̲i̲v̲e̲]̲ at stopped
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/StorageNumeric.lean:23:53: This simp argument is unused:
+  Runtime.setQueue
+
+Hint: Omit it from the simp argument list.
+  simp [̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵W̵i̵r̵e̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵A̵r̵r̵a̵y̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵Q̵u̵e̵u̵e̵,̵l̵i̵v̵e̵]̵[̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲W̲i̲r̲e̲,̲ ̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲A̲r̲r̲a̲y̲,̲ ̲l̲i̲v̲e̲]̲ at stopped
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/StorageNumeric.lean:26:46: This simp argument is unused:
+  Runtime.setWire
+
+Hint: Omit it from the simp argument list.
+  simp [̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵W̵i̵r̵e̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵A̵r̵r̵a̵y̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵Q̵u̵e̵u̵e̵,̵l̵i̵v̵e̵]̵[̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲A̲r̲r̲a̲y̲,̲ ̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲Q̲u̲e̲u̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲l̲i̲v̲e̲]̲ at stopped
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/StorageNumeric.lean:26:62: This simp argument is unused:
+  Runtime.setArray
+
+Hint: Omit it from the simp argument list.
+  simp [̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵W̵i̵r̵e̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵A̵r̵r̵a̵y̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵Q̵u̵e̵u̵e̵,̵l̵i̵v̵e̵]̵[̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲W̲i̲r̲e̲,̲ ̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲Q̲u̲e̲u̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲l̲i̲v̲e̲]̲ at stopped
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/StorageNumeric.lean:29:36: This simp argument is unused:
+  Runtime.setArray
+
+Hint: Omit it from the simp argument list.
+  simp [̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵W̵i̵r̵e̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵A̵r̵r̵a̵y̵,̵R̵u̵n̵t̵i̵m̵e̵.̵s̵e̵t̵Q̵u̵e̵u̵e̵,̵l̵i̵v̵e̵]̵[̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲W̲i̲r̲e̲,̲ ̲R̲u̲n̲t̲i̲m̲e̲.̲s̲e̲t̲Q̲u̲e̲u̲e̲,̲ ̲l̲i̲v̲e̲]̲ at stopped
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [229/355] Replayed IRComparison.Circuit.WordPipelineSound
+warning: src/IRComparison/Circuit/WordPipelineSound.lean:14:28: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp [̵h̵i̵,̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵]̵[̲h̲i̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲]̲ at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/WordPipelineSound.lean:14:33: This simp argument is unused:
+  Except.bind
+
+Hint: Omit it from the simp argument list.
+  simp [̵h̵i̵,̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵]̵[̲h̲i̲,̲ ̲b̲i̲n̲d̲]̲ at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/WordPipelineSound.lean:16:22: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [hi,b̵i̵n̵d̵,̵ ̲Except.bind] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/WordPipelineSound.lean:16:27: This simp argument is unused:
+  Except.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵i̵,̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵]̵[̲h̲i̲,̲ ̲b̲i̲n̲d̲]̲ at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/WordPipelineSound.lean:27:27: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  simp [checkLayout, ̲hd,h̵c̵,̵ ̲bind, ̲Except.bind, ̲pure, ̲Except.pure] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/WordPipelineSound.lean:27:47: This simp argument is unused:
+  pure
+
+Hint: Omit it from the simp argument list.
+  simp [checkLayout, ̲hd, ̲hc, ̲bind, ̲Except.bind,p̵u̵r̵e̵,̵ ̲Except.pure] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/WordPipelineSound.lean:27:52: This simp argument is unused:
+  Except.pure
+
+Hint: Omit it from the simp argument list.
+  simp [̵c̵h̵e̵c̵k̵L̵a̵y̵o̵u̵t̵,̵h̵d̵,̵h̵c̵,̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵p̵u̵r̵e̵,̵E̵x̵c̵e̵p̵t̵.̵p̵u̵r̵e̵]̵[̲c̲h̲e̲c̲k̲L̲a̲y̲o̲u̲t̲,̲ ̲h̲d̲,̲ ̲h̲c̲,̲ ̲b̲i̲n̲d̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲,̲ ̲p̲u̲r̲e̲]̲ at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [233/355] Replayed IRComparison.Circuit.RTL.Interface
+warning: src/IRComparison/Circuit/RTL/Interface.lean:148:55: This simp argument is unused:
+  hq
+
+Hint: Omit it from the simp argument list.
+  simp [Circuit.FiniteRuntime.decode, ̲beginInvocation,h̵q̵,̵ ̲WordBuffer.contents, ̲Machine.start]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [237/355] Replayed IRComparison.Circuit.SystemVerilog.NetlistSound
+warning: src/IRComparison/Circuit/SystemVerilog/NetlistSound.lean:15:31: This simp argument is unused:
+  Nat.add_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [̵O̵r̵d̵e̵r̵e̵d̵,̵i̵h̵,̵a̵n̵d̵_̵a̵s̵s̵o̵c̵,̵N̵a̵t̵.̵a̵d̵d̵_̵a̵s̵s̵o̵c̵,̵N̵a̵t̵.̵a̵d̵d̵_̵c̵o̵m̵m̵,̵N̵a̵t̵.̵a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵[̲O̲r̲d̲e̲r̲e̲d̲,̲ ̲i̲h̲,̲ ̲a̲n̲d̲_̲a̲s̲s̲o̲c̲,̲ ̲N̲a̲t̲.̲a̲d̲d̲_̲c̲o̲m̲m̲,̲ ̲N̲a̲t̲.̲a̲d̲d̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/NetlistSound.lean:44:45: This simp argument is unused:
+  pure
+
+Hint: Omit it from the simp argument list.
+  simp only [computed, ̲bind, ̲Option.bind,p̵u̵r̵e̵,̵ ̲PUnit.unit] at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/NetlistSound.lean:44:50: This simp argument is unused:
+  PUnit.unit
+
+Hint: Omit it from the simp argument list.
+  simp only [̵c̵o̵m̵p̵u̵t̵e̵d̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵p̵u̵r̵e̵,̵P̵U̵n̵i̵t̵.̵u̵n̵i̵t̵]̵[̲c̲o̲m̲p̲u̲t̲e̲d̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲,̲ ̲p̲u̲r̲e̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/NetlistSound.lean:58:50: This simp argument is unused:
+  Bool.not_true
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵p̵p̵e̵n̵d̵W̵i̵r̵e̵s̵,̵n̵a̵m̵e̵d̵,̵b̵e̵q̵_̵s̵e̵l̵f̵_̵e̵q̵_̵t̵r̵u̵e̵,̵B̵o̵o̵l̵.̵n̵o̵t̵_̵t̵r̵u̵e̵,̵B̵o̵o̵l̵.̵f̵a̵l̵s̵e̵_̵e̵q̵_̵t̵r̵u̵e̵,̵↓̵r̵e̵d̵u̵c̵e̵I̵t̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵p̵u̵r̵e̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵[̲a̲p̲p̲e̲n̲d̲W̲i̲r̲e̲s̲,̲ ̲n̲a̲m̲e̲d̲,̲ ̲b̲e̲q̲_̲s̲e̲l̲f̲_̲e̲q̲_̲t̲r̲u̲e̲,̲ ̲B̲o̲o̲l̲.̲f̲a̲l̲s̲e̲_̲e̲q̲_̲t̲r̲u̲e̲,̲ ̲↓̲r̲e̲d̲u̲c̲e̲I̲t̲e̲,̲ ̲p̲u̲r̲e̲,̲ ̲b̲i̲n̲d̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/NetlistSound.lean:58:64: This simp argument is unused:
+  Bool.false_eq_true
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵p̵p̵e̵n̵d̵W̵i̵r̵e̵s̵,̵n̵a̵m̵e̵d̵,̵b̵e̵q̵_̵s̵e̵l̵f̵_̵e̵q̵_̵t̵r̵u̵e̵,̵B̵o̵o̵l̵.̵n̵o̵t̵_̵t̵r̵u̵e̵,̵B̵o̵o̵l̵.̵f̵a̵l̵s̵e̵_̵e̵q̵_̵t̵r̵u̵e̵,̵↓̵r̵e̵d̵u̵c̵e̵I̵t̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵p̵u̵r̵e̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵[̲a̲p̲p̲e̲n̲d̲W̲i̲r̲e̲s̲,̲ ̲n̲a̲m̲e̲d̲,̲ ̲b̲e̲q̲_̲s̲e̲l̲f̲_̲e̲q̲_̲t̲r̲u̲e̲,̲ ̲B̲o̲o̲l̲.̲n̲o̲t̲_̲t̲r̲u̲e̲,̲ ̲↓̲r̲e̲d̲u̲c̲e̲I̲t̲e̲,̲ ̲p̲u̲r̲e̲,̲ ̲b̲i̲n̲d̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/NetlistSound.lean:59:6: This simp argument is unused:
+  pure
+
+Hint: Omit it from the simp argument list.
+  simp only [appendWires, ̲named, ̲beq_self_eq_true, ̲Bool.not_true, ̲Bool.false_eq_true, ̲↓reduceIte,
+        p̵u̵r̵e̵,̵bind, ̲Option.bind] at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/NetlistSound.lean:63:26: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [computed,b̵i̵n̵d̵,̵ ̲Option.bind] at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/NetlistSound.lean:63:31: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [̵c̵o̵m̵p̵u̵t̵e̵d̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵[̲c̲o̲m̲p̲u̲t̲e̲d̲,̲ ̲b̲i̲n̲d̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [238/355] Replayed IRComparison.Circuit.SystemVerilog.EmissionSound
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:86:48: This simp argument is unused:
+  Functor.map
+
+Hint: Omit it from the simp argument list.
+  simp_all [̵p̵u̵r̵e̵,̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵p̵u̵r̵e̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵F̵u̵n̵c̵t̵o̵r̵.̵m̵a̵p̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵,̵t̵h̵r̵o̵w̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵E̵x̵p̵r̵.̵B̵e̵f̵o̵r̵e̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵N̵a̵m̵e̵.̵B̵e̵f̵o̵r̵e̵,̵w̵i̵d̵e̵n̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵d̵i̵v̵i̵s̵i̵o̵n̵]̵[̲p̲u̲r̲e̲,̲ ̲b̲i̲n̲d̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲p̲u̲r̲e̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲,̲ ̲t̲h̲r̲o̲w̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲E̲x̲p̲r̲.̲B̲e̲f̲o̲r̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲N̲a̲m̲e̲.̲B̲e̲f̲o̲r̲e̲,̲ ̲w̲i̲d̲e̲n̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲d̲i̲v̲i̲s̲i̲o̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:86:60: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  simp_all [̵p̵u̵r̵e̵,̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵p̵u̵r̵e̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵F̵u̵n̵c̵t̵o̵r̵.̵m̵a̵p̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵,̵t̵h̵r̵o̵w̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵E̵x̵p̵r̵.̵B̵e̵f̵o̵r̵e̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵N̵a̵m̵e̵.̵B̵e̵f̵o̵r̵e̵,̵w̵i̵d̵e̵n̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵d̵i̵v̵i̵s̵i̵o̵n̵]̵[̲p̲u̲r̲e̲,̲ ̲b̲i̲n̲d̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲p̲u̲r̲e̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲,̲ ̲F̲u̲n̲c̲t̲o̲r̲.̲m̲a̲p̲,̲ ̲t̲h̲r̲o̲w̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲E̲x̲p̲r̲.̲B̲e̲f̲o̲r̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲N̲a̲m̲e̲.̲B̲e̲f̲o̲r̲e̲,̲ ̲w̲i̲d̲e̲n̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲d̲i̲v̲i̲s̲i̲o̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:87:6: This simp argument is unused:
+  SystemVerilog.Expr.Before
+
+Hint: Omit it from the simp argument list.
+  simp_all [̵p̵u̵r̵e̵,̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵p̵u̵r̵e̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵F̵u̵n̵c̵t̵o̵r̵.̵m̵a̵p̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵,̵t̵h̵r̵o̵w̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵E̵x̵p̵r̵.̵B̵e̵f̵o̵r̵e̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵N̵a̵m̵e̵.̵B̵e̵f̵o̵r̵e̵,̵w̵i̵d̵e̵n̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵d̵i̵v̵i̵s̵i̵o̵n̵]̵[̲p̲u̲r̲e̲,̲ ̲b̲i̲n̲d̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲p̲u̲r̲e̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲,̲ ̲F̲u̲n̲c̲t̲o̲r̲.̲m̲a̲p̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲,̲ ̲t̲h̲r̲o̲w̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲N̲a̲m̲e̲.̲B̲e̲f̲o̲r̲e̲,̲ ̲w̲i̲d̲e̲n̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲d̲i̲v̲i̲s̲i̲o̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:89:17: This simp argument is unused:
+  pure
+
+Hint: Omit it from the simp argument list.
+  simp_all [p̵u̵r̵e̵,̵bind, ̲Except.pure, ̲Except.bind, ̲Functor.map, ̲Except.map, ̲throw,
+         ̵ ̵SystemVerilog.Expr.Before, ̲SystemVerilog.Name.Before, ̲widen, ̲SystemVerilog.division]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:89:22: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp_all [pure,b̵i̵n̵d̵,̵ ̲Except.pure, ̲Except.bind, ̲Functor.map, ̲Except.map, ̲throw,
+         ̵ ̵SystemVerilog.Expr.Before, ̲SystemVerilog.Name.Before, ̲widen, ̲SystemVerilog.division]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:89:27: This simp argument is unused:
+  Except.pure
+
+Hint: Omit it from the simp argument list.
+  simp_all [̵p̵u̵r̵e̵,̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵p̵u̵r̵e̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵F̵u̵n̵c̵t̵o̵r̵.̵m̵a̵p̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵,̵t̵h̵r̵o̵w̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵E̵x̵p̵r̵.̵B̵e̵f̵o̵r̵e̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵N̵a̵m̵e̵.̵B̵e̵f̵o̵r̵e̵,̵w̵i̵d̵e̵n̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵d̵i̵v̵i̵s̵i̵o̵n̵]̵[̲p̲u̲r̲e̲,̲ ̲b̲i̲n̲d̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲,̲ ̲F̲u̲n̲c̲t̲o̲r̲.̲m̲a̲p̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲,̲ ̲t̲h̲r̲o̲w̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲E̲x̲p̲r̲.̲B̲e̲f̲o̲r̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲N̲a̲m̲e̲.̲B̲e̲f̲o̲r̲e̲,̲ ̲w̲i̲d̲e̲n̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲d̲i̲v̲i̲s̲i̲o̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:89:39: This simp argument is unused:
+  Except.bind
+
+Hint: Omit it from the simp argument list.
+  simp_all [̵p̵u̵r̵e̵,̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵p̵u̵r̵e̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵F̵u̵n̵c̵t̵o̵r̵.̵m̵a̵p̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵,̵t̵h̵r̵o̵w̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵E̵x̵p̵r̵.̵B̵e̵f̵o̵r̵e̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵N̵a̵m̵e̵.̵B̵e̵f̵o̵r̵e̵,̵w̵i̵d̵e̵n̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵d̵i̵v̵i̵s̵i̵o̵n̵]̵[̲p̲u̲r̲e̲,̲ ̲b̲i̲n̲d̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲p̲u̲r̲e̲,̲ ̲F̲u̲n̲c̲t̲o̲r̲.̲m̲a̲p̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲,̲ ̲t̲h̲r̲o̲w̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲E̲x̲p̲r̲.̲B̲e̲f̲o̲r̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲N̲a̲m̲e̲.̲B̲e̲f̲o̲r̲e̲,̲ ̲w̲i̲d̲e̲n̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲d̲i̲v̲i̲s̲i̲o̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:89:51: This simp argument is unused:
+  Functor.map
+
+Hint: Omit it from the simp argument list.
+  simp_all [̵p̵u̵r̵e̵,̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵p̵u̵r̵e̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵F̵u̵n̵c̵t̵o̵r̵.̵m̵a̵p̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵,̵t̵h̵r̵o̵w̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵E̵x̵p̵r̵.̵B̵e̵f̵o̵r̵e̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵N̵a̵m̵e̵.̵B̵e̵f̵o̵r̵e̵,̵w̵i̵d̵e̵n̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵d̵i̵v̵i̵s̵i̵o̵n̵]̵[̲p̲u̲r̲e̲,̲ ̲b̲i̲n̲d̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲p̲u̲r̲e̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲,̲ ̲t̲h̲r̲o̲w̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲E̲x̲p̲r̲.̲B̲e̲f̲o̲r̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲N̲a̲m̲e̲.̲B̲e̲f̲o̲r̲e̲,̲ ̲w̲i̲d̲e̲n̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲d̲i̲v̲i̲s̲i̲o̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:89:63: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  simp_all [pure, ̲bind, ̲Except.pure, ̲Except.bind, ̲Functor.map,E̵x̵c̵e̵p̵ ̲t.̵m̵a̵p̵,̵t̵hrow,
+         ̵ ̵SystemVerilog.Expr.Before, ̲SystemVerilog.Name.Before, ̲widen, ̲SystemVerilog.division]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:89:74: This simp argument is unused:
+  throw
+
+Hint: Omit it from the simp argument list.
+  simp_all [pure, ̲bind, ̲Except.pure, ̲Except.bind, ̲Functor.map, ̲Except.map,t̵h̵r̵o̵w̵,̵
+         ̵ ̵SystemVerilog.Expr.Before, ̲SystemVerilog.Name.Before, ̲widen, ̲SystemVerilog.division]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:90:8: This simp argument is unused:
+  SystemVerilog.Expr.Before
+
+Hint: Omit it from the simp argument list.
+  simp_all [̵p̵u̵r̵e̵,̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵p̵u̵r̵e̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵F̵u̵n̵c̵t̵o̵r̵.̵m̵a̵p̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵,̵t̵h̵r̵o̵w̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵E̵x̵p̵r̵.̵B̵e̵f̵o̵r̵e̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵N̵a̵m̵e̵.̵B̵e̵f̵o̵r̵e̵,̵w̵i̵d̵e̵n̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵d̵i̵v̵i̵s̵i̵o̵n̵]̵[̲p̲u̲r̲e̲,̲ ̲b̲i̲n̲d̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲p̲u̲r̲e̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲,̲ ̲F̲u̲n̲c̲t̲o̲r̲.̲m̲a̲p̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲,̲ ̲t̲h̲r̲o̲w̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲N̲a̲m̲e̲.̲B̲e̲f̲o̲r̲e̲,̲ ̲w̲i̲d̲e̲n̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲d̲i̲v̲i̲s̲i̲o̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:90:34: This simp argument is unused:
+  SystemVerilog.Name.Before
+
+Hint: Omit it from the simp argument list.
+  simp_all [̵p̵u̵r̵e̵,̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵p̵u̵r̵e̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵F̵u̵n̵c̵t̵o̵r̵.̵m̵a̵p̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵,̵t̵h̵r̵o̵w̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵E̵x̵p̵r̵.̵B̵e̵f̵o̵r̵e̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵N̵a̵m̵e̵.̵B̵e̵f̵o̵r̵e̵,̵w̵i̵d̵e̵n̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵d̵i̵v̵i̵s̵i̵o̵n̵]̵[̲p̲u̲r̲e̲,̲ ̲b̲i̲n̲d̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲p̲u̲r̲e̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲,̲ ̲F̲u̲n̲c̲t̲o̲r̲.̲m̲a̲p̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲,̲ ̲t̲h̲r̲o̲w̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲E̲x̲p̲r̲.̲B̲e̲f̲o̲r̲e̲,̲ ̲w̲i̲d̲e̲n̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲d̲i̲v̲i̲s̲i̲o̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:90:60: This simp argument is unused:
+  widen
+
+Hint: Omit it from the simp argument list.
+  simp_all [pure, ̲bind, ̲Except.pure, ̲Except.bind, ̲Functor.map, ̲Except.map, ̲throw,
+         ̵ ̵SystemVerilog.Expr.Before, ̲SystemVerilog.Name.Before,w̵i̵d̵e̵n̵,̵ ̲SystemVerilog.division]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:90:66: This simp argument is unused:
+  SystemVerilog.division
+
+Hint: Omit it from the simp argument list.
+  simp_all [̵p̵u̵r̵e̵,̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵p̵u̵r̵e̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵F̵u̵n̵c̵t̵o̵r̵.̵m̵a̵p̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵,̵t̵h̵r̵o̵w̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵E̵x̵p̵r̵.̵B̵e̵f̵o̵r̵e̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵N̵a̵m̵e̵.̵B̵e̵f̵o̵r̵e̵,̵w̵i̵d̵e̵n̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵d̵i̵v̵i̵s̵i̵o̵n̵]̵[̲p̲u̲r̲e̲,̲ ̲b̲i̲n̲d̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲p̲u̲r̲e̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲,̲ ̲F̲u̲n̲c̲t̲o̲r̲.̲m̲a̲p̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲,̲ ̲t̲h̲r̲o̲w̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲E̲x̲p̲r̲.̲B̲e̲f̲o̲r̲e̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲N̲a̲m̲e̲.̲B̲e̲f̲o̲r̲e̲,̲ ̲w̲i̲d̲e̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:94:74: This simp argument is unused:
+  widen
+
+Hint: Omit it from the simp argument list.
+  simp_all [SystemVerilog.Expr.Before, ̲SystemVerilog.Name.Before,w̵i̵d̵e̵n̵,̵ ̲SystemVerilog.division]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:94:80: This simp argument is unused:
+  SystemVerilog.division
+
+Hint: Omit it from the simp argument list.
+  simp_all [̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵E̵x̵p̵r̵.̵B̵e̵f̵o̵r̵e̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵N̵a̵m̵e̵.̵B̵e̵f̵o̵r̵e̵,̵w̵i̵d̵e̵n̵,̵S̵y̵s̵t̵e̵m̵V̵e̵r̵i̵l̵o̵g̵.̵d̵i̵v̵i̵s̵i̵o̵n̵]̵[̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲E̲x̲p̲r̲.̲B̲e̲f̲o̲r̲e̲,̲ ̲S̲y̲s̲t̲e̲m̲V̲e̲r̲i̲l̲o̲g̲.̲N̲a̲m̲e̲.̲B̲e̲f̲o̲r̲e̲,̲ ̲w̲i̲d̲e̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean:135:14: This simp argument is unused:
+  Array.getElem?_push
+
+Hint: Omit it from the simp argument list.
+  simp [̵A̵r̵r̵a̵y̵.̵g̵e̵t̵E̵l̵e̵m̵?̵_̵p̵u̵s̵h̵,̵g̵o̵o̵d̵.̵l̵e̵n̵g̵t̵h̵s̵]̵[̲g̲o̲o̲d̲.̲l̲e̲n̲g̲t̲h̲s̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [240/355] Replayed IRComparison.Circuit.SystemVerilog.ExpressionSound
+warning: src/IRComparison/Circuit/SystemVerilog/ExpressionSound.lean:74:50: This simp argument is unused:
+  IntegralType.join
+
+Hint: Omit it from the simp argument list.
+  simp_all [IntegralType.j̵o̵i̵n̵,̵I̵n̵t̵e̵g̵r̵a̵l̵T̵y̵p̵e̵.̵context]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/ExpressionSound.lean:74:68: This simp argument is unused:
+  IntegralType.context
+
+Hint: Omit it from the simp argument list.
+  simp_all [IntegralType.join,̵I̵n̵t̵e̵g̵r̵a̵l̵T̵y̵p̵e̵.̵c̵o̵n̵t̵e̵x̵t̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/ExpressionSound.lean:75:46: This simp argument is unused:
+  IntegralType.join
+
+Hint: Omit it from the simp argument list.
+  simp_all [Operator.comparison, IntegralType.j̵o̵i̵n̵,̵ ̵I̵n̵t̵e̵g̵r̵a̵l̵T̵y̵p̵e̵.̵context]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/ExpressionSound.lean:75:65: This simp argument is unused:
+  IntegralType.context
+
+Hint: Omit it from the simp argument list.
+  simp_all [Operator.comparison, IntegralType.join,̵ ̵I̵n̵t̵e̵g̵r̵a̵l̵T̵y̵p̵e̵.̵c̵o̵n̵t̵e̵x̵t̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [242/355] Replayed IRComparison.Circuit.SystemVerilog.TemplateSound
+warning: src/IRComparison/Circuit/SystemVerilog/TemplateSound.lean:71:42: This simp argument is unused:
+  hardwareBin
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵r̵i̵t̵h̵m̵e̵t̵i̵c̵,̵h̵a̵r̵d̵w̵a̵r̵e̵B̵i̵n̵,̵B̵i̵n̵.̵e̵v̵a̵l̵]̵[̲a̲r̲i̲t̲h̲m̲e̲t̲i̲c̲,̲ ̲B̲i̲n̲.̲e̲v̲a̲l̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/TemplateSound.lean:71:54: This simp argument is unused:
+  Bin.eval
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵r̵i̵t̵h̵m̵e̵t̵i̵c̵,̵h̵a̵r̵d̵w̵a̵r̵e̵B̵i̵n̵,̵B̵i̵n̵.̵e̵v̵a̵l̵]̵[̲a̲r̲i̲t̲h̲m̲e̲t̲i̲c̲,̲ ̲h̲a̲r̲d̲w̲a̲r̲e̲B̲i̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [244/355] Replayed IRComparison.Circuit.SystemVerilog.PhysicalSound
+warning: src/IRComparison/Circuit/SystemVerilog/PhysicalSound.lean:91:14: This simp argument is unused:
+  env
+
+Hint: Omit it from the simp argument list.
+  simp [e̵n̵v̵,̵Environment.withTemporaries, ̲environment, ̲environmentFor, ̲hn, ̲inside]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [245/355] Replayed IRComparison.Circuit.SystemVerilog.ReferenceSound
+warning: src/IRComparison/Circuit/SystemVerilog/ReferenceSound.lean:31:26: This simp argument is unused:
+  and_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [RTL.Term.children,̵a̵n̵d̵_̵a̵s̵s̵o̵c̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [246/355] Replayed IRComparison.Circuit.SystemVerilog.TotalSound
+warning: src/IRComparison/Circuit/SystemVerilog/TotalSound.lean:159:14: This simp argument is unused:
+  assigned
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵s̵s̵i̵g̵n̵e̵d̵,̵i̵h̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵[̲i̲h̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/TotalSound.lean:200:71: This simp argument is unused:
+  Bool.not_true
+
+Hint: Omit it from the simp argument list.
+  simp only [̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵a̵p̵p̵e̵n̵d̵W̵i̵r̵e̵s̵,̵c̵o̵u̵n̵t̵,̵b̵e̵q̵_̵s̵e̵l̵f̵_̵e̵q̵_̵t̵r̵u̵e̵,̵B̵o̵o̵l̵.̵n̵o̵t̵_̵t̵r̵u̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵B̵o̵o̵l̵.̵f̵a̵l̵s̵e̵_̵e̵q̵_̵t̵r̵u̵e̵,̵↓̵r̵e̵d̵u̵c̵e̵I̵t̵e̵,̵p̵u̵r̵e̵,̵P̵U̵n̵i̵t̵.̵u̵n̵i̵t̵,̵m̵e̵a̵n̵i̵n̵g̵.̵a̵s̵s̵i̵g̵n̵m̵e̵n̵t̵,̵m̵e̵a̵n̵i̵n̵g̵.̵f̵i̵t̵s̵]̵[̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲,̲ ̲a̲p̲p̲e̲n̲d̲W̲i̲r̲e̲s̲,̲ ̲c̲o̲u̲n̲t̲,̲ ̲b̲e̲q̲_̲s̲e̲l̲f̲_̲e̲q̲_̲t̲r̲u̲e̲,̲ ̲B̲o̲o̲l̲.̲f̲a̲l̲s̲e̲_̲e̲q̲_̲t̲r̲u̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲↓̲r̲e̲d̲u̲c̲e̲I̲t̲e̲,̲ ̲p̲u̲r̲e̲,̲ ̲P̲U̲n̲i̲t̲.̲u̲n̲i̲t̲,̲ ̲m̲e̲a̲n̲i̲n̲g̲.̲a̲s̲s̲i̲g̲n̲m̲e̲n̲t̲,̲ ̲m̲e̲a̲n̲i̲n̲g̲.̲f̲i̲t̲s̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/TotalSound.lean:201:10: This simp argument is unused:
+  Bool.false_eq_true
+
+Hint: Omit it from the simp argument list.
+  simp only [bind, ̲Option.bind, ̲appendWires, ̲count, ̲beq_self_eq_true, ̲Bool.not_true,
+            B̵o̵o̵l̵.̵f̵a̵l̵s̵e̵_̵e̵q̵_̵t̵r̵u̵e̵,̵↓reduceIte, ̲pure, ̲PUnit.unit, ̲meaning.assignment, ̲meaning.fits]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/TotalSound.lean:201:40: This simp argument is unused:
+  pure
+
+Hint: Omit it from the simp argument list.
+  simp only [bind, ̲Option.bind, ̲appendWires, ̲count, ̲beq_self_eq_true, ̲Bool.not_true,
+            Bool.false_eq_true, ̲↓reduceIte,p̵u̵r̵e̵,̵ ̲PUnit.unit, ̲meaning.assignment, ̲meaning.fits]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/TotalSound.lean:201:45: This simp argument is unused:
+  PUnit.unit
+
+Hint: Omit it from the simp argument list.
+  simp only [bind, ̲Option.bind, ̲appendWires, ̲count, ̲beq_self_eq_true, ̲Bool.not_true,
+            Bool.false_eq_true, ̲↓reduceIte, ̲pure,P̵U̵n̵i̵t̵.̵u̵n̵i̵t̵,̵ ̲meaning.assignment, ̲meaning.fits]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [247/355] Replayed IRComparison.Circuit.SystemVerilog.BooleanSound
+warning: src/IRComparison/Circuit/SystemVerilog/BooleanSound.lean:163:19: This simp argument is unused:
+  ↓reduceIte
+
+Hint: Omit it from the simp argument list.
+  simp only [̵E̵x̵p̵r̵.̵t̵y̵p̵e̵,̵t̵y̵p̵e̵d̵,̵I̵n̵t̵e̵g̵r̵a̵l̵T̵y̵p̵e̵.̵c̵o̵n̵t̵e̵x̵t̵,̵s̵t̵o̵r̵e̵d̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵V̵a̵l̵u̵e̵.̵i̵n̵C̵o̵n̵t̵e̵x̵t̵,̵V̵a̵l̵u̵e̵.̵o̵f̵I̵n̵t̵,̵
+  ̵ ̵ ̵ ̵ ̵B̵o̵o̵l̵.̵f̵a̵l̵s̵e̵_̵a̵n̵d̵,̵↓̵r̵e̵d̵u̵c̵e̵I̵t̵e̵]̵[̲E̲x̲p̲r̲.̲t̲y̲p̲e̲,̲ ̲t̲y̲p̲e̲d̲,̲ ̲I̲n̲t̲e̲g̲r̲a̲l̲T̲y̲p̲e̲.̲c̲o̲n̲t̲e̲x̲t̲,̲ ̲s̲t̲o̲r̲e̲d̲,̲ ̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲,̲ ̲V̲a̲l̲u̲e̲.̲i̲n̲C̲o̲n̲t̲e̲x̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲V̲a̲l̲u̲e̲.̲o̲f̲I̲n̲t̲,̲ ̲B̲o̲o̲l̲.̲f̲a̲l̲s̲e̲_̲a̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/BooleanSound.lean:188:66: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [̵V̵a̵l̵u̵e̵.̵i̵n̵t̵e̵g̵e̵r̵,̵V̵a̵l̵u̵e̵.̵o̵f̵I̵n̵t̵,̵B̵o̵o̵l̵.̵f̵a̵l̵s̵e̵_̵e̵q̵_̵t̵r̵u̵e̵,̵↓̵r̵e̵d̵u̵c̵e̵I̵t̵e̵,̵B̵i̵t̵V̵e̵c̵.̵o̵f̵I̵n̵t̵_̵n̵a̵t̵C̵a̵s̵t̵,̵B̵i̵t̵V̵e̵c̵.̵t̵o̵N̵a̵t̵_̵o̵f̵N̵a̵t̵,̵[̲V̲a̲l̲u̲e̲.̲i̲n̲t̲e̲g̲e̲r̲,̲ ̲V̲a̲l̲u̲e̲.̲o̲f̲I̲n̲t̲,̲ ̲B̲o̲o̲l̲.̲f̲a̲l̲s̲e̲_̲e̲q̲_̲t̲r̲u̲e̲,̲ ̲↓̲r̲e̲d̲u̲c̲e̲I̲t̲e̲,̲ ̲B̲i̲t̲V̲e̲c̲.̲o̲f̲I̲n̲t̲_̲n̲a̲t̲C̲a̲s̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲B̲i̲t̲V̲e̲c̲.̲t̲o̲N̲a̲t̲_̲o̲f̲N̲a̲t̲,̲ Nat.mod_eq_of_lt l̵e̵f̵t̵F̵i̵t̵s̵,̵N̵a̵t̵.̵m̵o̵d̵_̵e̵q̵_̵o̵f̵_̵l̵t̵ ̵r̵i̵g̵h̵t̵F̵i̵t̵s̵,̵c̵o̵m̵p̵u̵t̵e̵d̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵l̲e̲f̲t̲F̲i̲t̲s̲,̲ ̲N̲a̲t̲.̲m̲o̲d̲_̲e̲q̲_̲o̲f̲_̲l̲t̲ ̲r̲i̲g̲h̲t̲F̲i̲t̲s̲,̲ ̲c̲o̲m̲p̲u̲t̲e̲d̲,̲
+  ̲ ̲ ̲ ̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/BooleanSound.lean:188:71: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [Value.integer, ̲Value.ofInt, ̲Bool.false_eq_true, ̲↓reduceIte, ̲BitVec.ofInt_natCast,
+  ̲ ̲ ̲ ̲ ̲BitVec.toNat_ofNat,
+  ̵  ̵ ̵ ̵Nat.mod_eq_of_lt leftFits, ̲Nat.mod_eq_of_lt rightFits, ̲computed, ̲bind,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [250/355] Replayed IRComparison.Circuit.SystemVerilog.ScalarSound
+warning: src/IRComparison/Circuit/SystemVerilog/ScalarSound.lean:58:6: This simp argument is unused:
+  Array.getElem?_ofFn
+
+Hint: Omit it from the simp argument list.
+  simp [̵F̵i̵n̵i̵t̵e̵R̵u̵n̵t̵i̵m̵e̵.̵d̵e̵c̵o̵d̵e̵,̵i̵n̵s̵i̵d̵e̵,̵W̵o̵r̵d̵B̵u̵f̵f̵e̵r̵.̵c̵o̵n̵t̵e̵n̵t̵s̵,̵L̵i̵s̵t̵.̵h̵e̵a̵d̵D̵_̵e̵q̵_̵h̵e̵a̵d̵?̵_̵g̵e̵t̵D̵,̵L̵i̵s̵t̵.̵h̵e̵a̵d̵?̵_̵e̵q̵_̵g̵e̵t̵E̵l̵e̵m̵?̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵A̵r̵r̵a̵y̵.̵g̵e̵t̵E̵l̵e̵m̵?̵_̵o̵f̵F̵n̵,̵p̵o̵s̵i̵t̵i̵v̵e̵]̵[̲F̲i̲n̲i̲t̲e̲R̲u̲n̲t̲i̲m̲e̲.̲d̲e̲c̲o̲d̲e̲,̲ ̲i̲n̲s̲i̲d̲e̲,̲ ̲W̲o̲r̲d̲B̲u̲f̲f̲e̲r̲.̲c̲o̲n̲t̲e̲n̲t̲s̲,̲ ̲L̲i̲s̲t̲.̲h̲e̲a̲d̲D̲_̲e̲q̲_̲h̲e̲a̲d̲?̲_̲g̲e̲t̲D̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲L̲i̲s̲t̲.̲h̲e̲a̲d̲?̲_̲e̲q̲_̲g̲e̲t̲E̲l̲e̲m̲?̲,̲ ̲p̲o̲s̲i̲t̲i̲v̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [251/355] Replayed IRComparison.Circuit.SystemVerilog.BankSound
+warning: src/IRComparison/Circuit/SystemVerilog/BankSound.lean:50:39: This simp argument is unused:
+  typed
+
+Hint: Omit it from the simp argument list.
+  simp [Value.integer, ̲Value.ofInt, ̲fits,t̵y̵p̵e̵d̵,̵ ̲hold', ̲rhs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/BankSound.lean:50:51: This simp argument is unused:
+  rhs
+
+Hint: Omit it from the simp argument list.
+  simp [Value.integer, ̲Value.ofInt, ̲fits, ̲typed, ̲hold',̵r̵h̵s̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [252/355] Replayed IRComparison.Circuit.SystemVerilog.BankUpdateSound
+warning: src/IRComparison/Circuit/SystemVerilog/BankUpdateSound.lean:74:50: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  s̵i̵m̵p̵ ̵o̵n̵l̵y̵ ̵[̵I̵n̵t̵e̵g̵r̵a̵l̵T̵y̵p̵e̵.̵c̵o̵n̵t̵e̵x̵t̵,̵V̵a̵l̵u̵e̵.̵i̵n̵C̵o̵n̵t̵e̵x̵t̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵p̵u̵r̵e̵,̵V̵a̵l̵u̵e̵.̵o̵f̵I̵n̵t̵,̵V̵a̵l̵u̵e̵.̵i̵n̵t̵e̵g̵e̵r̵,̵
+  ̵ ̵ ̵ ̵ ̵N̵a̵t̵.̵m̵a̵x̵_̵s̵e̵l̵f̵,̵B̵o̵o̵l̵.̵f̵a̵l̵s̵e̵_̵a̵n̵d̵,̵B̵o̵o̵l̵.̵f̵a̵l̵s̵e̵_̵e̵q̵_̵t̵r̵u̵e̵,̵↓̵r̵e̵d̵u̵c̵e̵I̵t̵e̵,̵B̵i̵t̵V̵e̵c̵.̵o̵f̵I̵n̵t̵_̵n̵a̵t̵C̵a̵s̵t̵,̵B̵i̵t̵V̵e̵c̵.̵o̵f̵N̵a̵t̵_̵t̵o̵N̵a̵t̵,̵B̵i̵t̵V̵e̵c̵.̵s̵e̵t̵W̵i̵d̵t̵h̵_̵e̵q̵]̵s̲i̲m̲p̲ ̲o̲n̲l̲y̲ ̲[̲I̲n̲t̲e̲g̲r̲a̲l̲T̲y̲p̲e̲.̲c̲o̲n̲t̲e̲x̲t̲,̲ ̲V̲a̲l̲u̲e̲.̲i̲n̲C̲o̲n̲t̲e̲x̲t̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲,̲ ̲p̲u̲r̲e̲,̲ ̲V̲a̲l̲u̲e̲.̲o̲f̲I̲n̲t̲,̲ ̲V̲a̲l̲u̲e̲.̲i̲n̲t̲e̲g̲e̲r̲,̲
+  ̲ ̲ ̲ ̲ ̲N̲a̲t̲.̲m̲a̲x̲_̲s̲e̲l̲f̲,̲ ̲B̲o̲o̲l̲.̲f̲a̲l̲s̲e̲_̲a̲n̲d̲,̲ ̲B̲o̲o̲l̲.̲f̲a̲l̲s̲e̲_̲e̲q̲_̲t̲r̲u̲e̲,̲ ̲↓̲r̲e̲d̲u̲c̲e̲I̲t̲e̲,̲ ̲B̲i̲t̲V̲e̲c̲.̲o̲f̲I̲n̲t̲_̲n̲a̲t̲C̲a̲s̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲B̲i̲t̲V̲e̲c̲.̲o̲f̲N̲a̲t̲_̲t̲o̲N̲a̲t̲,̲ ̲B̲i̲t̲V̲e̲c̲.̲s̲e̲t̲W̲i̲d̲t̲h̲_̲e̲q̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/BankUpdateSound.lean:74:55: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  s̵i̵m̵p̵ ̵o̵n̵l̵y̵ ̵[̵I̵n̵t̵e̵g̵r̵a̵l̵T̵y̵p̵e̵.̵c̵o̵n̵t̵e̵x̵t̵,̵V̵a̵l̵u̵e̵.̵i̵n̵C̵o̵n̵t̵e̵x̵t̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵p̵u̵r̵e̵,̵V̵a̵l̵u̵e̵.̵o̵f̵I̵n̵t̵,̵V̵a̵l̵u̵e̵.̵i̵n̵t̵e̵g̵e̵r̵,̵
+  ̵ ̵ ̵ ̵ ̵N̵a̵t̵.̵m̵a̵x̵_̵s̵e̵l̵f̵,̵B̵o̵o̵l̵.̵f̵a̵l̵s̵e̵_̵a̵n̵d̵,̵B̵o̵o̵l̵.̵f̵a̵l̵s̵e̵_̵e̵q̵_̵t̵r̵u̵e̵,̵↓̵r̵e̵d̵u̵c̵e̵I̵t̵e̵,̵B̵i̵t̵V̵e̵c̵.̵o̵f̵I̵n̵t̵_̵n̵a̵t̵C̵a̵s̵t̵,̵B̵i̵t̵V̵e̵c̵.̵o̵f̵N̵a̵t̵_̵t̵o̵N̵a̵t̵,̵B̵i̵t̵V̵e̵c̵.̵s̵e̵t̵W̵i̵d̵t̵h̵_̵e̵q̵]̵s̲i̲m̲p̲ ̲o̲n̲l̲y̲ ̲[̲I̲n̲t̲e̲g̲r̲a̲l̲T̲y̲p̲e̲.̲c̲o̲n̲t̲e̲x̲t̲,̲ ̲V̲a̲l̲u̲e̲.̲i̲n̲C̲o̲n̲t̲e̲x̲t̲,̲ ̲b̲i̲n̲d̲,̲ ̲p̲u̲r̲e̲,̲ ̲V̲a̲l̲u̲e̲.̲o̲f̲I̲n̲t̲,̲ ̲V̲a̲l̲u̲e̲.̲i̲n̲t̲e̲g̲e̲r̲,̲
+  ̲ ̲ ̲ ̲ ̲N̲a̲t̲.̲m̲a̲x̲_̲s̲e̲l̲f̲,̲ ̲B̲o̲o̲l̲.̲f̲a̲l̲s̲e̲_̲a̲n̲d̲,̲ ̲B̲o̲o̲l̲.̲f̲a̲l̲s̲e̲_̲e̲q̲_̲t̲r̲u̲e̲,̲ ̲↓̲r̲e̲d̲u̲c̲e̲I̲t̲e̲,̲ ̲B̲i̲t̲V̲e̲c̲.̲o̲f̲I̲n̲t̲_̲n̲a̲t̲C̲a̲s̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲B̲i̲t̲V̲e̲c̲.̲o̲f̲N̲a̲t̲_̲t̲o̲N̲a̲t̲,̲ ̲B̲i̲t̲V̲e̲c̲.̲s̲e̲t̲W̲i̲d̲t̲h̲_̲e̲q̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/BankUpdateSound.lean:141:19: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [̵r̵h̵s̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵p̵u̵r̵e̵]̵[̲r̲h̲s̲,̲ ̲p̲u̲r̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [253/355] Replayed IRComparison.Circuit.SystemVerilog.BankCodeSound
+warning: src/IRComparison/Circuit/SystemVerilog/BankCodeSound.lean:112:13: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [O̵p̵t̵i̵o̵n̵.̵bi̵n̵d̵,̵b̵eq_self_eq_true, ̲↓reduceIte, ̲← Int.natCast_add_one, ̲BitVec.ofInt_natCast,
+  ̲ ̲ ̲ ̲ ̲BitVec.toNat_ofNat, ̲Nat.mod_eq_of_lt newFits]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [255/355] Replayed IRComparison.Circuit.SystemVerilog.StateSound
+warning: src/IRComparison/Circuit/SystemVerilog/StateSound.lean:60:80: This simp argument is unused:
+  BitVec.setWidth_eq
+
+Hint: Omit it from the simp argument list.
+  simp_all [̵B̵i̵t̵V̵e̵c̵.̵o̵f̵I̵n̵t̵_̵n̵a̵t̵C̵a̵s̵t̵,̵B̵i̵t̵V̵e̵c̵.̵o̵f̵N̵a̵t̵_̵t̵o̵N̵a̵t̵,̵B̵i̵t̵V̵e̵c̵.̵s̵e̵t̵W̵i̵d̵t̵h̵_̵e̵q̵,̵-̵B̵i̵t̵V̵e̵c̵.̵t̵o̵N̵a̵t̵_̵o̵f̵I̵n̵t̵]̵[̲B̲i̲t̲V̲e̲c̲.̲o̲f̲I̲n̲t̲_̲n̲a̲t̲C̲a̲s̲t̲,̲ ̲B̲i̲t̲V̲e̲c̲.̲o̲f̲N̲a̲t̲_̲t̲o̲N̲a̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲-̲B̲i̲t̲V̲e̲c̲.̲t̲o̲N̲a̲t̲_̲o̲f̲I̲n̲t̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [261/355] Replayed IRComparison.Circuit.SystemVerilog.ModuleSound
+warning: src/IRComparison/Circuit/SystemVerilog/ModuleSound.lean:52:7: Local variable 'unit' resembles constructor 'PUnit.unit' - write '.unit' (with a dot) or 'PUnit.unit' to use the constructor.
+
+Note: This linter can be disabled with `set_option linter.constructorNameAsVariable false`
+warning: src/IRComparison/Circuit/SystemVerilog/ModuleSound.lean:60:11: Local variable 'unit' resembles constructor 'PUnit.unit' - write '.unit' (with a dot) or 'PUnit.unit' to use the constructor.
+
+Note: This linter can be disabled with `set_option linter.constructorNameAsVariable false`
+⚠ [262/355] Replayed IRComparison.Circuit.SystemVerilog.SerializationSound
+warning: src/IRComparison/Circuit/SystemVerilog/SerializationSound.lean:67:15: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵,̵bind, ̲Option.bind, ̲Statement.literalReadback_eval]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [263/355] Replayed IRComparison.Circuit.SystemVerilog.StartupSound
+warning: src/IRComparison/Circuit/SystemVerilog/StartupSound.lean:124:57: This simp argument is unused:
+  Store.patch_nil
+
+Hint: Omit it from the simp argument list.
+  simp [̵s̵t̵a̵r̵t̵U̵p̵d̵a̵t̵e̵s̵,̵S̵t̵o̵r̵e̵.̵p̵a̵t̵c̵h̵_̵a̵p̵p̵e̵n̵d̵,̵S̵t̵o̵r̵e̵.̵p̵a̵t̵c̵h̵_̵c̵o̵n̵s̵,̵S̵t̵o̵r̵e̵.̵p̵a̵t̵c̵h̵_̵n̵i̵l̵,̵e̵n̵v̵]̵[̲s̲t̲a̲r̲t̲U̲p̲d̲a̲t̲e̲s̲,̲ ̲S̲t̲o̲r̲e̲.̲p̲a̲t̲c̲h̲_̲a̲p̲p̲e̲n̲d̲,̲ ̲S̲t̲o̲r̲e̲.̲p̲a̲t̲c̲h̲_̲c̲o̲n̲s̲,̲ ̲e̲n̲v̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/StartupSound.lean:259:13: This simp argument is unused:
+  startUpdates_scalar a layout (environment a r wires #[] busy ports) (fun _ => rfl)
+
+Hint: Omit it from the simp argument list.
+  simp only [̵s̵t̵a̵r̵t̵U̵p̵d̵a̵t̵e̵s̵_̵s̵c̵a̵l̵a̵r̵ ̵a̵ ̵l̵a̵y̵o̵u̵t̵ ̵(̵e̵n̵v̵i̵r̵o̵n̵m̵e̵n̵t̵ ̵a̵ ̵r̵ ̵w̵i̵r̵e̵s̵ ̵#̵[̵]̵ ̵b̵u̵s̵y̵ ̵p̵o̵r̵t̵s̵)̵ ̵(̵f̵u̵n̵ ̵_̵ ̵=̵>̵ ̵r̵f̵l̵)̵,̵S̵t̵o̵r̵e̵.̵p̵a̵t̵c̵h̵_̵c̵e̵l̵l̵,̵s̵t̵a̵r̵t̵S̵c̵a̵l̵a̵r̵,̵O̵p̵t̵i̵o̵n̵.̵g̵e̵t̵D̵_̵s̵o̵m̵e̵]̵[̲S̲t̲o̲r̲e̲.̲p̲a̲t̲c̲h̲_̲c̲e̲l̲l̲,̲ ̲s̲t̲a̲r̲t̲S̲c̲a̲l̲a̲r̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲g̲e̲t̲D̲_̲s̲o̲m̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/StartupSound.lean:259:96: This simp argument is unused:
+  Store.patch_cell
+
+Hint: Omit it from the simp argument list.
+  simp only [startUpdates_scalar a layout (environment a r wires #[] busy ports) (fun _ => rfl),S̵t̵o̵r̵e̵.̵p̵a̵t̵c̵h̵_̵c̵e̵l̵l̵,̵
+  ̲ ̲ ̲ ̲ ̲startScalar, ̲Option.getD_some]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/StartupSound.lean:288:25: This simp argument is unused:
+  env
+
+Hint: Omit it from the simp argument list.
+  simp [z, ̲o, ̲inside, ̲env,̵e̵n̵v̵ironment, ̲environmentFor]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/StartupSound.lean:288:29: This simp argument is unused:
+  environment
+
+Hint: Omit it from the simp argument list.
+  simp [̵z̵,̵o̵,̵i̵n̵s̵i̵d̵e̵,̵e̵n̵v̵,̵e̵n̵v̵i̵r̵o̵n̵m̵e̵n̵t̵,̵e̵n̵v̵i̵r̵o̵n̵m̵e̵n̵t̵F̵o̵r̵]̵[̲z̲,̲ ̲o̲,̲ ̲i̲n̲s̲i̲d̲e̲,̲ ̲e̲n̲v̲,̲ ̲e̲n̲v̲i̲r̲o̲n̲m̲e̲n̲t̲F̲o̲r̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/StartupSound.lean:288:41: This simp argument is unused:
+  environmentFor
+
+Hint: Omit it from the simp argument list.
+  simp [̵z̵,̵o̵,̵i̵n̵s̵i̵d̵e̵,̵e̵n̵v̵,̵e̵n̵v̵i̵r̵o̵n̵m̵e̵n̵t̵,̵e̵n̵v̵i̵r̵o̵n̵m̵e̵n̵t̵F̵o̵r̵]̵[̲z̲,̲ ̲o̲,̲ ̲i̲n̲s̲i̲d̲e̲,̲ ̲e̲n̲v̲,̲ ̲e̲n̲v̲i̲r̲o̲n̲m̲e̲n̲t̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/StartupSound.lean:345:13: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [b̵i̵n̵d̵,̵Option.bind, ̲pure, ̲start_commit a layout, ̲start_busy a layout]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/StartupSound.lean:345:18: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵p̵u̵r̵e̵,̵s̵t̵a̵r̵t̵_̵c̵o̵m̵m̵i̵t̵[̲b̲i̲n̲d̲,̲ ̲p̲u̲r̲e̲,̲ ̲s̲t̲a̲r̲t̲_̲c̲o̲m̲m̲i̲t̲ a l̵a̵y̵o̵u̵t̵,̵s̵t̵a̵r̵t̵_̵b̵u̵s̵y̵l̲a̲y̲o̲u̲t̲,̲ ̲s̲t̲a̲r̲t̲_̲b̲u̲s̲y̲ a layout]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/StartupSound.lean:345:30: This simp argument is unused:
+  pure
+
+Hint: Omit it from the simp argument list.
+  simp only [bind, ̲Option.bind,p̵u̵r̵e̵,̵ ̲start_commit a layout, ̲start_busy a layout]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [264/355] Replayed IRComparison.Circuit.SystemVerilog.PreparationSound
+warning: src/IRComparison/Circuit/SystemVerilog/PreparationSound.lean:61:49: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [̵S̵t̵a̵t̵e̵m̵e̵n̵t̵.̵e̵v̵a̵l̵,̵w̵r̵i̵t̵e̵_̵i̵n̵t̵e̵g̵e̵r̵_̵e̵v̵a̵l̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵]̵[̲S̲t̲a̲t̲e̲m̲e̲n̲t̲.̲e̲v̲a̲l̲,̲ ̲w̲r̲i̲t̲e̲_̲i̲n̲t̲e̲g̲e̲r̲_̲e̲v̲a̲l̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/PreparationSound.lean:142:96: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [show ¬(ports.address.toNat : Int) < 0 by omega, ̲↓reduceIte, ̲Int.toNat_natCast, ̲read,b̵i̵n̵d̵,̵
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲Option.bind]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/PreparationSound.lean:142:101: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [show ¬(ports.address.toNat : Int) < 0 by o̵m̵e̵g̵a̵,̵↓̵r̵e̵d̵u̵c̵e̵I̵t̵e̵,̵I̵n̵t̵.̵t̵o̵N̵a̵t̵_̵n̵a̵t̵C̵a̵s̵t̵,̵r̵e̵a̵d̵,̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵]̵o̲m̲e̲g̲a̲,̲ ̲↓̲r̲e̲d̲u̲c̲e̲I̲t̲e̲,̲ ̲I̲n̲t̲.̲t̲o̲N̲a̲t̲_̲n̲a̲t̲C̲a̲s̲t̲,̲ ̲r̲e̲a̲d̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/PreparationSound.lean:154:66: This simp argument is unused:
+  if_pos yes
+
+Hint: Omit it from the simp argument list.
+  simp only [̵y̵e̵s̵.̵1̵,̵y̵e̵s̵.̵2̵,̵d̵e̵c̵i̵d̵e̵_̵t̵r̵u̵e̵,̵B̵o̵o̵l̵.̵t̵r̵u̵e̵_̵a̵n̵d̵,̵↓̵r̵e̵d̵u̵c̵e̵I̵t̵e̵,̵i̵f̵_̵p̵o̵s̵ ̵y̵e̵s̵]̵[̲y̲e̲s̲.̲1̲,̲ ̲y̲e̲s̲.̲2̲,̲ ̲d̲e̲c̲i̲d̲e̲_̲t̲r̲u̲e̲,̲ ̲B̲o̲o̲l̲.̲t̲r̲u̲e̲_̲a̲n̲d̲,̲ ̲↓̲r̲e̲d̲u̲c̲e̲I̲t̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/PreparationSound.lean:239:13: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵p̵u̵r̵e̵]̵[̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲,̲ ̲p̲u̲r̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/PreparationSound.lean:239:18: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵p̵u̵r̵e̵]̵[̲b̲i̲n̲d̲,̲ ̲p̲u̲r̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/PreparationSound.lean:239:30: This simp argument is unused:
+  pure
+
+Hint: Omit it from the simp argument list.
+  simp only [̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵p̵u̵r̵e̵]̵[̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/PreparationSound.lean:257:13: This simp argument is unused:
+  bind
+
+Hint: Omit it from the simp argument list.
+  simp only [̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵p̵u̵r̵e̵]̵[̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲,̲ ̲p̲u̲r̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/PreparationSound.lean:257:18: This simp argument is unused:
+  Option.bind
+
+Hint: Omit it from the simp argument list.
+  simp only [̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵p̵u̵r̵e̵]̵[̲b̲i̲n̲d̲,̲ ̲p̲u̲r̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Circuit/SystemVerilog/PreparationSound.lean:257:30: This simp argument is unused:
+  pure
+
+Hint: Omit it from the simp argument list.
+  simp only [̵b̵i̵n̵d̵,̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵,̵p̵u̵r̵e̵]̵[̲b̲i̲n̲d̲,̲ ̲O̲p̲t̲i̲o̲n̲.̲b̲i̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [268/355] Replayed PaperCore.Insertion
+info: src/PaperCore/Insertion.lean:120:0: 'PaperCore.readPre_rejects_empty' depends on axioms: [propext]
+info: src/PaperCore/Insertion.lean:121:0: 'PaperCore.readPre_true_iff' does not depend on any axioms
+info: src/PaperCore/Insertion.lean:122:0: 'PaperCore.insertRead_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/Insertion.lean:123:0: 'PaperCore.insertRead_sound_of_implies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/Insertion.lean:124:0: 'PaperCore.insertWrite_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/Insertion.lean:125:0: 'PaperCore.insertRead_unique' depends on axioms: [propext]
+ℹ [271/355] Replayed NativeRHL.ExprAnalysis
+info: src/NativeRHL/ExprAnalysis.lean:226:0: 'NativeRHL.ExprAnalysis.denotes_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/NativeRHL/ExprAnalysis.lean:227:0: 'NativeRHL.ExprAnalysis.analyze_correct' depends on axioms: [propext]
+⚠ [321/355] Replayed IRComparison.Frontend.LeanEquality
+warning: src/IRComparison/Frontend/LeanEquality.lean:87:28: This simp argument is unused:
+  ← VExpr.lift_instN_lo
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ←̵ ̵V̵E̵x̵p̵r̵.̵l̵i̵f̵t̵_̵i̵n̵s̵t̵N̵_̵l̵o̵,̵ ̵VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower, VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:87:51: This simp argument is unused:
+  VExpr.inst_lift
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_̵l̵i̵f̵t̵, VExpr.inst,̵ ̵VE̵x̵p̵r̵.̵i̵n̵s̵t̵V̵ar_lower,
+  ̲  ̲ ̲ ̲VExpr.instVar_succ, VExpr.instVar_zero] at a
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:89:101: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲ V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵  ̲ ̲VExpr.instVar_zero] at b
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:91:80: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at c
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:91:101: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲ V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵  ̲ ̲VExpr.instVar_zero] at c
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:93:80: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at d
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:93:101: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲ V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵  ̲ ̲VExpr.instVar_zero] at d
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:93:121: This simp argument is unused:
+  VExpr.instVar_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲VExpr.instVar_succ,̵ ̵V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵z̵e̵r̵o̵] at d
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:113:28: This simp argument is unused:
+  ← VExpr.lift_instN_lo
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ←̵ ̵V̵E̵x̵p̵r̵.̵l̵i̵f̵t̵_̵i̵n̵s̵t̵N̵_̵l̵o̵,̵ ̵VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower, VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:113:51: This simp argument is unused:
+  VExpr.inst_lift
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_̵l̵i̵f̵t̵, VExpr.inst,̵
+  ̵ ̵ ̵ ̵ ̵VE̵x̵p̵r̵.̵i̵n̵s̵t̵V̵ar_lower,
+  ̲  ̲ ̲ ̲VExpr.instVar_succ, VExpr.instVar_zero] at a
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:117:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at b
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:120:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at c
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:123:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at d
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:126:4: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at e
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:126:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at e
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:129:4: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at g
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:129:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at g
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanEquality.lean:129:45: This simp argument is unused:
+  VExpr.instVar_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵z̵e̵r̵o̵]̵V̲E̲x̲p̲r̲.̲i̲n̲s̲t̲V̲a̲r̲_̲s̲u̲c̲c̲]̲ at g
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [323/355] Replayed IRComparison.Frontend.LeanNegNormalization
+warning: src/IRComparison/Frontend/LeanNegNormalization.lean:47:30: This simp argument is unused:
+  ← VExpr.lift_instN_lo
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ←̵ ̵V̵E̵x̵p̵r̵.̵l̵i̵f̵t̵_̵i̵n̵s̵t̵N̵_̵l̵o̵,̵ ̵VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower, VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲ ̲ ̲VExpr.instVar_zero] at a
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanNegNormalization.lean:47:53: This simp argument is unused:
+  VExpr.inst_lift
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵_̵l̵i̵f̵t̵,̵ ̵VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲ ̲ ̲VExpr.instVar_succ, VExpr.instVar_zero] at a
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanNegNormalization.lean:51:6: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst,
+        VExpr.instVar_l̵o̵w̵e̵r̵,̵ ̵V̵E̵x̵p̵r̵.̵i̵n̵st̵V̵a̵r̵_̵s̵ucc, VExpr.instVar_zero] at b
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanNegNormalization.lean:51:27: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst,
+        VExpr.instVar_lower, VExpr.instVar_s̵u̵c̵c̵,̵ ̵V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵zero] at b
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [335/355] Replayed IRComparison.Frontend.LeanIREvaluation
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:38:28: This simp argument is unused:
+  ← VExpr.lift_instN_lo
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ←̵ ̵V̵E̵x̵p̵r̵.̵l̵i̵f̵t̵_̵i̵n̵s̵t̵N̵_̵l̵o̵,̵ ̵VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower, VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:38:51: This simp argument is unused:
+  VExpr.inst_lift
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_̵l̵i̵f̵t̵, VExpr.inst,̵
+  ̵ ̵ ̵ ̵ ̵VE̵x̵p̵r̵.̵i̵n̵s̵t̵V̵ar_lower,
+  ̲  ̲ ̲ ̲VExpr.instVar_succ, VExpr.instVar_zero] at a
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:42:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at b
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:45:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at c
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:48:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at d
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:87:30: This simp argument is unused:
+  ← VExpr.lift_instN_lo
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ←̵ ̵V̵E̵x̵p̵r̵.̵l̵i̵f̵t̵_̵i̵n̵s̵t̵N̵_̵l̵o̵,̵ ̵VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower, VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲ ̲ ̲VExpr.instVar_zero] at a
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:87:53: This simp argument is unused:
+  VExpr.inst_lift
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵_̵l̵i̵f̵t̵,̵ ̵VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲ ̲ ̲VExpr.instVar_succ, VExpr.instVar_zero] at a
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:91:27: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst,
+        VExpr.instVar_lower, VExpr.instVar_s̵u̵c̵c̵,̵ ̵V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵zero] at b
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:94:27: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst,
+        VExpr.instVar_lower, VExpr.instVar_s̵u̵c̵c̵,̵ ̵V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵zero] at c
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:116:28: This simp argument is unused:
+  ← VExpr.lift_instN_lo
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ←̵ ̵V̵E̵x̵p̵r̵.̵l̵i̵f̵t̵_̵i̵n̵s̵t̵N̵_̵l̵o̵,̵ ̵VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower, VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a1
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:116:51: This simp argument is unused:
+  VExpr.inst_lift
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_̵l̵i̵f̵t̵, VExpr.inst,̵
+  ̵ ̵ ̵ ̵ ̵VE̵x̵p̵r̵.̵i̵n̵s̵t̵V̵ar_lower,
+  ̲  ̲ ̲ ̲VExpr.instVar_succ, VExpr.instVar_zero] at a1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:120:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:123:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a3
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:126:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a4
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:129:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a5
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:132:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a6
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:135:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a7
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:138:4: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a8
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:138:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a8
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:141:4: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a9
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:141:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a9
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIREvaluation.lean:141:45: This simp argument is unused:
+  VExpr.instVar_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵z̵e̵r̵o̵]̵V̲E̲x̲p̲r̲.̲i̲n̲s̲t̲V̲a̲r̲_̲s̲u̲c̲c̲]̲ at a9
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [336/355] Replayed IRComparison.Frontend.LeanIRSelect
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:40:28: This simp argument is unused:
+  ← VExpr.lift_instN_lo
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ←̵ ̵V̵E̵x̵p̵r̵.̵l̵i̵f̵t̵_̵i̵n̵s̵t̵N̵_̵l̵o̵,̵ ̵VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower, VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a1
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:40:51: This simp argument is unused:
+  VExpr.inst_lift
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_̵l̵i̵f̵t̵, VExpr.inst,̵
+  ̵ ̵ ̵ ̵ ̵VE̵x̵p̵r̵.̵i̵n̵s̵t̵V̵ar_lower,
+  ̲  ̲ ̲ ̲VExpr.instVar_succ, VExpr.instVar_zero] at a1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:44:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:47:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a3
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:50:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a4
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:53:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a5
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:56:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a6
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:59:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a7
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:62:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a8
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:65:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a9
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:68:4: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a10
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:68:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a10
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:71:4: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a11
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:71:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a11
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:71:45: This simp argument is unused:
+  VExpr.instVar_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵z̵e̵r̵o̵]̵V̲E̲x̲p̲r̲.̲i̲n̲s̲t̲V̲a̲r̲_̲s̲u̲c̲c̲]̲ at a11
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:74:4: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a12
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:74:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a12
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRSelect.lean:74:45: This simp argument is unused:
+  VExpr.instVar_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵z̵e̵r̵o̵]̵V̲E̲x̲p̲r̲.̲i̲n̲s̲t̲V̲a̲r̲_̲s̲u̲c̲c̲]̲ at a12
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [340/355] Replayed IRComparison.Frontend.LeanIRTransport
+warning: src/IRComparison/Frontend/LeanIRTransport.lean:31:28: This simp argument is unused:
+  ← VExpr.lift_instN_lo
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ←̵ ̵V̵E̵x̵p̵r̵.̵l̵i̵f̵t̵_̵i̵n̵s̵t̵N̵_̵l̵o̵,̵ ̵VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower, VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRTransport.lean:31:51: This simp argument is unused:
+  VExpr.inst_lift
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_̵l̵i̵f̵t̵, VExpr.inst,̵
+  ̵ ̵ ̵ ̵ ̵VE̵x̵p̵r̵.̵i̵n̵s̵t̵V̵ar_lower,
+  ̲  ̲ ̲ ̲VExpr.instVar_succ, VExpr.instVar_zero] at a
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRTransport.lean:35:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at b
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRTransport.lean:38:4: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at c
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRTransport.lean:38:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at c
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRTransport.lean:41:4: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at d
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRTransport.lean:41:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at d
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanIRTransport.lean:41:45: This simp argument is unused:
+  VExpr.instVar_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵z̵e̵r̵o̵]̵V̲E̲x̲p̲r̲.̲i̲n̲s̲t̲V̲a̲r̲_̲s̲u̲c̲c̲]̲ at d
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [341/355] Replayed IRComparison.Frontend.LeanSelectBridge
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:51:28: This simp argument is unused:
+  ← VExpr.lift_instN_lo
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ←̵ ̵V̵E̵x̵p̵r̵.̵l̵i̵f̵t̵_̵i̵n̵s̵t̵N̵_̵l̵o̵,̵ ̵VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower, VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a1
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:51:51: This simp argument is unused:
+  VExpr.inst_lift
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_̵l̵i̵f̵t̵, VExpr.inst,̵
+  ̵ ̵ ̵ ̵ ̵VE̵x̵p̵r̵.̵i̵n̵s̵t̵V̵ar_lower,
+  ̲  ̲ ̲ ̲VExpr.instVar_succ, VExpr.instVar_zero] at a1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:55:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:58:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a3
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:61:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a4
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:64:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a5
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:67:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a6
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:70:4: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a7
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:70:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a7
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:73:4: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a8
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:73:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a8
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:73:45: This simp argument is unused:
+  VExpr.instVar_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵z̵e̵r̵o̵]̵V̲E̲x̲p̲r̲.̲i̲n̲s̲t̲V̲a̲r̲_̲s̲u̲c̲c̲]̲ at a8
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:76:4: This simp argument is unused:
+  VExpr.instVar_lower
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵l̵o̵w̵e̵r̵,̵ ̵VExpr.instVar_succ,
+  ̲  ̲ ̲ ̲VExpr.instVar_zero] at a9
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:76:25: This simp argument is unused:
+  VExpr.instVar_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵VExpr.instVar_zero] at a9
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanSelectBridge.lean:76:45: This simp argument is unused:
+  VExpr.instVar_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.reduceAdd, ← VExpr.lift_instN_lo, VExpr.inst_lift, VExpr.inst, VExpr.instVar_lower,
+  ̲  ̲ ̲ ̲V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵s̵u̵c̵c̵,̵ ̵V̵E̵x̵p̵r̵.̵i̵n̵s̵t̵V̵a̵r̵_̵z̵e̵r̵o̵]̵V̲E̲x̲p̲r̲.̲i̲n̲s̲t̲V̲a̲r̲_̲s̲u̲c̲c̲]̲ at a9
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [348/355] Replayed IRComparison.Frontend.LeanNamedScalar
+warning: src/IRComparison/Frontend/LeanNamedScalar.lean:19:36: This simp argument is unused:
+  List.map_cons
+
+Hint: Omit it from the simp argument list.
+  simp only [optionInt, VExpr.inst, L̵i̵s̵t̵.̵m̵a̵p̵_̵c̵o̵n̵s̵,̵ ̵List.map_nil] at someEq
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanNamedScalar.lean:19:51: This simp argument is unused:
+  List.map_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [optionInt, VExpr.inst, List.map_cons,̵ ̵L̵i̵s̵t̵.̵m̵a̵p̵_̵n̵i̵l̵] at someEq
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanNamedScalar.lean:21:36: This simp argument is unused:
+  List.map_cons
+
+Hint: Omit it from the simp argument list.
+  simp only [optionInt, VExpr.inst, L̵i̵s̵t̵.̵m̵a̵p̵_̵c̵o̵n̵s̵,̵ ̵List.map_nil] at head
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/IRComparison/Frontend/LeanNamedScalar.lean:21:51: This simp argument is unused:
+  List.map_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [optionInt, VExpr.inst, List.map_cons,̵ ̵L̵i̵s̵t̵.̵m̵a̵p̵_̵n̵i̵l̵] at head
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [354/355] Replayed IRComparison.Examples.WordFrontendExamples
+info: src/IRComparison/Examples/WordFrontendExamples.lean:68:0: 'IRComparison.WordFrontendExamples.generatedSum.wordBody_correct' depends on axioms: [propext, Quot.sound]
+info: src/IRComparison/Examples/WordFrontendExamples.lean:69:0: 'IRComparison.WordFrontendExamples.generatedFilter.wordBody_correct' depends on axioms: [propext, Quot.sound]
+info: src/IRComparison/Examples/WordFrontendExamples.lean:70:0: 'IRComparison.WordFrontendExamples.generatedWrites.wordBody_correct' depends on axioms: [propext, Quot.sound]
+info: src/IRComparison/Examples/WordFrontendExamples.lean:71:0: 'IRComparison.WordFrontend.Result.correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/IRComparison/Examples/WordFrontendExamples.lean:72:0: 'IRComparison.WordFrontendExamples.loopCode.wordBody_correct' depends on axioms: [propext, Quot.sound]
+info: src/IRComparison/Examples/WordFrontendExamples.lean:73:0: 'IRComparison.WordFrontendExamples.capturedCode.wordBody_correct' depends on axioms: [propext, Quot.sound]
+info: src/IRComparison/Examples/WordFrontendExamples.lean:74:0: 'IRComparison.HybridWord.program_finishes' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (355 jobs).
+Wrote 22 independent reference fixtures to artifacts/benchmarks/fixtures.json
+producer-consumer Lean passed 2.6s
+interleaved Lean passed 2.7s
+nonadjacent Lean passed 2.3s
+intervening-read Lean passed 2.3s
+public-output Lean passed 2.3s
+reverse-memory Lean passed 2.2s
+arbitrary-initial-memory Lean passed 2.2s
+dynamic-loop Lean passed 2.1s
+dynamic-zero Lean passed 2.1s
+dynamic-failure Lean passed 2.1s
+conditional-true Lean passed 2.1s
+conditional-false Lean passed 2.1s
+captured-old-value Lean passed 2.2s
+local-overflow Lean passed 2.1s
+indirect-failure Lean passed 2.1s
+wrapped-index Lean passed 2.1s
+negative-index Lean passed 2.2s
+filter-three Lean passed 5.5s
+dilated Lean passed 6.2s
+dilated-reverse Lean passed 6.2s
+negative-step Lean passed 9.6s
+negative-step-memory Lean passed 3.8s
+zero-count Lean passed 2.1s
+bench-axpy-nominal Lean passed 3.2s
+bench-axpy-boundary Lean passed 3.3s
+bench-fir4-nominal Lean passed 4.0s
+bench-fir4-boundary Lean passed 4.0s
+bench-prefix-nominal Lean passed 3.4s
+bench-prefix-boundary Lean passed 3.4s
+bench-dot-nominal Lean passed 3.4s
+bench-dot-boundary Lean passed 3.4s
+bench-histogram-nominal Lean passed 3.6s
+bench-histogram-boundary Lean passed 3.6s
+bench-gather-nominal Lean passed 2.7s
+bench-gather-boundary Lean passed 2.8s
+bench-gemm2-nominal Lean passed 3.4s
+bench-gemm2-boundary Lean passed 3.4s
+bench-stencil3-nominal Lean passed 89.4s
+bench-stencil3-boundary Lean passed 91.3s
+bench-replace-zero-nominal Lean passed 2.7s
+bench-replace-zero-boundary Lean passed 2.7s
+bench-recurrence-nominal Lean passed 2.9s
+bench-recurrence-boundary Lean passed 2.9s
+bench-fir-pipeline-nominal Lean passed 3.6s
+bench-fir-pipeline-boundary Lean passed 3.6s
+arbitrary-initial-memory PASS cycles=         28 synthesized
+bench-axpy-boundary PASS cycles=         82 synthesized
+bench-axpy-nominal PASS cycles=         82 synthesized
+bench-dot-boundary PASS cycles=         90 synthesized
+bench-dot-nominal PASS cycles=         90 synthesized
+bench-fir-pipeline-boundary PASS cycles=        166 synthesized
+bench-fir-pipeline-nominal PASS cycles=        166 synthesized
+bench-fir4-boundary PASS cycles=         92 synthesized
+bench-fir4-nominal PASS cycles=         92 synthesized
+bench-gather-boundary PASS cycles=         82 synthesized
+bench-gather-nominal PASS cycles=         82 synthesized
+bench-gemm2-boundary PASS cycles=         58 synthesized
+bench-gemm2-nominal PASS cycles=         58 synthesized
+bench-histogram-boundary PASS cycles=         82 synthesized
+bench-histogram-nominal PASS cycles=         82 synthesized
+bench-prefix-boundary PASS cycles=         89 synthesized
+bench-prefix-nominal PASS cycles=         89 synthesized
+bench-recurrence-boundary PASS cycles=         49 synthesized
+bench-recurrence-nominal PASS cycles=         49 synthesized
+bench-replace-zero-boundary PASS cycles=         82 synthesized
+bench-replace-zero-nominal PASS cycles=         82 synthesized
+bench-stencil3-boundary PASS cycles=        162 synthesized
+bench-stencil3-nominal PASS cycles=        162 synthesized
+captured-old-value PASS cycles=         14 synthesized
+conditional-false PASS cycles=         13 synthesized
+conditional-true PASS cycles=         13 synthesized
+dilated PASS cycles=        131 synthesized
+dilated-reverse PASS cycles=        134 synthesized
+dynamic-failure PASS cycles=         26 synthesized
+dynamic-loop PASS cycles=         27 synthesized
+dynamic-zero PASS cycles=         15 synthesized
+filter-three PASS cycles=        113 synthesized
+indirect-failure PASS cycles=          8 synthesized
+interleaved PASS cycles=         86 synthesized
+intervening-read PASS cycles=         59 synthesized
+local-overflow PASS cycles=         12 synthesized
+negative-index PASS cycles=         10 synthesized
+negative-step PASS cycles=        296 synthesized
+negative-step-memory PASS cycles=         40 synthesized
+nonadjacent PASS cycles=         54 synthesized
+producer-consumer PASS cycles=         94 synthesized
+public-output PASS cycles=         58 synthesized
+reverse-memory PASS cycles=         28 synthesized
+wrapped-index PASS cycles=         16 synthesized
+zero-count PASS cycles=         10 synthesized

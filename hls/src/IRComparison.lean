@@ -1,0 +1,99 @@
+import IRComparison.Core.Bridge
+import IRComparison.Examples.Examples
+import IRComparison.Core.Source
+import IRComparison.Core.Frontend
+import IRComparison.Examples.FrontendExamples
+import IRComparison.Frontend.NativeLoop
+import IRComparison.Examples.NativeExamples
+import IRComparison.Frontend.LeanScalar
+import IRComparison.Examples.LeanScalarExamples
+import IRComparison.Frontend.LeanBindings
+import IRComparison.Frontend.LeanDefinition
+import IRComparison.Frontend.LeanTyped
+import IRComparison.Frontend.LeanArithmetic
+import IRComparison.Frontend.LeanEquality
+import IRComparison.Frontend.LeanArithmeticNormalization
+import IRComparison.Frontend.LeanTypeInference
+import IRComparison.Frontend.LeanLibrary
+import IRComparison.Frontend.LeanTypeAliases
+import IRComparison.Frontend.LeanUniverseConversion
+import IRComparison.Frontend.LeanTypeReduction
+import IRComparison.Frontend.LeanLetNormalization
+import IRComparison.Frontend.LeanFunctionNormalization
+import IRComparison.Examples.LeanTypeInferenceExamples
+import IRComparison.Examples.LeanCertifiedScalarExamples
+import IRComparison.Examples.LeanIREvaluationExamples
+import IRComparison.Examples.LeanScalarCommandExamples
+import IRComparison.Examples.LeanBodyExamples
+import IRComparison.Examples.LeanReadExamples
+import IRComparison.Examples.ControlExamples
+import IRComparison.Examples.ControlWorkloads
+import IRComparison.Examples.ArrayEntryExamples
+import IRComparison.Examples.BoundedReadExamples
+
+import IRComparison.Examples.LoopEntryExamples
+import IRComparison.Examples.OldReadEntryExamples
+
+import IRComparison.Examples.OptimizedControlExamples
+
+import IRComparison.Examples.SnapshotEntryExamples
+import IRComparison.Examples.WholeKernelExamples
+
+import IRComparison.Examples.SnapshotLoopExamples
+
+import IRComparison.Examples.CommunicationExamples
+
+import IRComparison.Examples.NativeWindowExamples
+import IRComparison.Examples.WindowPipelineExamples
+import IRComparison.Examples.WindowWorkloads
+
+import IRComparison.Examples.StreamWorkloads
+
+import IRComparison.Examples.AutoPipelineWorkloads
+
+import IRComparison.Examples.SymbolicWindowExamples
+import IRComparison.Memory.CompactSequence
+import IRComparison.Examples.AlternativeExamples
+import IRComparison.Examples.CompactFIFOExamples
+import IRComparison.Examples.StreamChainExamples
+import IRComparison.Examples.StreamChainWorkloads
+import IRComparison.Examples.AlternativePipelineExamples
+import IRComparison.Examples.CompactFusionExamples
+import IRComparison.Examples.CompactFusionWorkloads
+import IRComparison.Examples.UnifiedWorkloads
+
+import IRComparison.Examples.GlobalPipelineExamples
+
+import IRComparison.Examples.HybridExamples
+
+import IRComparison.Hybrid.HybridInputs
+
+import IRComparison.Examples.HybridCompactExamples
+
+import IRComparison.Examples.VersionedOrderExamples
+import IRComparison.Core.VersionedOrderControl
+import IRComparison.Examples.VersionedPreservationExamples
+import IRComparison.Examples.HybridWordExamples
+import IRComparison.Examples.WordFrontendExamples
+import IRComparison.Examples.WordWorkloads
+import IRComparison.Examples.WordComponentExamples
+
+import IRComparison.Circuit.FinitePipelineSound
+import IRComparison.Circuit.RTL.PipelineSound
+
+import IRComparison.Circuit.RTL.InterfaceRunSound
+
+import IRComparison.Circuit.SystemVerilog.Text
+import IRComparison.Circuit.SystemVerilog.ExpressionSound
+import IRComparison.Circuit.SystemVerilog.StatementEval
+import IRComparison.Circuit.SystemVerilog.ClockCheck
+import IRComparison.Circuit.SystemVerilog.BankSound
+
+import IRComparison.Circuit.SystemVerilog.ModuleSound
+import IRComparison.Circuit.SystemVerilog.LiteralTextSound
+
+import IRComparison.Circuit.SystemVerilog.SerializationSound
+
+import IRComparison.Circuit.SystemVerilog.PreparationSound
+
+import IRComparison.Examples.HLSBenchmarks

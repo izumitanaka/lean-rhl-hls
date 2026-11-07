@@ -1,0 +1,410 @@
+ℹ [3/81] Replayed PaperCore.Semantics
+info: src/PaperCore/Semantics.lean:78:0: 'PaperCore.stream_read_empty' depends on axioms: [propext]
+info: src/PaperCore/Semantics.lean:79:0: 'PaperCore.memory_read_missing' depends on axioms: [propext]
+⚠ [4/81] Replayed PaperCore.Correspondence
+warning: src/PaperCore/Correspondence.lean:8:12: This simp argument is unused:
+  List.lookup
+
+Hint: Omit it from the simp argument list.
+  simp [put,̵L̵i̵s̵t̵.̵l̵o̵o̵k̵u̵p̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/Correspondence.lean:15:33: This simp argument is unused:
+  ne
+
+Hint: Omit it from the simp argument list.
+  simp [put, ̲List.lookup,n̵e̵,̵ ̲hn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/Correspondence.lean:24:30: This simp argument is unused:
+  hk
+
+Hint: Omit it from the simp argument list.
+  simp [put, ̲List.lookup, ̲hk̵,̵h̵n, ̲hkn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/Correspondence.lean:24:36: This simp argument is unused:
+  hkn
+
+Hint: Omit it from the simp argument list.
+  simp [̵p̵u̵t̵,̵L̵i̵s̵t̵.̵l̵o̵o̵k̵u̵p̵,̵h̵k̵,̵h̵n̵,̵h̵k̵n̵]̵[̲p̲u̲t̲,̲ ̲L̲i̲s̲t̲.̲l̲o̲o̲k̲u̲p̲,̲ ̲h̲k̲,̲ ̲h̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: src/PaperCore/Correspondence.lean:185:0: 'PaperCore.Contents.length_eq' depends on axioms: [propext]
+info: src/PaperCore/Correspondence.lean:186:0: 'PaperCore.Contents.update_unrepresented' depends on axioms: [propext]
+info: src/PaperCore/Correspondence.lean:187:0: 'PaperCore.read_buffer' does not depend on any axioms
+info: src/PaperCore/Correspondence.lean:188:0: 'PaperCore.write_buffer' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/Correspondence.lean:189:0: 'PaperCore.Corresponds.read_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/Correspondence.lean:190:0: 'PaperCore.Corresponds.write_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [5/81] Replayed PaperCore.AccessAnalysis
+warning: src/PaperCore/AccessAnalysis.lean:31:29: This simp argument is unused:
+  Int.add_mul
+
+Hint: Omit it from the simp argument list.
+  simp [Affine.eval, ̲zero, ̲Int.a̵d̵d̵_̵mul,̵I̵n̵t̵.̵m̵u̵l̵_add, ̲Int.mul_assoc, ̲Int.mul_comm, ̲Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:31:53: This simp argument is unused:
+  Int.mul_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [̵A̵f̵f̵i̵n̵e̵.̵e̵v̵a̵l̵,̵z̵e̵r̵o̵,̵I̵n̵t̵.̵a̵d̵d̵_̵m̵u̵l̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵d̵d̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵s̵s̵o̵c̵,̵I̵n̵t̵.̵m̵u̵l̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵m̵u̵l̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵[̲A̲f̲f̲i̲n̲e̲.̲e̲v̲a̲l̲,̲ ̲z̲e̲r̲o̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲m̲u̲l̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲d̲d̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲c̲o̲m̲m̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:223:19: This simp argument is unused:
+  inferred
+
+Hint: Omit it from the simp argument list.
+  simp only ̵[̵i̵n̵f̵e̵r̵r̵e̵d̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:258:36: This simp argument is unused:
+  Except.bind
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵n̵a̵l̵y̵z̵e̵,̵h̵a̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵]̵[̲a̲n̲a̲l̲y̲z̲e̲,̲ ̲h̲a̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:258:48: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵n̵a̵l̵y̵z̵e̵,̵h̵a̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵]̵[̲a̲n̲a̲l̲y̲z̲e̲,̲ ̲h̲a̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:261:41: This simp argument is unused:
+  Except.bind
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵n̵a̵l̵y̵z̵e̵,̵h̵a̵,̵h̵b̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵]̵[̲a̲n̲a̲l̲y̲z̲e̲,̲ ̲h̲a̲,̲ ̲h̲b̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:261:53: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵n̵a̵l̵y̵z̵e̵,̵h̵a̵,̵h̵b̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵]̵[̲a̲n̲a̲l̲y̲z̲e̲,̲ ̲h̲a̲,̲ ̲h̲b̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:263:28: This simp argument is unused:
+  Except.bind
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵n̵a̵l̵y̵z̵e̵,̵h̵a̵,̵h̵b̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵]̵[̲a̲n̲a̲l̲y̲z̲e̲,̲ ̲h̲a̲,̲ ̲h̲b̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲m̲a̲p̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/AccessAnalysis.lean:263:40: This simp argument is unused:
+  Except.map
+
+Hint: Omit it from the simp argument list.
+  simp [̵a̵n̵a̵l̵y̵z̵e̵,̵h̵a̵,̵h̵b̵,̵E̵x̵c̵e̵p̵t̵.̵b̵i̵n̵d̵,̵E̵x̵c̵e̵p̵t̵.̵m̵a̵p̵]̵[̲a̲n̲a̲l̲y̲z̲e̲,̲ ̲h̲a̲,̲ ̲h̲b̲,̲ ̲E̲x̲c̲e̲p̲t̲.̲b̲i̲n̲d̲]̲ at success
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: src/PaperCore/AccessAnalysis.lean:290:0: 'PaperCore.AccessAnalysis.infer_sound' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/AccessAnalysis.lean:291:0: 'PaperCore.AccessAnalysis.analyze_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [6/81] Replayed PaperCore.LoopAnalysis
+info: src/PaperCore/LoopAnalysis.lean:121:0: 'PaperCore.LoopAnalysis.sites_faithful' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/LoopAnalysis.lean:122:0: 'PaperCore.LoopAnalysis.reports_faithful' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/LoopAnalysis.lean:123:0: 'PaperCore.LoopAnalysis.inspect_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [7/81] Replayed PaperCore.WindowAnalysis
+info: src/PaperCore/WindowAnalysis.lean:118:0: 'PaperCore.WindowAnalysis.bounds_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/WindowAnalysis.lean:128:0: 'PaperCore.WindowAnalysis.infer_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/WindowAnalysis.lean:129:0: 'PaperCore.WindowAnalysis.runtime_covered' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8/81] Replayed PaperCore.Insertion
+info: src/PaperCore/Insertion.lean:120:0: 'PaperCore.readPre_rejects_empty' depends on axioms: [propext]
+info: src/PaperCore/Insertion.lean:121:0: 'PaperCore.readPre_true_iff' does not depend on any axioms
+info: src/PaperCore/Insertion.lean:122:0: 'PaperCore.insertRead_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/Insertion.lean:123:0: 'PaperCore.insertRead_sound_of_implies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/Insertion.lean:124:0: 'PaperCore.insertWrite_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/Insertion.lean:125:0: 'PaperCore.insertRead_unique' depends on axioms: [propext]
+⚠ [9/81] Replayed PaperCore.IndexSequence
+warning: src/PaperCore/IndexSequence.lean:31:19: This simp argument is unused:
+  Int.natCast_add
+
+Hint: Omit it from the simp argument list.
+  simp only [̵I̵n̵t̵.̵n̵a̵t̵C̵a̵s̵t̵_̵a̵d̵d̵,̵ ̵I̵n̵t̵.̵n̵a̵t̵C̵a̵s̵t̵_̵s̵u̵c̵c̵,̵[̲I̲n̲t̲.̲n̲a̲t̲C̲a̲s̲t̲_̲s̲u̲c̲c̲,̲ Int.ofNat_one, Int.add_mul, Int.one_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/IndexSequence.lean:31:54: This simp argument is unused:
+  Int.ofNat_one
+
+Hint: Omit it from the simp argument list.
+  simp only [Int.natCast_add, Int.natCast_succ, I̵n̵t̵.̵o̵f̵N̵a̵t̵_̵o̵n̵e̵,̵ ̵Int.add_mul, Int.one_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/IndexSequence.lean:39:19: This simp argument is unused:
+  Int.natCast_add
+
+Hint: Omit it from the simp argument list.
+  simp only [̵I̵n̵t̵.̵n̵a̵t̵C̵a̵s̵t̵_̵a̵d̵d̵,̵ ̵I̵n̵t̵.̵n̵a̵t̵C̵a̵s̵t̵_̵s̵u̵c̵c̵,̵[̲I̲n̲t̲.̲n̲a̲t̲C̲a̲s̲t̲_̲s̲u̲c̲c̲,̲ Int.ofNat_one, Int.add_mul, Int.one_mul] at eq
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/IndexSequence.lean:39:54: This simp argument is unused:
+  Int.ofNat_one
+
+Hint: Omit it from the simp argument list.
+  simp only [Int.natCast_add, Int.natCast_succ, Int.o̵f̵N̵at̵_̵o̵n̵e̵,̵ ̵I̵n̵t̵.̵a̵dd_mul, Int.one_mul] at eq
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: src/PaperCore/IndexSequence.lean:184:0: 'PaperCore.IndexSequence.mem_entries_integer' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/IndexSequence.lean:185:0: 'PaperCore.IndexSequence.eq_entries_iff' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/IndexSequence.lean:186:0: 'PaperCore.IndexSequence.append_entries' depends on axioms: [propext, Quot.sound]
+ℹ [11/81] Replayed PaperCore.SMT.SMTSemantics
+info: src/PaperCore/SMT/SMTSemantics.lean:107:0: 'PaperCore.SMTMeaning.encode_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [12/81] Replayed PaperCore.SMT.Model
+info: src/PaperCore/SMT/Model.lean:55:0: 'PaperCore.Model.decode_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/SMT/Model.lean:81:0: 'PaperCore.Model.decode_assignment' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [13/81] Replayed PaperCore.SMT.SMTReply
+info: src/PaperCore/SMT/SMTReply.lean:106:0: 'PaperCore.SMTReply.lookup_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [14/81] Replayed PaperCore.SMT.SMTRequest
+info: src/PaperCore/SMT/SMTRequest.lean:68:0: 'PaperCore.SMTRequest.check_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [15/81] Replayed PaperCore.SMT.SMTConnection
+info: src/PaperCore/SMT/SMTConnection.lean:55:0: 'PaperCore.SMTConnection.accept_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/SMT/SMTConnection.lean:56:0: 'PaperCore.SMTConnection.choose_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/SMT/SMTConnection.lean:75:0: 'PaperCore.SMTConnection.acceptResponse_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [16/81] Replayed PaperCore.IndexSequenceSMT
+info: src/PaperCore/IndexSequenceSMT.lean:62:0: 'PaperCore.IndexSequence.equality_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/IndexSequenceSMT.lean:63:0: 'PaperCore.IndexSequence.candidateResponse_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [17/81] Built PaperCore.ReadMem (608ms)
+info: src/PaperCore/ReadMem.lean:64:0: 'PaperCore.readMem_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/ReadMem.lean:65:0: 'PaperCore.assign_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [18/81] Built PaperCore.MemoryCoverage (646ms)
+info: src/PaperCore/MemoryCoverage.lean:87:0: 'PaperCore.MemoryCoverage.execution_preserves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/MemoryCoverage.lean:88:0: 'PaperCore.MemoryCoverage.trace_defines' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [19/81] Built PaperCore.ProgramState (648ms)
+✔ [20/81] Built PaperCore.WindowTrim (668ms)
+ℹ [21/81] Built PaperCore.Rules (717ms)
+info: src/PaperCore/Rules.lean:113:0: 'PaperCore.insertRead_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/Rules.lean:114:0: 'PaperCore.Translation.seq' does not depend on any axioms
+info: src/PaperCore/Rules.lean:115:0: 'PaperCore.Translation.insertLeft' does not depend on any axioms
+info: src/PaperCore/Rules.lean:116:0: 'PaperCore.Translation.insertRight' does not depend on any axioms
+info: src/PaperCore/Rules.lean:117:0: 'PaperCore.Translation.consequence' does not depend on any axioms
+ℹ [22/81] Built PaperCore.Evaluator (919ms)
+info: src/PaperCore/Evaluator.lean:140:0: 'PaperCore.run_sound' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/Evaluator.lean:141:0: 'PaperCore.memoryRun_sound' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/Evaluator.lean:142:0: 'PaperCore.streamRun_sound' depends on axioms: [propext, Quot.sound]
+ℹ [23/81] Built PaperCore.AtomicRules (341ms)
+info: src/PaperCore/AtomicRules.lean:68:0: 'PaperCore.readMem_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/AtomicRules.lean:69:0: 'PaperCore.bufferedRead_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [24/81] Built PaperCore.MixedTarget (991ms)
+info: src/PaperCore/MixedTarget.lean:141:0: 'PaperCore.MixedTarget.retain_forward' does not depend on any axioms
+info: src/PaperCore/MixedTarget.lean:142:0: 'PaperCore.MixedTarget.includeFifo_forward' does not depend on any axioms
+ℹ [25/81] Built PaperCore.InsertionAudit (388ms)
+info: src/PaperCore/InsertionAudit.lean:34:0: 'PaperCore.InsertionAudit.empty_corresponds' depends on axioms: [propext]
+info: src/PaperCore/InsertionAudit.lean:35:0: 'PaperCore.InsertionAudit.inserted_read_stuck' depends on axioms: [propext]
+ℹ [26/81] Built PaperCore.MoveAudit (331ms)
+info: src/PaperCore/MoveAudit.lean:31:0: 'PaperCore.MoveAudit.undefined_ordinary_corresponds' does not depend on any axioms
+info: src/PaperCore/MoveAudit.lean:32:0: 'PaperCore.MoveAudit.inserted_move_stuck' depends on axioms: [propext]
+ℹ [27/81] Built PaperCore.MemoryLoopCoverage (499ms)
+info: src/PaperCore/MemoryLoopCoverage.lean:56:0: 'PaperCore.MemoryCoverage.loop_covers' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [28/81] Built PaperCore.SolverReply (1.3s)
+✔ [29/81] Built PaperCore.BufferView (423ms)
+ℹ [30/81] Built PaperCore.Move (431ms)
+info: src/PaperCore/Move.lean:64:0: 'PaperCore.movePre_rejects_undefined' depends on axioms: [propext]
+info: src/PaperCore/Move.lean:65:0: 'PaperCore.insertMove_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/Move.lean:66:0: 'PaperCore.Insertion.seq' does not depend on any axioms
+info: src/PaperCore/Move.lean:67:0: 'PaperCore.Insertion.consequence' does not depend on any axioms
+⚠ [31/81] Built PaperCore.CorrespondenceAudit (537ms)
+warning: src/PaperCore/CorrespondenceAudit.lean:15:85: unused variable `i`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: src/PaperCore/CorrespondenceAudit.lean:42:0: 'PaperCore.CorrespondenceAudit.before_write' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/CorrespondenceAudit.lean:43:0: 'PaperCore.CorrespondenceAudit.write_preconditions' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/CorrespondenceAudit.lean:44:0: 'PaperCore.CorrespondenceAudit.actual_write' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/CorrespondenceAudit.lean:45:0: 'PaperCore.CorrespondenceAudit.after_write_fails' depends on axioms: [propext, Quot.sound]
+ℹ [32/81] Built PaperCore.MixedEvaluator (436ms)
+info: src/PaperCore/MixedEvaluator.lean:29:0: 'PaperCore.MixedTarget.actionRun_sound' depends on axioms: [propext, Quot.sound]
+ℹ [33/81] Built PaperCore.ControlRules (501ms)
+info: src/PaperCore/ControlRules.lean:83:0: 'PaperCore.assign_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/ControlRules.lean:84:0: 'PaperCore.Translation.branch' does not depend on any axioms
+info: src/PaperCore/ControlRules.lean:85:0: 'PaperCore.Translation.kernel' does not depend on any axioms
+✔ [34/81] Built PaperCore.Notation (1.7s)
+ℹ [35/81] Built PaperCore.AnalysisExamples (848ms)
+info: src/PaperCore/AnalysisExamples.lean:101:0: 'PaperCore.AnalysisExamples.custom_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [36/81] Built PaperCore.BufferMemory (378ms)
+ℹ [37/81] Built PaperCore.MemoryFacts (756ms)
+info: src/PaperCore/MemoryFacts.lean:150:0: 'PaperCore.MemoryFacts.infer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/MemoryFacts.lean:151:0: 'PaperCore.MemoryFacts.certify' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [38/81] Built PaperCore.DirectBody (558ms)
+ℹ [39/81] Built PaperCore.LoopSimulation (399ms)
+info: src/PaperCore/LoopSimulation.lean:48:0: 'PaperCore.loop_simulation' depends on axioms: [propext]
+ℹ [40/81] Built PaperCore.WindowLoads (458ms)
+info: src/PaperCore/WindowLoads.lean:111:0: 'PaperCore.WindowLoads.prepend_exec' does not depend on any axioms
+info: src/PaperCore/WindowLoads.lean:112:0: 'PaperCore.WindowLoads.load_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [41/81] Built PaperCore.BufferNames (744ms)
+info: src/PaperCore/BufferNames.lean:69:0: 'PaperCore.BufferNames.source_typed' depends on axioms: [propext, Quot.sound]
+info: src/PaperCore/BufferNames.lean:70:0: 'PaperCore.BufferNames.fresh' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/BufferNames.lean:71:0: 'PaperCore.BufferNames.injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [42/81] Built PaperCore.MemoryBufferBody (533ms)
+info: src/PaperCore/MemoryBufferBody.lean:156:0: 'PaperCore.MemoryBufferBody.prepare' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [43/81] Built PaperCore.OrientedWindow (588ms)
+ℹ [44/81] Built PaperCore.LoopRule (437ms)
+info: src/PaperCore/LoopRule.lean:79:0: 'PaperCore.Translation.loop' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [45/81] Built PaperCore.CursorObligation (378ms)
+ℹ [46/81] Built PaperCore.WindowShifts (498ms)
+info: src/PaperCore/WindowShifts.lean:169:0: 'PaperCore.WindowShifts.code_exec' depends on axioms: [propext]
+info: src/PaperCore/WindowShifts.lean:170:0: 'PaperCore.WindowShifts.shift_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [47/81] Built PaperCore.WindowNames (329ms)
+ℹ [48/81] Built PaperCore.HybridCorrespondence (514ms)
+info: src/PaperCore/HybridCorrespondence.lean:167:0: 'PaperCore.Hybrid.Corresponds.memory_write' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/HybridCorrespondence.lean:168:0: 'PaperCore.Hybrid.Corresponds.push' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [49/81] Built PaperCore.SourcePass (372ms)
+ℹ [50/81] Built PaperCore.WindowStrideShifts (391ms)
+info: src/PaperCore/WindowStrideShifts.lean:107:0: 'PaperCore.WindowStrideShifts.shift_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/WindowStrideShifts.lean:108:0: 'PaperCore.WindowStrideShifts.append_exec' depends on axioms: [propext, Quot.sound]
+ℹ [51/81] Built PaperCore.SourceFrame (328ms)
+info: src/PaperCore/SourceFrame.lean:66:0: 'PaperCore.SourcePass.execute_frame' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [52/81] Built PaperCore.HybridRules (382ms)
+info: src/PaperCore/HybridRules.lean:185:0: 'PaperCore.Hybrid.Translation.loop' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [53/81] Built PaperCore.MemoryWindowSchedule (711ms)
+info: src/PaperCore/MemoryWindowSchedule.lean:440:0: 'PaperCore.MemoryWindowSchedule.loads_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/MemoryWindowSchedule.lean:441:0: 'PaperCore.MemoryWindowSchedule.shifts_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/MemoryWindowSchedule.lean:442:0: 'PaperCore.MemoryWindowSchedule.refill_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/MemoryWindowSchedule.lean:443:0: 'PaperCore.MemoryWindowSchedule.address_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/MemoryWindowSchedule.lean:444:0: 'PaperCore.MemoryWindowSchedule.Runs.deterministic' depends on axioms: [propext]
+ℹ [54/81] Built PaperCore.MemoryBufferSimulation (348ms)
+info: src/PaperCore/MemoryBufferSimulation.lean:45:0: 'PaperCore.MemoryBufferBody.Prepared.forward_framed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/MemoryBufferSimulation.lean:46:0: 'PaperCore.MemoryBufferBody.Prepared.backward_framed' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [55/81] Built PaperCore.HybridRetain (419ms)
+info: src/PaperCore/HybridRetain.lean:62:0: 'PaperCore.Hybrid.retain_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [56/81] Built PaperCore.HybridBody (674ms)
+info: src/PaperCore/HybridBody.lean:273:0: 'PaperCore.Hybrid.Body.forward_ordinary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/HybridBody.lean:274:0: 'PaperCore.Hybrid.Body.backward_ordinary' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [57/81] Built PaperCore.MemoryWindowPlan (482ms)
+info: src/PaperCore/MemoryWindowPlan.lean:111:0: 'PaperCore.MemoryWindowPlan.prepare' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [58/81] Built PaperCore.HybridLoop (337ms)
+info: src/PaperCore/HybridLoop.lean:78:0: 'PaperCore.Hybrid.Loop.correct_ordinary' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [59/81] Built PaperCore.MemoryWindowFacts (433ms)
+info: src/PaperCore/MemoryWindowFacts.lean:111:0: 'PaperCore.MemoryWindowPlan.Candidate.readPrefix_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [60/81] Built PaperCore.SMT.VCLogic (4.3s)
+info: src/PaperCore/SMT/VCLogic.lean:127:0: 'PaperCore.SMTMeaning.close_instantiate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/SMT/VCLogic.lean:128:0: 'PaperCore.SMTMeaning.conj_member' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [61/81] Built PaperCore.MemoryWindowIteration (448ms)
+info: src/PaperCore/MemoryWindowIteration.lean:74:0: 'PaperCore.MemoryWindowPlan.Candidate.iteration_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/MemoryWindowIteration.lean:75:0: 'PaperCore.MemoryWindowPlan.Candidate.iteration_backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [62/81] Built PaperCore.MemoryWindowLoop (484ms)
+info: src/PaperCore/MemoryWindowLoop.lean:97:0: 'PaperCore.MemoryWindowPlan.Candidate.loop_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/MemoryWindowLoop.lean:98:0: 'PaperCore.MemoryWindowPlan.Candidate.loop_backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [63/81] Built PaperCore.MemoryWindowProgram (436ms)
+info: src/PaperCore/MemoryWindowProgram.lean:68:0: 'PaperCore.MemoryWindowPlan.Candidate.program_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/MemoryWindowProgram.lean:69:0: 'PaperCore.MemoryWindowPlan.Candidate.program_backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [64/81] Built PaperCore.MemoryBufferPass (475ms)
+info: src/PaperCore/MemoryBufferPass.lean:170:0: 'PaperCore.MemoryBufferPass.compile' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [65/81] Built PaperCore.SequenceTransitions (2.5s)
+warning: src/PaperCore/SequenceTransitions.lean:39:65: This simp argument is unused:
+  popConstraint
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵p̵o̵p̵C̵o̵n̵s̵t̵r̵a̵i̵n̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/SequenceTransitions.lean:40:60: This simp argument is unused:
+  popConstraint
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵p̵o̵p̵C̵o̵n̵s̵t̵r̵a̵i̵n̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/SequenceTransitions.lean:42:82: This simp argument is unused:
+  popConstraint
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵p̵o̵p̵C̵o̵n̵s̵t̵r̵a̵i̵n̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/SequenceTransitions.lean:74:14: This simp argument is unused:
+  pushConstraint
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵p̵u̵s̵h̵C̵o̵n̵s̵t̵r̵a̵i̵n̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/SequenceTransitions.lean:75:84: This simp argument is unused:
+  pushConstraint
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵p̵u̵s̵h̵C̵o̵n̵s̵t̵r̵a̵i̵n̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/SequenceTransitions.lean:77:14: This simp argument is unused:
+  pushConstraint
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵p̵u̵s̵h̵C̵o̵n̵s̵t̵r̵a̵i̵n̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/SequenceTransitions.lean:112:100: This simp argument is unused:
+  safePushConstraint
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵s̵a̵f̵e̵P̵u̵s̵h̵C̵o̵n̵s̵t̵r̵a̵i̵n̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/SequenceTransitions.lean:113:93: This simp argument is unused:
+  safePushConstraint
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵s̵a̵f̵e̵P̵u̵s̵h̵C̵o̵n̵s̵t̵r̵a̵i̵n̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: src/PaperCore/SequenceTransitions.lean:144:0: 'PaperCore.IndexSequence.popConstraint_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/SequenceTransitions.lean:145:0: 'PaperCore.IndexSequence.pushConstraint_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/SequenceTransitions.lean:146:0: 'PaperCore.IndexSequence.pop_corresponds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/SequenceTransitions.lean:147:0: 'PaperCore.IndexSequence.push_corresponds' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [66/81] Built PaperCore.QueueInterface (580ms)
+warning: src/PaperCore/QueueInterface.lean:43:18: This simp argument is unused:
+  entries
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵e̵n̵t̵r̵i̵e̵s̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [67/81] Built PaperCore.HybridLiteralRead (585ms)
+info: src/PaperCore/HybridLiteralRead.lean:53:0: 'PaperCore.Hybrid.LiteralRead.correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [68/81] Built PaperCore.BodyCursorSMT (2.3s)
+info: src/PaperCore/BodyCursorSMT.lean:105:0: 'PaperCore.BodyCursorSMT.query_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [69/81] Built PaperCore.QueueStepSMT (634ms)
+info: src/PaperCore/QueueStepSMT.lean:54:0: 'PaperCore.QueueStepSMT.accept_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [70/81] Built PaperCore.LoopCursorSMT (2.3s)
+info: src/PaperCore/LoopCursorSMT.lean:98:0: 'PaperCore.LoopCursorSMT.accepted_obligation' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [71/81] Built PaperCore.OrdinalCursorSMT (526ms)
+warning: src/PaperCore/OrdinalCursorSMT.lean:15:62: This simp argument is unused:
+  Int.mul_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [̵r̵e̵i̵n̵d̵e̵x̵,̵S̵y̵m̵b̵o̵l̵i̵c̵A̵c̵c̵e̵s̵s̵.̵e̵v̵a̵l̵,̵A̵f̵f̵i̵n̵e̵.̵e̵v̵a̵l̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵d̵d̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵s̵s̵o̵c̵,̵I̵n̵t̵.̵m̵u̵l̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵m̵u̵l̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵a̵d̵d̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵a̵d̵d̵_̵a̵s̵s̵o̵c̵]̵[̲r̲e̲i̲n̲d̲e̲x̲,̲ ̲S̲y̲m̲b̲o̲l̲i̲c̲A̲c̲c̲e̲s̲s̲.̲e̲v̲a̲l̲,̲ ̲A̲f̲f̲i̲n̲e̲.̲e̲v̲a̲l̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲d̲d̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲c̲o̲m̲m̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲c̲o̲m̲m̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲a̲s̲s̲o̲c̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/PaperCore/OrdinalCursorSMT.lean:15:120: This simp argument is unused:
+  Int.add_left_comm
+
+Hint: Omit it from the simp argument list.
+  simp [̵r̵e̵i̵n̵d̵e̵x̵,̵S̵y̵m̵b̵o̵l̵i̵c̵A̵c̵c̵e̵s̵s̵.̵e̵v̵a̵l̵,̵A̵f̵f̵i̵n̵e̵.̵e̵v̵a̵l̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵d̵d̵,̵I̵n̵t̵.̵m̵u̵l̵_̵a̵s̵s̵o̵c̵,̵I̵n̵t̵.̵m̵u̵l̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵m̵u̵l̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵a̵d̵d̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵,̵I̵n̵t̵.̵a̵d̵d̵_̵a̵s̵s̵o̵c̵]̵[̲r̲e̲i̲n̲d̲e̲x̲,̲ ̲S̲y̲m̲b̲o̲l̲i̲c̲A̲c̲c̲e̲s̲s̲.̲e̲v̲a̲l̲,̲ ̲A̲f̲f̲i̲n̲e̲.̲e̲v̲a̲l̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲d̲d̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲a̲s̲s̲o̲c̲,̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲c̲o̲m̲m̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲I̲n̲t̲.̲m̲u̲l̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲c̲o̲m̲m̲,̲ ̲I̲n̲t̲.̲a̲d̲d̲_̲a̲s̲s̲o̲c̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: src/PaperCore/OrdinalCursorSMT.lean:45:0: 'PaperCore.OrdinalCursorSMT.query_sound_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [72/81] Built PaperCore.LoopClock (510ms)
+info: src/PaperCore/LoopClock.lean:39:0: 'PaperCore.LoopClock.matches_at_end' depends on axioms: [propext, Quot.sound]
+ℹ [73/81] Built PaperCore.HybridPreparedLoop (607ms)
+info: src/PaperCore/HybridPreparedLoop.lean:196:0: 'PaperCore.Hybrid.PreparedLoop.model_correct_framed' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [74/81] Built PaperCore.HybridStage (2.2s)
+info: src/PaperCore/HybridStage.lean:126:0: 'PaperCore.Hybrid.Stage.direct_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [75/81] Built PaperCore.HybridPipeline (986ms)
+info: src/PaperCore/HybridPipeline.lean:172:0: 'PaperCore.Hybrid.Pipeline.Plan.build_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/HybridPipeline.lean:173:0: 'PaperCore.Hybrid.Pipeline.Plan.build_closed_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/HybridPipeline.lean:174:0: 'PaperCore.Hybrid.Pipeline.Plan.build_closed_backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [76/81] Built PaperCore.HybridAlternatives (932ms)
+info: src/PaperCore/HybridAlternatives.lean:169:0: 'PaperCore.Hybrid.Alternatives.accept_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/HybridAlternatives.lean:170:0: 'PaperCore.Hybrid.Alternatives.build_closed_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/HybridAlternatives.lean:171:0: 'PaperCore.Hybrid.Alternatives.build_closed_backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [77/81] Built PaperCore.HybridSolver (549ms)
+ℹ [78/81] Built PaperCore.HybridCertified (690ms)
+info: src/PaperCore/HybridCertified.lean:79:0: 'PaperCore.Hybrid.Certified.Artifact.forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/HybridCertified.lean:80:0: 'PaperCore.Hybrid.Certified.Artifact.backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [79/81] Built PaperCore.StagedCertified (651ms)
+info: src/PaperCore/StagedCertified.lean:80:0: 'PaperCore.StagedCertified.Artifact.forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: src/PaperCore/StagedCertified.lean:81:0: 'PaperCore.StagedCertified.Artifact.backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [80/81] Built PaperCore.CertifiedPipeline (472ms)
+Build completed successfully (81 jobs).

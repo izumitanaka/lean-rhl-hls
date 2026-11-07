@@ -1,0 +1,362 @@
+[
+  {
+    "case": "producer-consumer",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.5530166660000004,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/producer-consumer/generation.log"
+  },
+  {
+    "case": "interleaved",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.652888292,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/interleaved/generation.log"
+  },
+  {
+    "case": "nonadjacent",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.2767550000000005,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/nonadjacent/generation.log"
+  },
+  {
+    "case": "intervening-read",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.3194641669999996,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/intervening-read/generation.log"
+  },
+  {
+    "case": "public-output",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.330204416999999,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/public-output/generation.log"
+  },
+  {
+    "case": "reverse-memory",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.2114766249999978,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/reverse-memory/generation.log"
+  },
+  {
+    "case": "arbitrary-initial-memory",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.2368306669999996,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/arbitrary-initial-memory/generation.log"
+  },
+  {
+    "case": "dynamic-loop",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.1078873750000007,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/dynamic-loop/generation.log"
+  },
+  {
+    "case": "dynamic-zero",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.105417375000002,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/dynamic-zero/generation.log"
+  },
+  {
+    "case": "dynamic-failure",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.0898642500000015,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/dynamic-failure/generation.log"
+  },
+  {
+    "case": "conditional-true",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.1344764159999983,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/conditional-true/generation.log"
+  },
+  {
+    "case": "conditional-false",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.1277134170000025,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/conditional-false/generation.log"
+  },
+  {
+    "case": "captured-old-value",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.167003083000001,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/captured-old-value/generation.log"
+  },
+  {
+    "case": "local-overflow",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.096456666999998,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/local-overflow/generation.log"
+  },
+  {
+    "case": "indirect-failure",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.0782196660000025,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/indirect-failure/generation.log"
+  },
+  {
+    "case": "wrapped-index",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.132795208999994,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/wrapped-index/generation.log"
+  },
+  {
+    "case": "negative-index",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.167765750000001,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/negative-index/generation.log"
+  },
+  {
+    "case": "filter-three",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 5.499076083000006,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/filter-three/generation.log"
+  },
+  {
+    "case": "dilated",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 6.159355040999998,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/dilated/generation.log"
+  },
+  {
+    "case": "dilated-reverse",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 6.246135291999998,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/dilated-reverse/generation.log"
+  },
+  {
+    "case": "negative-step",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 9.576600542000001,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/negative-step/generation.log"
+  },
+  {
+    "case": "negative-step-memory",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.7660629169999993,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/negative-step-memory/generation.log"
+  },
+  {
+    "case": "zero-count",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.137484042000011,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/zero-count/generation.log"
+  },
+  {
+    "case": "bench-axpy-nominal",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.201284666999996,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-axpy-nominal/generation.log"
+  },
+  {
+    "case": "bench-axpy-boundary",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.288233207999994,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-axpy-boundary/generation.log"
+  },
+  {
+    "case": "bench-fir4-nominal",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.9509885829999973,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-fir4-nominal/generation.log"
+  },
+  {
+    "case": "bench-fir4-boundary",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 4.004211166000005,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-fir4-boundary/generation.log"
+  },
+  {
+    "case": "bench-prefix-nominal",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.358011583000007,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-prefix-nominal/generation.log"
+  },
+  {
+    "case": "bench-prefix-boundary",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.412672833000002,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-prefix-boundary/generation.log"
+  },
+  {
+    "case": "bench-dot-nominal",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.403274374999995,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-dot-nominal/generation.log"
+  },
+  {
+    "case": "bench-dot-boundary",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.422367332999997,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-dot-boundary/generation.log"
+  },
+  {
+    "case": "bench-histogram-nominal",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.553498290999997,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-histogram-nominal/generation.log"
+  },
+  {
+    "case": "bench-histogram-boundary",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.5540001249999875,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-histogram-boundary/generation.log"
+  },
+  {
+    "case": "bench-gather-nominal",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.7339086669999944,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-gather-nominal/generation.log"
+  },
+  {
+    "case": "bench-gather-boundary",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.77536074999999,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-gather-boundary/generation.log"
+  },
+  {
+    "case": "bench-gemm2-nominal",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.4301389169999936,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-gemm2-nominal/generation.log"
+  },
+  {
+    "case": "bench-gemm2-boundary",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.3500070420000014,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-gemm2-boundary/generation.log"
+  },
+  {
+    "case": "bench-stencil3-nominal",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 89.358097791,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-stencil3-nominal/generation.log"
+  },
+  {
+    "case": "bench-stencil3-boundary",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 91.30190920800001,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-stencil3-boundary/generation.log"
+  },
+  {
+    "case": "bench-replace-zero-nominal",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.726421916999982,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-replace-zero-nominal/generation.log"
+  },
+  {
+    "case": "bench-replace-zero-boundary",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.6565886660000047,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-replace-zero-boundary/generation.log"
+  },
+  {
+    "case": "bench-recurrence-nominal",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.8858421250000106,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-recurrence-nominal/generation.log"
+  },
+  {
+    "case": "bench-recurrence-boundary",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.9260013339999773,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-recurrence-boundary/generation.log"
+  },
+  {
+    "case": "bench-fir-pipeline-nominal",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.6452436250000346,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-fir-pipeline-nominal/generation.log"
+  },
+  {
+    "case": "bench-fir-pipeline-boundary",
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 3.598512958000015,
+    "limit_seconds": 600,
+    "log": "artifacts/circuit/bench-fir-pipeline-boundary/generation.log"
+  }
+]

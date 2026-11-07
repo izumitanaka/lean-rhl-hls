@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the specific release or commit used in your work."
+type: software
+title: "Lean RHL HLS: Verified Memory Transformations and a Sequential RTL Backend"
+authors:
+  - family-names: Tanaka
+    given-names: Izumi
+version: 0.1.0
+repository-code: "https://github.com/izumitanaka/lean-rhl-hls"
+abstract: "A Lean 4 research prototype connecting supported Lean kernel bodies to verified buffer and FIFO transformations and sequential SystemVerilog generation."
+keywords:
+  - high-level synthesis
+  - Lean
+  - compiler verification
+  - relational Hoare logic
+  - memory optimization

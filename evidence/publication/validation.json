@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-07T10:16:10.661230+00:00",
+  "hls_source_sha256": "a5ba74e1f3b5b168bc3944eb64e41e9ed3ace24c3417e1e9bf442f49c2c44b55",
+  "copied_baseline_files_unchanged": 536,
+  "build": "passed",
+  "audit_declarations": 844,
+  "circuit_validation_checks": 7,
+  "bv32_smt_regression": "passed",
+  "papercore_build": "passed",
+  "papercore_notation": "passed",
+  "readme_example": "passed",
+  "execution_cases": 45,
+  "unique_synthesized_rtl": 30,
+  "all_rtl_identical_to_baseline": true,
+  "hardware_metrics_and_generic_cells_unchanged": true,
+  "independent_fixtures_unchanged": true,
+  "environment": "macOS; pinned Lean dependencies reused from local cache; HLS and PaperCore built from the publication copy; no original project build outputs used"
+}

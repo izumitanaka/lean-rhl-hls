@@ -1,0 +1,2146 @@
+[
+  {
+    "path": "hls/src/IRComparison/Circuit/Allocate.lean",
+    "sha256": "1a1d5809dc8fcb06cd38d5cd9b430c9bc8498d8847cc6c8d47b73e1b7663b0c1"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/ArrayFrame.lean",
+    "sha256": "61346cf4d71fe8d2783c348e9b08fe126c713e3a80f1fe061d34f4fa1d704177"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/Backend.lean",
+    "sha256": "5537e0ccf3dc23e58bb57d3d756d830d10e3344269dae27c27a8ba8a8dc3a385"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/BitArithmetic.lean",
+    "sha256": "1936b1b6388b7ed5f4cc96b6de4f1b3c49bdbf6748ce9a95f82f0b54b8d0b741"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/BitMachine.lean",
+    "sha256": "16a2d65f2ad897920802b6fa085059999a03ce2b27402d761f8b52fd5b2aaae3"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/BlocksFullSound.lean",
+    "sha256": "dc3341d7d453515e40def552f69198b999f2a592732f848418a3d484adc530a8"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/BlocksSound.lean",
+    "sha256": "5f305408f3f094ff21cf2fb87343337155ae560f6a88f832a470821bef7ccfa1"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/BudgetCheck.lean",
+    "sha256": "cd87f0805e29a208ea000dd0787f7613ec96e92ebc6c0ea5ea4397d2a0d22519"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/Capacity.lean",
+    "sha256": "e9c03b07209beac790bf49e1daf8edee4d4d2f5994b802f9d960f28fed405dd8"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/ChannelView.lean",
+    "sha256": "f1ce0daf3aa71715ca4dc2a7bc4892e1f278316fa1a41d88a45067a291a360f9"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/ChannelsAllocation.lean",
+    "sha256": "376434013e398fa18fc6c5aebcc0d4a37b103dba86e13add4c06392a71d63ec5"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CommandContext.lean",
+    "sha256": "e13d116bbb3a567911c0319ebb8cd720acc449c8c51c22a1913ed881edc77e85"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CommandFrame.lean",
+    "sha256": "b369032e4d66b97288bc5b6fcc74ed12b2019a2d86f8e5950050361b003eeed2"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CommandSound.lean",
+    "sha256": "8da2f9f913b84c9d739255d7577bb5aeb5dffb0ca719fd6e1e05842a31032905"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CommunicationCheck.lean",
+    "sha256": "48635ce97a2308a70a7c3a612731bd9c60b2f69c199b046c39dd073c780b4cb7"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CompactDuplexSound.lean",
+    "sha256": "355d2cfad92d9412ed9744674e05d68e90dfeed17e12b1f78c2bc92adf1d05cc"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CompactLoadFrame.lean",
+    "sha256": "953bb02ffa98f115508f9509b14705e05049013954515d6b198e5d9b679b9668"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CompactLoadOneSound.lean",
+    "sha256": "4a80a05ae9ac624bedaa3681b568793b25f8e0fa1d2bdf84191643d8b2aee8b3"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CompactLoadsSound.lean",
+    "sha256": "4c76fd93fd5d62b660e7e782f5860ff653770d871ff9195dc0a815cb1c79ce77"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CompactPipelineSound.lean",
+    "sha256": "22edf38b943af35168e600aabb8a09d81e58e9de79269c889beb11fbfb781985"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CompactProducerSound.lean",
+    "sha256": "0951a1751c047d0aa2f9d928a02a622f635e2871322db3e08265fdc8531b68bd"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CompactReceiverSound.lean",
+    "sha256": "7d2e931b18b9058909d87c8743479d9a9468708ddd81b2ff480735dc3a3455ff"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CopiesSound.lean",
+    "sha256": "85310bd189dddc42a9d2fc9b467f2d7a90ae429a134e7e528769fe9bf83a978c"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CountedCapacity.lean",
+    "sha256": "c9c929898e3c9f7e0f24c37f7c71cb3ca6c16bc2ec06decb7d37d7650109d75a"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CountedFrame.lean",
+    "sha256": "a4ab12bbcf7396e7c405f1b33a7799851144e7a22796055d6e02e9d45a945cfc"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CountedParts.lean",
+    "sha256": "213bcba2312492569cf97fbf95f0ca889ad6fb5ff5e062550681b86bb867bdc6"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CountedRound.lean",
+    "sha256": "8a3f9e3a9e99b104a97d83b232678327895545faaf9414053646c278aefe0614"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/CountedSound.lean",
+    "sha256": "385889660557beded8b06a0987340d401ea43330e5c9cdaaf4772af4b197beb9"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/Counter.lean",
+    "sha256": "f47acdbf59c3ddd47962227eb9718ff0a092bfd130e93cc05f2f78082194fcd0"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/DataSafety.lean",
+    "sha256": "a4a4a0d6bce25d3299c16383bc6b7498c5a212f5d4c63352565cdd463d106ebb"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/Emit.lean",
+    "sha256": "be6eb106165f4b118c59ad7117a8f17f7acdc4b4a90dba7b4e42bfe0cb14f9af"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/ExpandedFrame.lean",
+    "sha256": "ef53159a9132a2c16f88d8eb63dcd2fb04e9c529fa72d552e1152212fa6bbff8"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/ExpandedLayout.lean",
+    "sha256": "1cd4f71837e226ec857e6129a2db79b5a95a3d9bdc321ab89ce3e47b7fba7558"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/ExpandedPipelineSound.lean",
+    "sha256": "beb0f45e9a13a0ac58b2b0ea52c58d031a2986619f32057855a4c55a912cfea0"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/ExpandedProjection.lean",
+    "sha256": "19f4f55ea476e5fbe6628b7c688fcdf5774c509a0a1efde8fcb36a7fc8b4c001"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/Expr.lean",
+    "sha256": "16318c572cac4d38b019b4dcd8eabafd70acbadf31e574e505ac2cf2cf919a32"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/FIFO.lean",
+    "sha256": "3ada31f632a868f7ea43e1be98f4611181a55f072a25e80bb011516e11106606"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/FiniteBuffer.lean",
+    "sha256": "905949389373f2e71886472f6be23ae93ee29974284ce9d75384c8afa722e413"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/FiniteObservation.lean",
+    "sha256": "a7af6cacdd2014fcce395e7653f0daad8c7b1cffd7453f0451e79f1091796154"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/FinitePipelineSound.lean",
+    "sha256": "babf26f7d803a6061a862ccf8c24a32b2f6803b24c7dfd4669b7f1f5866f4bb6"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/FiniteSimulation.lean",
+    "sha256": "8ada06784b91b0332972bf21460e1b28f8a50de34e1cfa167dd2b8686eff8b24"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/FiniteStorage.lean",
+    "sha256": "751b6be2726167d38560410aefac79815181502dfd69bb49904a4a5373aa8cdf"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/FrozenWindow.lean",
+    "sha256": "619cdc0257bf721ded5dd7b7b5e7b394d7cfbf6bbd78a9421d17d56fb05c5ac1"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/Graph.lean",
+    "sha256": "d9348ab201a09bbdee4a78cdb4af0bd6304ce0d4bb9497d3b8a4231187c5323a"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/IndexedCounter.lean",
+    "sha256": "fe66bbb43e05428a1ab55975b9e8c826f9eddf9e8ecf13c26f5cd8c33700edd9"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/InputSetup.lean",
+    "sha256": "809abcd7032202de09eca61ee925a0434e3d62118e5fff332578b70a8e3cacd7"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/InstructionAllocation.lean",
+    "sha256": "bb922bd380096173ade0949b6d62bdcb13c0700636dc72615c32e00e23fcf726"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/InstructionContract.lean",
+    "sha256": "05b5abd572f350c99fccc2c0486488f8422a11726dc32dcfc604c3aabfc2342c"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/InstructionFacts.lean",
+    "sha256": "f8a5ca14caa0d3bd0d95ffaa9b668fc36a18042f84ed5bfafe189141272e3f55"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/InstructionFrame.lean",
+    "sha256": "20190d81fe153daec96328f6ff77357ec173ef15abb6ed9c872f70b8edf2c62b"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/InstructionSound.lean",
+    "sha256": "d61f3d63374d7c43ce6e0142a7be85a0d4bc907adc3e8620ee5e635483e0a040"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/InstructionsSound.lean",
+    "sha256": "85b0cd449209ae6c5f442dbe075cedcc6dd3d8c41a498a432556f197e16b9ca6"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/Invariant.lean",
+    "sha256": "9f322b68af81cd0ed10785015d72747a3e4795f817d927065775c0289f3b476a"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/InvariantSound.lean",
+    "sha256": "ffc52c3de29493b66dff6c52d532c6144a37125c4b2c1b888b536a0ca7dc71e3"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/IterationProjection.lean",
+    "sha256": "bfde0a6e65d1becff3c302b5d0614e9c2443895484f72dedfece30165c23e077"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/Layout.lean",
+    "sha256": "970b35edaa21acf16be9e11788ec76142573f2349e53090fc7924095ad085c3f"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/LayoutScope.lean",
+    "sha256": "4079087eae0dfd0a475f98129cb27bab4b30e66ea4ed56533f2b24090d83ff49"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/LoadFrame.lean",
+    "sha256": "9d140406e73db305cd6230452c6c07dc5451a0fd845d8d49c91db8be25984705"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/LoadOneSound.lean",
+    "sha256": "19eb932b531f41dc0ed414dc8d5837f6088e5cd7af53e6a6e63f076d2e594329"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/LoadsSound.lean",
+    "sha256": "52d09316587574e218abf63d9e857278ba67ccdb4d6950a0d28c8f56e20d0b8f"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/Lower.lean",
+    "sha256": "d47bcc717d6495301a63873410dc2fb02af47c4fd129fc35db4c371fa559ba2f"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/Machine.lean",
+    "sha256": "fdb42d3d572fd904c934aa9d40a59447e7625491ea4efc883b40f3e4d237e914"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/MemoryProjection.lean",
+    "sha256": "f7d7b6441ef08d51a1a8bb3aa95ae2e529032549f2fcd5f35488b037adc12618"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/PayloadOperations.lean",
+    "sha256": "b12a65601857db5d26a804a67aabfef9bf74f55ed8aacac63daa0be95fbf33b5"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/PreloadSound.lean",
+    "sha256": "4e7f08a4570297b914062fbdc10fe8c77bd6e265136d05543a5af437b4ae0364"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/QueueAllocation.lean",
+    "sha256": "b073d21896d44acf3feed2587de0a47a9a6a6a80c7eeb9364dc372184fea2113"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/QueueChoice.lean",
+    "sha256": "60a21ee819e59db77af0eacd7f0ea0a5509df8081610da25b119f8e84b1adcb9"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/QueueDrop.lean",
+    "sha256": "47559a9ab66de39fe4bd8171a1d3dba5170fc2c068c6ff85d142f7aadd777fbf"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/QueueFrame.lean",
+    "sha256": "8855af1efafbf600b7c7d347a137637ac838679dbdfa428636bdac39c7e2e7a8"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/QueueSafety.lean",
+    "sha256": "b99e486912b817c4f481973ae8da31e03bc9c6c10e0469ab26b8013c682e6806"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/QueueTable.lean",
+    "sha256": "55375300ce4f8e49bab05f85be2346c53b89cf0ef504a39901aea0919610bee0"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/RTL/BankLoops.lean",
+    "sha256": "3ec81a388ed4c04b395d39d6eeb536e74bf18de6459792ae27d4b934839313b6"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/RTL/Combinational.lean",
+    "sha256": "e24ef1028b6b0b57d1ffd7e638fe8d570f09de5df496046918b9d822aa46ecbb"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/RTL/CombinationalSyntax.lean",
+    "sha256": "0c7bc56a68d4d2cf2d8ad1c3a4be1ed77f7a42a9e20bbca14687c054385f5f39"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/RTL/ExpressionMapping.lean",
+    "sha256": "6783e7597d8faa3d0f92cd42fee17718ac61a0dfc2c78f50af659e2096cb7c80"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/RTL/Interface.lean",
+    "sha256": "e3e4fa3a80b97c7533ada933c0c7ea15236a631e186c8c16c00f680fd4ab5c7a"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/RTL/InterfaceRunSound.lean",
+    "sha256": "7fc9f93d34410c4dc0d3b0f21ff2d0e6b941494bd4d9c0e544a18e042d617ff2"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/RTL/InterfaceSyntax.lean",
+    "sha256": "284380a89aceecd2b6ff62bb8044b31bb5550b12d7547cf0ebc7e6ac67e78eb0"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/RTL/LowerSound.lean",
+    "sha256": "b5df7b74daae7d74b6d148e63a3c289e5bea6b5eab78f15ac4ec530231b383ea"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/RTL/PipelineSound.lean",
+    "sha256": "6e67d6ce8feea98c84867d6fd2100d923fd4071cd9aa40c89e55a3f7aaf7ae9a"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/RTL/Semantics.lean",
+    "sha256": "99b8dadc1268f8a927f69fdfb87a38afe207d3d07e84cb9ec8eb9c8d0bd91f4f"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/RTL/Syntax.lean",
+    "sha256": "534ac2b2d68820e126e8b11ad852f38f61866901745c12a8ff2da905db21a2dd"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/ResourceFrame.lean",
+    "sha256": "c013bf93c8ae00c79ff4e43c8c09135acf1a8447a518aec2e2c2b5ac66abd5a9"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/RootProjection.lean",
+    "sha256": "cf2ce3bde8478287b193e861fac19337be467ce5091b95dfa25e2b562e138026"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/RootSound.lean",
+    "sha256": "6b523977af9b6655a621b1d49e36ac37ee6cb43bb3b29688ad95ec84144eb41b"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/Scope.lean",
+    "sha256": "f5e828ca62f24f436b3e98610867c96b9f9096dcc607b4e9984d673bf7477f13"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SendBound.lean",
+    "sha256": "07c0005d446adb8d5df8b7c5ef06b1d952675bdaec9e7fc7945bcab42fa07737"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SendBudget.lean",
+    "sha256": "7631055e9588c22e49de908a0181c0a76586e3403670143a6e9999b611c40c5f"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/StageParts.lean",
+    "sha256": "3901a89657dc2aa4b1c54ffa73c237857cb0e067db4efc3bd0fa3d2e7958a308"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/StaticCapacity.lean",
+    "sha256": "b311494d0c391a5f5081411220c706df5cbf38f0c61f101d0808abb2db562dc2"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/StorageCheck.lean",
+    "sha256": "4868fe8d5f7683893da4300d24a45e52c9c0483eb5886c4123e4abd6b57892d2"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/StorageCongruence.lean",
+    "sha256": "4c1699145736c353b21ed48791f3c06d70356e0da8bd1cbe5c812ea9bf07f93d"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/StorageGeometry.lean",
+    "sha256": "26a317f64dee98e31f31833b306e0bff390773b32e19afc6d7d042a55e64e200"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/StorageNumeric.lean",
+    "sha256": "9dc7e0aa46594526f6495cd2b3445e06de98095dc2e2c911a66ac8f99ee6856a"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/StorageShape.lean",
+    "sha256": "ff52c933c291d3d66f5d4921aa10e76b89c2b8a15a06b10fb8193a162670c3af"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/Structured.lean",
+    "sha256": "ca71fb6c75e229050439a12f348df10526ef98fa1ec011f32d882779352ab9ca"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/Arithmetic.lean",
+    "sha256": "3c553573de1953e84e99f5bcd05bd751d4a802f827c89b7f8569510b89a1ba14"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/BankCodeSound.lean",
+    "sha256": "f3ed743e993e4bed86af431295dfe961fdb0fbd9a5cb4ff967177ca361292e9e"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/BankSound.lean",
+    "sha256": "7fa91431fb63742dbeb8eaf35582bea117281ad0e4a342553a0e83f010878a9f"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/BankUpdateSound.lean",
+    "sha256": "f4e89ebc15de35c9d26eeee07c9e962ceeba46672dcacf554016dcb79265bce3"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/BooleanSound.lean",
+    "sha256": "1da09641a1798457ce21eb341ac19fd26948674431520309058e5a39a63b4681"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ClockCheck.lean",
+    "sha256": "aca1ac78980f0ae8a5be7eb429ce275739447e50ea98c48584455252f274d5ea"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ConcreteAtoms.lean",
+    "sha256": "c25b5fee3265da1c17e56276a495601e5f74ef8bb5f3f7fe779c34688efeb6b9"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ConcreteControl.lean",
+    "sha256": "7854b3b5321ffadaa97574fbb50604cc91a124ccd654fb2bad07b1acf4d3b523"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ConcreteExpression.lean",
+    "sha256": "6e1207f4769da835867ab6b9dafb353bc4719f4c97468851c4f308079c9d6ccd"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ConcreteFields.lean",
+    "sha256": "20957db8dc7b2d915167fe21d2516af83ef0abdf81e17ffc353a38f2e509b75b"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ConcreteModule.lean",
+    "sha256": "a9b092a7b034c88a0035e85760fa1f2c51f30cfd6b76d7c73e5551462f393cf2"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ConcreteReadPort.lean",
+    "sha256": "9539b8fd2193912ef07ad0c2c67141864129f69251df9c8b38ee911e057da4f0"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ConcreteStatement.lean",
+    "sha256": "45df366d5b83fe6beefefd68324d2953ab7fb68120f8daaa3bf3cf806df4be3d"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ConcreteSyntax.lean",
+    "sha256": "9e7158e7893571f8ecdd41d0e9c9b9ecd76dfe5f523d3b2d19ce76d198185929"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/DeclarationSound.lean",
+    "sha256": "12601a04e443908c576a19e62b3771ba7f9c8ff069896604e12290e66ad6f661"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/Declarations.lean",
+    "sha256": "b4acd39f2f871ddbaaa594794bf2ac266bec5bae6481943052b304a6833b8a7d"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/DivisionSound.lean",
+    "sha256": "5a01447140e634fddd0582439b8d2e6a073723d5524ac80fad01b26ff991f3be"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/EmissionSound.lean",
+    "sha256": "b112bd054579d51d15a4b476719e7128a17f93be92a14a25f94bc63653860499"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/Eval.lean",
+    "sha256": "944158fc4fe6cc6c9eefd679386e109f4351c48a2c3c9191c97abb4bfd35d2dd"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ExecutionSound.lean",
+    "sha256": "8220b0db9d2e284757348d3c20ffac49489760d5825728755c373d2c6aa71034"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ExpressionSound.lean",
+    "sha256": "5cf6300b46e6edddd40a522581eedaf46694358d837517c89ce330ecc9ec2f5b"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/InterfaceCode.lean",
+    "sha256": "069681835e74f05e82ec30252efbe9a2c36a6c49a3c28840531a08e80a312b98"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/Lexical.lean",
+    "sha256": "1796f62e1e8d973ee1aab273e60f7032cb43048c46633db65996bf1e3f4c355b"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/LiteralTextSound.lean",
+    "sha256": "240ba7aa01a00b8e5e74d8ebadd39f6b59ab4b08fa31ca5a33ed7a31b81fec9c"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ModuleCode.lean",
+    "sha256": "b81014565e99f4d8e8a6ed411e04be1ab6cde85d737d1b93ef000a3bc8f50d9c"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ModuleSound.lean",
+    "sha256": "5682d7acb4fed56891aa2abcfd28775a029a7c7084611a811202ee55ea5094d3"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/Netlist.lean",
+    "sha256": "76fc3a4e67c610b5042d0d6df421c193fa078479384226c3421dcd0cbf03e66e"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/NetlistSound.lean",
+    "sha256": "158a5f73f6d940c856238e3c35bb4f1ec8ec8cf9e57ab10ee42a6b49c88af15e"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/PhysicalRun.lean",
+    "sha256": "a7af83c78a916d3295e9d89573192d8a9a6b9ca16ce6dd7ede900b269e0b76e1"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/PhysicalSound.lean",
+    "sha256": "de746751775d09f36661c1d4b1084cdeaa48e34297e19c77065e06c83742f257"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/PreparationSound.lean",
+    "sha256": "f31267604203ddd14d95741bde39de06c931c4f4903edd3df012e678400deaef"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ReadPort.lean",
+    "sha256": "96b8740b20ab4dc27f6aee28ee3ad48563fdf47199f57919beec723fbdc7c0ba"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ReadPortSound.lean",
+    "sha256": "d085251efbd7698ffa7e65fbeffbaae5033ab412d917a599e2a7f8115cd62eb9"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ReferenceSound.lean",
+    "sha256": "9bde197d2a375ebdbc7e65b2c709d7deec7350a7f913f2acef3f4a524cc84702"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/RefinementSound.lean",
+    "sha256": "bd24c97d68eb9ecb344e4d8e1fc2c7c7f0288346f2413b069393ec6d86af0357"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/ScalarSound.lean",
+    "sha256": "d8776ddece6210355f7f507772d7eb7dff8736cce3941b85625f28bc2195f29f"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/Scope.lean",
+    "sha256": "2fd17ca87eee11e0120e2bfac622bd8530c6827259e6cfc3118559710aa1866a"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/SerializationSound.lean",
+    "sha256": "be41902f1ac326f55e3bd062fb6f36e8abbddb9695c4838b5ca61114089f996e"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/StartupSound.lean",
+    "sha256": "5edc925188eab42f888edddebcad8fa8d58a64449937c3b1aa9f732511aba813"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/StateSound.lean",
+    "sha256": "dd1b30082406f1d318ef48733527baa64dca428e7bd5725b32af6d3d682fa098"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/StatementEval.lean",
+    "sha256": "0bed8b2292ffc62e8f652bf540368c7711a3d075acba4a7fd0dd136ad1358e29"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/Syntax.lean",
+    "sha256": "cd0cd46071a9c09fc698690c5b146a4d147911c7040a74e1e160a282551112ee"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/TemplateSound.lean",
+    "sha256": "81a8a2c587dfd195978f9203b6b672058aaf786e49fed962bed8f6d779fac13b"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/TermSound.lean",
+    "sha256": "2e57744e3c991443db01bfd0b4f97affb1c022e7526c0b9e7afb1fd6b11494dd"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/TestSound.lean",
+    "sha256": "341182e79f85541d540f91963b9b940d46cdb89ae283938e3029bf5ce83d1daf"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/Text.lean",
+    "sha256": "8e785094b86dd3e4cb146db89507b585a905cf3a037bda0fe8fc8094dffb0e54"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/SystemVerilog/TotalSound.lean",
+    "sha256": "2a54428f0a21e82b9af2a03f042ae2879aa396fb4b884e03e4ea0eede074685f"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/TailSound.lean",
+    "sha256": "1ebc815534dd20be4bfe031715110f07ba65cdb7c8b6b8b6292d8362525a716f"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/TakeSound.lean",
+    "sha256": "8eb17e242be6664bd19180205ca9f0c5757fb7db6be4361e1491803f058ba5a4"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/TransferSound.lean",
+    "sha256": "b939f404c58a5542265a4d7fb7e099ebc44be33e3af75cb8898959718fa20870"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/Width.lean",
+    "sha256": "6a64f2856d73b9342142717690c5fbfbaf1ba190c6661326a0c9e6a6638e40bd"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/WindowIteration.lean",
+    "sha256": "a24fbb47aca29d711a7e5c48d16d81fdcdc4176d829f3b9b673b1118ef699112"
+  },
+  {
+    "path": "hls/src/IRComparison/Circuit/WordPipelineSound.lean",
+    "sha256": "8a31b8b086477cd8c45cbde42c91fd84b204632c7c68807faf87c1bbf8eafffe"
+  },
+  {
+    "path": "hls/src/IRComparison/Components/ClockedComponent.lean",
+    "sha256": "52f38abeb0e946460d14be27a2bc6ccf1525da861e40db2d2145f0dc706ffd71"
+  },
+  {
+    "path": "hls/src/IRComparison/Components/ClockedOperation.lean",
+    "sha256": "05a75d4e8b38f022704f0d8ac0860e49a5cafaed848c1183ec7f423d302104eb"
+  },
+  {
+    "path": "hls/src/IRComparison/Components/WordComponent.lean",
+    "sha256": "9d7fe1f16b1ad4c0b9f33aa1754e856c48ac3b6c4ffea48171550d32d34aacd2"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/AffineAddress.lean",
+    "sha256": "4666bcc0357296403ec4b48fc1023f9de40fbfa52150c6dcd5dcd3332039deb1"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/ArrayControlIR.lean",
+    "sha256": "c2967f5e5d386a4ca299b5732ebe5dad92bccf9019af01ad67a26782117c2aa0"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/ArrayIR.lean",
+    "sha256": "c51ec7c3ac2b4fe9ddb02bb433f67311986fa87cf9e72494ad4739834430747b"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/BodyBackends.lean",
+    "sha256": "586293d1b74df6f0c0916ac7eb10b814e24615b29548ed7f9a525d6c72aa121e"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/BodyFacts.lean",
+    "sha256": "0104e18691f95cf41698d75479526117ff64df2a5edaa7be7f540817fe37b0a5"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/BoundedReadIR.lean",
+    "sha256": "b0b5a59ab28f12862b2b5877ef9fa45637e3a33c8606399e4f97bb278918c855"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/Bridge.lean",
+    "sha256": "ee9dd8e8ea06562cd889a7534994a6f128b8c513382db84e2fb9e6f75704fbbf"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/Common.lean",
+    "sha256": "d7a791a402eaa4c91e3d4ef2a8d18acd82d16ad97592017f1fef9a955bb73450"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/CommunicationIR.lean",
+    "sha256": "e0583ea53d97fd8255b580f159cb7834d532988823c0520cfbdca655bab0ab21"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/ControlIR.lean",
+    "sha256": "6bd108e9695d14038efc8e5fe898a9e5689e81f75bb2731b8843b6741157988a"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/FIFOReadControl.lean",
+    "sha256": "e5610c660e02fc29107dd03cf7dade044b85c29eab89199aaaccb2659595d7c4"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/Frontend.lean",
+    "sha256": "cabe3b8c6365fe9b345d6c73ddae8330fbc1b5ac9021ae15eb1e140578369aee"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/Functional.lean",
+    "sha256": "89716a06a738e721dc9a4f89450b194b49cfdab0c01832aa87866884e8a6827d"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/Imperative.lean",
+    "sha256": "52b9ca4d9c824dea73b41112d7e775bb2ccba6843749ab0597a3cdecdf515bb6"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/LoopFacts.lean",
+    "sha256": "244942483f22cd2c4fad68694a021df88fd286cb86f8d3403195131b18a34822"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/ProgramControlBody.lean",
+    "sha256": "492548d4b72b3ee6ef6d989ab580bef5ba8cf01e229456c7561b93f0127089b0"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/ProgramControlIR.lean",
+    "sha256": "ab4ab183c546f737d43c4bcce04d0591cd80131f6f7ffa03a9c374af1a897f84"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/ProgramLowering.lean",
+    "sha256": "0e7519c4e935269a9ef08843b006de7b86aba376af69905a3a86b2712b685728"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/ReadFacts.lean",
+    "sha256": "9cab2b69a90e0083cbec6bd43cdc1c58e58a2da1bad3dbf78b87c624f89f2a34"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/ScalarBackends.lean",
+    "sha256": "bde9afc1fd93cd47dc46a4b2d2e542fdc2d8b0a6278d3507360205a097a737d4"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/ScopedFacts.lean",
+    "sha256": "fd7f906f93e6226a710b3580bc8edd9617f84765019ba50db23df08a6c65651c"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/SnapshotControlIR.lean",
+    "sha256": "16751c0c418d348a99a34068545fb15fdea35b067f4d13fcf29daa4da76a72df"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/SnapshotIR.lean",
+    "sha256": "5688ede329c0b19ee61cb59b1ae50a8dd37f64c55d56f9c7d6e596bf0d2bc9c6"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/Source.lean",
+    "sha256": "41fb06966d5b58d54409ed7fb8271f2519f446d155fcc947798c6e444b1bef08"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/StateLowering.lean",
+    "sha256": "d8d15c86a918cd1474a6d65b4b0cb328e8e49327a8e759786d1d63ccf61bda2e"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionFacts.lean",
+    "sha256": "d63c8a711c8d324d4b4f099985a7d0fb1ffd65798ec89bf4a830b7cd5880868f"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedAllocation.lean",
+    "sha256": "772a210288ff82a26bd0493a42132e292d9a65180e1fdacdf6187323090c1a61"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedFIFO.lean",
+    "sha256": "22e5f1ffc3af753724973f92567c13c8011a0b92fff9795818fda0d5761f942d"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedFIFOControl.lean",
+    "sha256": "879ee5cd53c61a43cba18bf40612bf7d05cb64e553ba75b80247af12156872a3"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedFIFOMachine.lean",
+    "sha256": "a4b43358914d40a621fad0d155a496cff3879176cf6442cb6788b1e897825ddb"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedHybrid.lean",
+    "sha256": "26c4f61d4b643ae12e70a81a004d43fad1549f4a407d95b32563e7f74a9b99c5"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedLoop.lean",
+    "sha256": "fc40c530c453e3b555e65aeeed226f2893b1c5c088f2ff411afa914ee5e60321"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedMemoryControl.lean",
+    "sha256": "ab120a8252d5ff675dcb2c02b06ee35afd4f07ab8f78a006c855f963c1fa5705"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedMemoryMachine.lean",
+    "sha256": "532ac2b5633bc5c02c577d0ae898c5350fa111a897dc8abb9e79df6153f4110b"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedOrder.lean",
+    "sha256": "ba854efe2d8edf963e49ad7521140d285769fca259dd9a0726d5c02b53199d6a"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedOrderControl.lean",
+    "sha256": "f1823d912e98bf71ddc37842f6abcab47336b09586d9e5185619b43c671f6e6a"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedPlacement.lean",
+    "sha256": "ee1edd4454be5f14349c2b84fb194b14f2d4bd62c2452f53dfe9098480635386"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedPlacementControl.lean",
+    "sha256": "886299c4da4e73c39a031fdd703a6f9676a3eadb20a88539e2041627f410f03b"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedStorage.lean",
+    "sha256": "fc415aff9b3738c56c17703bc1f12b4a7013f63e6e76c78dc87fea75b3d91103"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedStorageControl.lean",
+    "sha256": "7022764ecd1d2e07838fca9c4501fe1e24f93235307978cf8b1629febbeffbf7"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedWindow.lean",
+    "sha256": "1738a3e99359a9811489c69efde4b3cb04c3b3b288c2c4111fe0218bc558360c"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/VersionedWindowBody.lean",
+    "sha256": "3de57c0c7f19b4a5fbbaa21e883b9ccc618495dcbedc8e4cf233a3239c96cadc"
+  },
+  {
+    "path": "hls/src/IRComparison/Core/WordLoopFacts.lean",
+    "sha256": "191ef5e8e79fd691b5507db052cdd32014a1035947bff4fcb00bf62d27b7c9c4"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/AlternativeExamples.lean",
+    "sha256": "e88ca0bf2b53d60b6ce3bdd80e1bd158bea41931ca5ae4601d17fd89e5e02f15"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/AlternativePipelineExamples.lean",
+    "sha256": "9516948a4b52d98889eaf6a73efef9afead72e3bbce84d85cc5cdf66e2c3a5e9"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/ArrayEntryExamples.lean",
+    "sha256": "758dad40dea3f4188f338873a720d4f595f2f088d0e8a6fe6a7803b8ddba946f"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/AutoPipelineExamples.lean",
+    "sha256": "0acc715d10c8d1add22cfd471408f6f7822a50bd4ba4ea748a8e263b68640538"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/AutoPipelineWorkloads.lean",
+    "sha256": "9570fd50dcc96ea288acc7eac2b42af2e008692d8352729dfdc1def8c7c6cc19"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/BoundedReadExamples.lean",
+    "sha256": "0b49b3255cd9f02ad0c9dc5ab7e27036f741751424b38886783560111d13f733"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/CommunicationExamples.lean",
+    "sha256": "804f0a48e6347700a3b47c24444daec1baa92d9479f6d8611439d0c4990f23f3"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/CompactChainExamples.lean",
+    "sha256": "0e5af58d2433e1a502c17bdc1d9fd891ad8ffc45ecd0a38433f6e88efa186c29"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/CompactFIFOExamples.lean",
+    "sha256": "e9f7e5f9f4433a3a32a62328efc97511032c6532a7d5548b05cc98f9b89f3371"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/CompactFusionExamples.lean",
+    "sha256": "f7054d4a983f817a60ecddf068809a03160793925951a60f5f6d23641df79f49"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/CompactFusionWorkloads.lean",
+    "sha256": "c77e61988ea2b02b4a4cfa795a717bc800569dd2ca9366becfa38cafa9e000cd"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/ControlExamples.lean",
+    "sha256": "9635ce058c38ff03e88e36f283d616f04e3d94256616dec14f760c43ed351908"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/ControlWorkloads.lean",
+    "sha256": "668cde7198bc91e5df4f16803b0c54623515e73884c0bf1618f0567c128aee4a"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/Examples.lean",
+    "sha256": "446f22682475e86ebae98f94fcc9a0d862510c42e89d4f5657ad99fcf829fc3b"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/FrontendExamples.lean",
+    "sha256": "628653b8903b7051403e3fddbae3532d1be69883e8ca8a32d206abde7dd280b6"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/GlobalPipelineExamples.lean",
+    "sha256": "991520be9ed8de9e1ad412a9457eb16eabb1b858bb3cfeb623a571d657f0be6c"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/HLSBenchmarks.lean",
+    "sha256": "dcf594b0905440f131533855e8008dacec81599e901e9fff33dcb5840e4d7c82"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/HybridCompactExamples.lean",
+    "sha256": "8f81b52bc70ee41a1d6d936740e24330c447b1d8b7912b2fa5583ebb6e889c61"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/HybridExamples.lean",
+    "sha256": "3c956c90fb2c1d2e78977e42558cc27981e617ee2039326e4b85b39d89d13fcc"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/HybridWordExamples.lean",
+    "sha256": "3b5bf10f33533a8ce0839722b104031aa36de1561d45411f74dddc8e4c9dee3c"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/LeanBodyExamples.lean",
+    "sha256": "667133f9a8c5d492f3504fa4f0a2df80d5e507e0f4da36627a0a93da9500f3a3"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/LeanCertifiedScalarExamples.lean",
+    "sha256": "3e800a808a03b65bcbc746f5c0601c96677196e48f797924dc4b2c1b41803052"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/LeanIREvaluationExamples.lean",
+    "sha256": "39aad1af32e9b0a68bf42882885771ffd1c978d22d47619ac10287984850ecf8"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/LeanReadExamples.lean",
+    "sha256": "11a1ff22a6a1e9465300d6e2de6a23e36e94f2c692708686bd69576de00e7945"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/LeanScalarCommandExamples.lean",
+    "sha256": "2862373705bcba937e06561f9f0377ac62ea991d873e8e0024a59ef1f6aa8271"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/LeanScalarExamples.lean",
+    "sha256": "dc2a3530dad0065bb9da7d3c54173dada7fbc6701bcfe78080b49dca3b30eafc"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/LeanTypeInferenceExamples.lean",
+    "sha256": "4ade389e3e9845cc936c6ddd1b54cd722a6e3b64acd575ea01beac3cdaa9c0f8"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/LoopEntryExamples.lean",
+    "sha256": "755e47ec67cc5525c1b279b75ed9890aba9f2fd8d1c6a90a2e5fb9333f51dbe9"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/NativeExamples.lean",
+    "sha256": "e6889359f5eb3b22f04dd62b720caf37070ccb8df708fd34ea957b5f9b54d238"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/NativeWindowExamples.lean",
+    "sha256": "73ae332c5e403bf8dc8151b2de5ac8ba7c62f48cb38ffa3f8214ef0d12e02ea7"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/OldReadEntryExamples.lean",
+    "sha256": "5d5b9c428705003cf9961f32693e1beca5fc45bedeebc4e098209d447fadb44a"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/OptimizedControlExamples.lean",
+    "sha256": "08c8a616be228915efc9153c9408b84e8af3d1d2a35708917bea5e088d9612b0"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/SnapshotEntryExamples.lean",
+    "sha256": "6fc199db63e3b4184950c48df833ebaa0a20c83fe45b4784ff8904fe54aae268"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/SnapshotLoopExamples.lean",
+    "sha256": "8f53c2e126e0e498f641dffa185364789dcf4f74f3f8aa3ef49024193b33c1f2"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/StreamChainExamples.lean",
+    "sha256": "a52d18174020f7eca478ec4035bde76da3adee174c80fce7e8086cd0c12b9b44"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/StreamChainWorkloads.lean",
+    "sha256": "0bea40c458a8d26c73b2e950c7cc150142e06a7d567ccfa77942791d1f5e71b1"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/StreamFusionExamples.lean",
+    "sha256": "4e5ec668304f9c5061568f64f2f638a69caef9e3c133d7adbafc872c559d1fcf"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/StreamWorkloads.lean",
+    "sha256": "b8ec968d0e4524d7f26dab8f96b7c2d24a1801edf82b116ce0b91d2a340fcb2b"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/SymbolicWindowExamples.lean",
+    "sha256": "5eef135190039b8130c117c7e365b31a06bba977c055ae507dbe1b49845222ab"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/UnifiedPipelineExamples.lean",
+    "sha256": "b3f54520a500b0e61694639178dd16bdb21dea0dcaec305f82a5d14ad867c102"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/UnifiedWorkloads.lean",
+    "sha256": "b7e711e102330c5f7f95abd4a0d00795bc455a9baeb2a149750939ccc5867ceb"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/VersionedOrderExamples.lean",
+    "sha256": "e850a9d28d81e7e4aebb93d278128cadbcabf774dda7c1b5b25b7788b5e15c87"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/VersionedPreservationExamples.lean",
+    "sha256": "788ffa36b6da954304be28735eb5cd39680d6b2d54bb09e32b0dd3a443a9a2f9"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/WholeKernelExamples.lean",
+    "sha256": "9a1209cb3b92d72610313f6412085f5e9a29892badb63cff2996fb2d7cad720c"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/WindowPipelineExamples.lean",
+    "sha256": "af8e2c2a20707198740f740e61fdaa8641188efc023fa3073e89cf0a7d984042"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/WindowWorkloads.lean",
+    "sha256": "a415701e781c6fcee16fec21874b287b4394f8b7023280e539c8c8f9e08f0cb3"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/WordComponentExamples.lean",
+    "sha256": "ff04fe6791f84521ca5b73d86ee8d08339a34695000c6be0ea376fc80b4743f3"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/WordFrontendExamples.lean",
+    "sha256": "0cf496df990fdad9c1598bd0cf656fe464144faccfe8605ccfec6787c040ba86"
+  },
+  {
+    "path": "hls/src/IRComparison/Examples/WordWorkloads.lean",
+    "sha256": "22d627a2ae5d24256a0e4e078ac58aebe6c5c72f26ab4d48dbef9c5b1ad485a9"
+  },
+  {
+    "path": "hls/src/IRComparison/Experimental/ArrayFusion.lean",
+    "sha256": "8ac0a16160aee9dac4896168b745a180589bf5df9e0fd59bb3dd09d631ab4097"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanArithmetic.lean",
+    "sha256": "b856a9bcba2feaeec62d0443e298c55557bb52072d51ee66e012834b331c8680"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanArithmeticNormalization.lean",
+    "sha256": "88970640b18565c951b414fb6d47f67971d182f132d7c63aef004aded296a1c7"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanArrayCommand.lean",
+    "sha256": "b692594c8ac43f4fd8731b2c7fb8ed8fb592ef903674cee5f377ca2b8ebc93eb"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanArrayEntry.lean",
+    "sha256": "d2e123ec01ffcd66c8e06c4fd8a467dbce492de26329f50e517eec5a622be138"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanArrayNormalization.lean",
+    "sha256": "67c3dc887c3db9fd3a22b947485a1bb072df41dab0ca06b26f35803759fffb9b"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanBindings.lean",
+    "sha256": "7fa3e8a6e4852489f2446fe6a761c889abf120289c941901b9577302b42fbd76"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanBodyCommand.lean",
+    "sha256": "46ac94d6b8aa2067906795549a48e4941a2bc7924fbacb12f1595a40c98cc3f2"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanBodyPipeline.lean",
+    "sha256": "d54972d7b74c35cd2395a29990f5e2ff020acce80452069cfdb9cfd2845901c2"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanBodyQuotation.lean",
+    "sha256": "53e39cfb6626c6c64e99d1f446b3b3cf5049399884cccf9da605c4f22906f69c"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanBoundedReadCommand.lean",
+    "sha256": "3a70d6b355a6f1b008e7ee5ba5453d6e8b7824ae6e11b6dc63fddd4c26ffc3a7"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanBoundedReadEntry.lean",
+    "sha256": "cdb0cd9aa13e83980e5947cd6515cd2ee8f7d04fc2c6e8a7528f2b3ddd4855b2"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanCertificate.lean",
+    "sha256": "ccefbf5db2e73d177fe7039d29e90ab2b324c734fe9fd22c19f11925d4ee55ca"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanCertifiedScalar.lean",
+    "sha256": "dec96ec217ce454fecb989a9d42aa6a2d88ccb6f868c9ecf0f6ef7a1b0209f43"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanControlCommand.lean",
+    "sha256": "d8d052dcca36bde3f65b154755ff5532de43abd8ffbee7b4827712e35b83a028"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanDefinition.lean",
+    "sha256": "22529d265cdd1bbc2a445578b4d53bda5a6c784e41d81019a06ba9dc7efc681d"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanEntryEnvironment.lean",
+    "sha256": "cb79d16f8c81a21f696a87ec472ed754fc75c47d7277c16ce154594c36d5cc15"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanEnvironmentProvenance.lean",
+    "sha256": "b2acd6a91882527e1622fb72ea4e16dc1bb539cc7e37acc79b876e7b254e090a"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanEquality.lean",
+    "sha256": "11103ebea7688b34805ad83de279c374e450bf441bb1be9af19ec09f2d4e25cc"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanFunctionNormalization.lean",
+    "sha256": "9afa432583d08827f04bfe904690297ee7e5bf83c4c39139d9ab528ae048e443"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanHybridCommand.lean",
+    "sha256": "6f7937d40d09a135126aaf8c3fa456e8a8c0923e702955956d6746ef91679c3b"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanIREvaluation.lean",
+    "sha256": "0f29a77ea27c7866282a7a01157c933b86a4e4273f1e867ca165a9e14c53b258"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanIREvaluationCompiler.lean",
+    "sha256": "54048d9f68dafea7e6246674c68e065841ee1ed5f5aa245dbb14e26dad6abd30"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanIRQuotation.lean",
+    "sha256": "708209fad2d96ef508b9f25df476e559df58a6fe9b3b082d67f76d4040b587ef"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanIRSelect.lean",
+    "sha256": "b34cc91473493ad8aa9380ae59a242ce58ee7f032a531a76a2e12d5f59c82865"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanIRTransport.lean",
+    "sha256": "98269ee01f4d7c166e93e420ed75922d28a90e7694f1c942ef62e1960cda2a39"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanLetNormalization.lean",
+    "sha256": "f1dc198fda2979a0377a7d208a4723afecb70c973e3635340c5d40dfb6881e3d"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanLibrary.lean",
+    "sha256": "522ffc9f8372c31abb004c53170808bf43c0d95ba162aa0ade2b63544ed49c7a"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanLiteralNormalization.lean",
+    "sha256": "0cc84e6e7015d6fdabb1dff65ad35a5783470b5815475317555f8f5c96108a7f"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanLoopNormalization.lean",
+    "sha256": "7692f6a44748ba4011a8e53a007f10ebb8cd2dea8ff0c03d748e0927c53c9288"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanNamedBody.lean",
+    "sha256": "8b897408b70123b1cb4347f55a20bff082097bc00702f5fcf1f00e7ff14dc644"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanNamedScalar.lean",
+    "sha256": "de3062eaf565f1538b0e01ee3ab6c39e46a0955bcea4008eefd892fea40dab57"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanNegNormalization.lean",
+    "sha256": "a2c255d32e37219ec5b3bc1c6b73a95ff245355bba18a3a4afb78b2787c90960"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanOptimizedControlCommand.lean",
+    "sha256": "181e8e5fcebbf6e29985f4f2ca1ae395504e26bb7ecd5f6ca19e9feb36db8b40"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanProofApplication.lean",
+    "sha256": "d032764eb00ebcfb18586a4591706ab3d15467c18ae7357d130fc20edb0d32da"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanReadHoisting.lean",
+    "sha256": "248e940c3f7f4d4fe9fafd2b8192a9b2a92fd6f31ea1f03d80c6bf99118c250b"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanScalar.lean",
+    "sha256": "c97df4a1e4698cb2d74bb7926cbb77037eaee819b08e3b6b376644ccc6e99eb0"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanScalarCommand.lean",
+    "sha256": "547605a5c981f06c213e635a8adbeb47553cd9c1dcbaa41852f1b5843f289bb8"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanScalarPipeline.lean",
+    "sha256": "69d0725cbfb7cd0bec4f2891012c51c0c99e0b85ad91e33a52abced87da2dc96"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanSelectBridge.lean",
+    "sha256": "5958a892b333ca9738defd345e987d637756729a8d4759d9beb63fcbcd9b323c"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanSelectValue.lean",
+    "sha256": "772fb915222df2d209017ced0303a24507b2c9c3316ae8ca22d1217fa91bd390"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanSnapshotCommand.lean",
+    "sha256": "17ae3cd0f2b099cc0c603134a11b7c3949684ecae99ea9cd83a6fe4e02cbadaf"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanSourceBody.lean",
+    "sha256": "4adeaebf59b7911ad99b450f1a42a77f42d452da6d63be1d9e3cf6d2318f71fc"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanSourceEntry.lean",
+    "sha256": "3e711df4bc4bbcf9a150ad0eb65a18aca0c0a4972fd9423cd75b4803f0764cc1"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanSourceToIR.lean",
+    "sha256": "8df6893b3630ed1c94e9c78d6ac4195916f6c3c287410c5395d36c9c1a76c8de"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanStructuralConversion.lean",
+    "sha256": "b98428631dd92bab23896e5d59b3d79abce79a7dea87bcc070b2c0e0b20aaea5"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanTypeAliases.lean",
+    "sha256": "19eb898c769b060f90e7497a72bbeffdbc516d967cc32e4c6e804160f41290c2"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanTypeInference.lean",
+    "sha256": "ddc092dc60ee8a16a46f81eb943e9da511e487bf13da66d934e198521964b2a3"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanTypeReduction.lean",
+    "sha256": "da0a9b584e80b0065407a3f8be07dedd586a770bd3bbf8b68fcd80c3d7bed7a1"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanTyped.lean",
+    "sha256": "effab946009a7bdc191103deb1498846c276a5b19e5a9c89bcd97b6b21a72c0b"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanUniverseConversion.lean",
+    "sha256": "13aed98933669f1132b0ce3daabb6a7f98faea5e67caeabca29ebaefe144dca7"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanVersionBody.lean",
+    "sha256": "eb00f89162ba8e34fd066b5ead13d3a2c88f462e3fc0b41b031e182a9590360a"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanVersionEntry.lean",
+    "sha256": "99b0f6eb80285e5b05447a03cd80c9c9dd5ca8bf5126a18606127c30b54e9911"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanVersionedCommand.lean",
+    "sha256": "aa4afda17e49b229cd42912e54d7e14cafa009cba8ba193b3a03ddfac27251fc"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanWindowCommand.lean",
+    "sha256": "727f5fcb09254fd802518d48806025f503b5abb6e6d52edc7d73a59b2772ceee"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/LeanWordCommand.lean",
+    "sha256": "3c2546554027e03842e2dbfb458dc781d85edcdeb7c3e1d81c85f107cb030184"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/NativeBody.lean",
+    "sha256": "ea26de0ddbe00cb23b9778c486566cedd3bda5c10fbbfe0e2b71cc4a98a5495b"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/NativeLoop.lean",
+    "sha256": "228c118755d80f90c7d4871c4abdd72276c645a1abce41f14efdd6a83d9195f6"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/NativeWindowBody.lean",
+    "sha256": "7a74b924827f508eb8339fac17c9ca802cc67573d0515d01e2df7868ef0e1b71"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/NativeWindowExpr.lean",
+    "sha256": "9f1622dca51f3140c37e4e6013cc603c9175d7c5ca1dd81a7c013aa5d2fa6040"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/NativeWindowPlan.lean",
+    "sha256": "b2e3f79a357bfe22d2ca197e954003a3c416ace2de3a08260feda69a88da6ff7"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/WordFrontend.lean",
+    "sha256": "c67b98f1cdaa2419252746cd317e0e64eeb7bafa41390a101711cd79f2ce633d"
+  },
+  {
+    "path": "hls/src/IRComparison/Frontend/WordFrontendFacts.lean",
+    "sha256": "f7e1ccc33a5752d07443e8d562af57305d5fa6b5fbf049e98c384935e9600e8a"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridAddress.lean",
+    "sha256": "cde31480eb3311a7d8f25ec41785dea42697c5260a04f48abc1912988dc2b1f3"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridAffine.lean",
+    "sha256": "c520b7f27d5621b1eb66c09c4e5370f01d40c9302634887d1f8a7297be302ea4"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridAlternatives.lean",
+    "sha256": "232b31b0741849078b098b911ce11bbb65c0f512e0005add22f233848bef64eb"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridBlocksControl.lean",
+    "sha256": "db867cd9911ae2ba2f9954fd7a73a49bf6e55aac077a83e5f83559d1396836bc"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridClear.lean",
+    "sha256": "92114f87d34371305e6a9d014f4c388f58a5591f1cee15ae141f4c384f1fee06"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridCommandControl.lean",
+    "sha256": "fcbcad6854ca6b07766f7b16ce17fabb8494b109b2e5db4298e81e7cb80e48fb"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridCommands.lean",
+    "sha256": "d19a65a335ee8418fd58a514d2642bdfd0f6c0ae40461886413af4dfcf2441c0"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridCompactChain.lean",
+    "sha256": "c15b0e29dbb87729bafd8df2e6cec9de8f34ff8c8d48956d4ac52e41fc81f32e"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridCompactChainControl.lean",
+    "sha256": "72d708942a8a8884b8be66f66112313dfbd6ca2535d44e2ae2b4cbc4d1a1619d"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridCompactChainEmit.lean",
+    "sha256": "196c12764a2ca890a8a8fbe689cc4289133e4027740ed27a891359016df3dd58"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridCompactDuplex.lean",
+    "sha256": "e0e46016ab5e2497a3b7b751e3e5b574934368b57325791ef9068158349998b5"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridCompactDuplexControl.lean",
+    "sha256": "b0e3380a7f226c2e4fd6c52b42ef776b29f135bee04ad912a2f9a393951f5809"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridCompactFIFO.lean",
+    "sha256": "c108c8744490ba60b68821da5ab079cd5846dc3eb69001d94391901511eb1288"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridCompactFIFOControl.lean",
+    "sha256": "e2627ede8d805b69f016f6ee41ac6cf217488dccda42dc2955eb40faccb51979"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridCompactReceiver.lean",
+    "sha256": "02288553380c4dc6322bc66eec7a25ab90b3ea16b8f7d0ac1634fb7ed2deb256"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridCompactStage.lean",
+    "sha256": "fec7e0f9182e55731439392808699506d052628e2ea77639c27dc504820a372e"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridCompactTransport.lean",
+    "sha256": "3081bffc333cd48c660980f178551f094a1af08367a7ac62468eff627a7aa014"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridControl.lean",
+    "sha256": "ff9b00a1ce33068a70ae70b611102bbff1b38bc343aca70eecd0e6a414ce7599"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridEffects.lean",
+    "sha256": "8825bd48ba9b8e6c006bfcce59073c860ca039d3fc1f7594c37431eced35778e"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridGlobal.lean",
+    "sha256": "9be88b80bd22df5636cac1a9e0b68e41c1b9e493ddddbf188232294dde600bc1"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridInputs.lean",
+    "sha256": "70298ea5ef01616fffe2cf9f64764e6723da32864f00a5a7aa1748dbb224d0ce"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridPipeline.lean",
+    "sha256": "607ec76489948dd8b2efa6a96554eb58af5c0963defef45ffb74366ee11b7c47"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridProducerBlocks.lean",
+    "sha256": "976bd6d2dd7f55185f29d56943866abaf9ca886250d070ae24ce9d26e4196f8e"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridRouting.lean",
+    "sha256": "f37a98fdf3bb81a73f32f41e41978478d39eb2cff71ffc7f69424ed161db94a0"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridRuntime.lean",
+    "sha256": "17c124273de218058e70805df11f39823b2f54d5d41f5b5410cb364c4c186833"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridSafety.lean",
+    "sha256": "5b731831e2d7853bc14cc8b6232200fa636a1a99ae7c4582a6d029dfde79421a"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridSender.lean",
+    "sha256": "3d142b28beab0c6ee12eee605d0d278591cf057af3714014deb80eb02b12809b"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridShapes.lean",
+    "sha256": "098c5d1d982a74a88050ad83a6339b35265622532c9cbf6ac66797a1699f7292"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridSource.lean",
+    "sha256": "73766fafd2e6e7f9bae455fa0bc2306e2562323e85f167e2c8e21a06719ffc6b"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridStage.lean",
+    "sha256": "58d990b1d4737a57c39f0d51a670ecf5209bcb2ba6f9045033b23b4819b2a17e"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridSymbolicBody.lean",
+    "sha256": "87835b08ac8676ca732d691a375628d2211e1ccf88fc1bd96267dc2cd5797726"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridSymbolicLoop.lean",
+    "sha256": "b9060b1257a0fb528d5353576d0bbf30dfde8d63a327de2227fee69d653b0277"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridSymbolicProducer.lean",
+    "sha256": "c6a146b027bedcb36608eca98d037e6e9c9f438fd7f1b6ff200103133927b18f"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridSymbolicProducerControl.lean",
+    "sha256": "8f1a1564c023ccd7aaa79e6e45823e075670202ccb435de88b5662ee34a04fcb"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridSymbolicProducerLoop.lean",
+    "sha256": "8e1d2e1ccd6ae4ec99c79b77f95cfb7516bbcdfb2b1b101b1ef3a91020c14d15"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridSymbolicRead.lean",
+    "sha256": "5e94efa8fbf8dccf32d950e46d03a376a6c9603dbd413681122aa9f7e15ad3e3"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridSymbolicWindowControl.lean",
+    "sha256": "5e8f26af8f40c7a49666b5ad17aef00e6800cde704fb4f7ed6ed5b77ce1d0d91"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridUnifiedPipeline.lean",
+    "sha256": "db846f09600b360615a48f2ea695e32457fec6f5e6c95c246dd830f922405993"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridUse.lean",
+    "sha256": "c5a8a1ba4ea24060c2170746f0484a3a41c2e3f8e50a871b5684db3b2f83a04a"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridValues.lean",
+    "sha256": "95e7a91fa61ad6d865c30f8b894c4f95108550a866b804f7697010a32b9a2a40"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridWindowBody.lean",
+    "sha256": "878968eb61a93ef26b4570774228bca63ae8e618bfa18b333fe3237678bb779b"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridWindowPlan.lean",
+    "sha256": "5664f73e1b57d75cedc1a797115b87dd0b7fdb443ec558c07dc5ba433a567565"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridWindowRead.lean",
+    "sha256": "18a66b40a96fa7d9ded8a2867301f184676ff67602fbf62e865f62a0eb6f8c82"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridWindowTransport.lean",
+    "sha256": "616a38d82be97c4801d432ed884b29b07c2292330b5a8fe1d270159ec8ae70f9"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridWindowView.lean",
+    "sha256": "fa468c51b63f3a94c53983e5d7cdd50b84d8641d6bacc64a69e27679b8b5e058"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridWord.lean",
+    "sha256": "e755bcb2f7cbd07622cc01c003390d451fafa58f630940e62f78a18270793915"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridWordCommand.lean",
+    "sha256": "d9bbca8a10c96d28307a391f236e3d491676cbc03277c87e101592be9ad900d6"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridWordGlobal.lean",
+    "sha256": "67a011353061286481b055c8e5792d35dcff0e242cf54e6534ac954b4424c0a6"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridWordPipeline.lean",
+    "sha256": "b08b0879046e31209ea701432055ceefaea787a7a50c01a35026b86a8f96b590"
+  },
+  {
+    "path": "hls/src/IRComparison/Hybrid/HybridWordRead.lean",
+    "sha256": "50901d98e7c48a1085756dc897dcbc74a89835d29de612ed06eb4204606d04e7"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/AlternativeFusion.lean",
+    "sha256": "8ba36d2db1f63cb420d8aba18643af92bc2af5f7f3c352120f42f5654c240a5b"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/AlternativeProducerBlocks.lean",
+    "sha256": "54fba78d42a4f07d2aacbc7ca28f980a79a752c2ef4fe286f6b1e5a74e26e834"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/AlternativeRouting.lean",
+    "sha256": "d0750ead9bea283de34c9fc86adc6f6254b8fd255974bb31e628759315642a58"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/AlternativeStageFusion.lean",
+    "sha256": "7365acc70dc8be9221bc5dfa790f961facbdcb104390f67ff7bb8b5d45d07e48"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/AutoPipeline.lean",
+    "sha256": "177bb2e467aaf3c21ab5cab74646d899cba70dbe32f7d3bd8e4a4e7d6ea9e058"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/AutoPipelineControl.lean",
+    "sha256": "5e9cbd923e1a6f687e812d76b36590d5c9c632d5aca0cb5c18b95a04556a46ef"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/CompactChain.lean",
+    "sha256": "e283334a37c481ba72c31acbbb0c8839500580c044452f36b447ead20f0aa7b0"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/CompactChainControl.lean",
+    "sha256": "14ae82da886cddfeba6cbc926d8133ff16c62d83b0be3c1f466988a2284af81b"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/CompactChainEmit.lean",
+    "sha256": "0b96a6454d63e930ae07c903f40cd1beb20c1acd69ec420f99566622c187920c"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/CompactDuplex.lean",
+    "sha256": "2b2b4ef23772e641172346795901604ca2492acaa108cd8a5cfe64a98efeb594"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/CompactDuplexControl.lean",
+    "sha256": "46181352a808179685616093715ea84f8b1d874db127c18b4de4062834e2bbb7"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/CompactFIFO.lean",
+    "sha256": "9470933c7de7ee154796061f52cab03161cf622111cf8444401b2459bd89caa5"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/CompactFIFOControl.lean",
+    "sha256": "6e671a340e4bf39beab7c2e3801817c1d8561125cf0bdcfeb32d0ccfcb8671d5"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/CompactFusion.lean",
+    "sha256": "59ddf6630f9f0f25d405d57493c67d5be2b0743f9f77b14df23fdbc3e126da01"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/CompactFusionControl.lean",
+    "sha256": "79e9c9ccf2b9bf41231faba4fe1715ff9b80c74c27481dd2531126a07caf89a1"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/CompactRouting.lean",
+    "sha256": "344579846096e44b5bdd3a4d2bba6d110cb451e9da0d4c50388ab662d7f0503a"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/CompactSequence.lean",
+    "sha256": "7ada5b7202854fd88f58131a4343c2e3b0a9dccbb3f48c2c8ded1007422d42d4"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/CompactStage.lean",
+    "sha256": "78bf346b8a022d4195defb2aaddf4b64c7346b9873806ce2589fb31d7d2c0c0a"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/CompactTransport.lean",
+    "sha256": "51d9d3096b97f060b208c453014f1ab86add1864aee7dfd21bfb171041f77913"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/FunctionalSymbolicBody.lean",
+    "sha256": "4a50533d7d30fa4ab7414550c92e354f31d1ffb6660d00e1f51b7217825e6df4"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/FunctionalSymbolicLoop.lean",
+    "sha256": "fba7efe1b9d399d4b59d8a7d44fa158bedc88851c46a5944f5b734c0d22e62ee"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/FunctionalWindowBody.lean",
+    "sha256": "d648dd976d95ae6f626a1c938b535030dbec28c3d91c543c9bbeea93b617b116"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/FunctionalWindowPlan.lean",
+    "sha256": "22d7eef786bb11f48247e9036c2b22258d5861e1a737f446d2de670674f42852"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/GlobalEffects.lean",
+    "sha256": "39de7fa04bf204057942d3e9c6622c5f8952bcb6936468fac31bbaf941272068"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/GlobalPipeline.lean",
+    "sha256": "49752f83addbdc4e82f22f543ab11f81e11f750995788d00df2b2de979b9f5d8"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/GlobalPipelineControl.lean",
+    "sha256": "278982986e47aceb24d30be54f9a49dcc7e54f3da42ebcb9b8dcc9324ccbfd72"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/PipelineCompiler.lean",
+    "sha256": "f6aa9f4fc45c9b730c0326b530026dc1ba0033864a8ede87f0c4cd3bf7b5b843"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/PipelineCompilerControl.lean",
+    "sha256": "e4f7ab4ae08c7e16cec695510ded93ee5915e313235be1204b22481b01057447"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/PipelineShapes.lean",
+    "sha256": "2b4b910e79798d5954f7db18774d36fd8004f2a2902e59407014f934e75c514d"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/PipelineUse.lean",
+    "sha256": "a5456c8572cb3c27fb70fc98979577ecfdc8152103c401361bb68565cc2e485b"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/StreamAlternatives.lean",
+    "sha256": "19b4104259c61a6c29afb6bc96dbe410faf030bb3d91719fa13a0c99a0e0e186"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/StreamBlocksControl.lean",
+    "sha256": "1b7829a2e4c9e881f1470bfec12166213693ea7bc7294687cfd3c9e528468f29"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/StreamChain.lean",
+    "sha256": "d2be732953e5c61573d2a76b1e664f9b77b270527c618335f24d30165902bbf4"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/StreamChainControl.lean",
+    "sha256": "103d7bd61b24f524d76b16bd07df11a682410f3177190ed7c8b346bd278b4b55"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/StreamChainEmit.lean",
+    "sha256": "8ecd88850aa44b8d1f6521468db81f695948e986eacfe09d7e4d80b146b501de"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/StreamChainState.lean",
+    "sha256": "cb678743c5c199c5026ef71ccc0af5ac0df9051b583afea3302ada2e2fef83a1"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/StreamConsumer.lean",
+    "sha256": "562f8dbe72cff3c9fe4ac63a13145ba7b79a89ae5dc260075d98bc72aa0aca8f"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/StreamFusion.lean",
+    "sha256": "3655f194eedd0f6b3dff3a964897b05e2c1e766db6f03285398da8dea3787140"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/StreamFusionControl.lean",
+    "sha256": "cd6e70bee71fb1f6c2107b35bf936a133bb530d5420264959ab8a9ba09ad3532"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/StreamProducer.lean",
+    "sha256": "f77322e14085feb9d14acc17b7a186ae330a22e2d50cdb6b6e1d16df730c1513"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/StreamProducerBlocks.lean",
+    "sha256": "655c838a9a63bda5bf99b5504e0b121cf5731e73ad9bf88715a2727f258f0104"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/StreamProducerControl.lean",
+    "sha256": "9218753dca8e4669a18d33d1115ae3a9cbacb9c8b24ea8a3b48640080911c4c2"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/StreamState.lean",
+    "sha256": "39bf28ac9ff90c4002c6cd87340bcbbc38c77bdafa4fda002d8ebd8ad00a9f77"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/SymbolicProducer.lean",
+    "sha256": "19ebefde64a0b956bbee38da89cf432cdf5bcdeb69bcb5dd5d14ec34070ec714"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/SymbolicProducerControl.lean",
+    "sha256": "22110722b7f6985860146ad8ae592961f2a24b82b055f241816fa343b2619385"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/SymbolicProducerLoop.lean",
+    "sha256": "55bb4dc6fbccf2e11f8385f2776a2e21cc27a47f10d3a0b471d4230534a24891"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/SymbolicWindowBody.lean",
+    "sha256": "a2d30039801851edb6d1ba05ee193376cbe88275325e2e712936365e27769f94"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/SymbolicWindowControl.lean",
+    "sha256": "b38448c950db65796c16aa4335290cf27f4116190553df4a193704d8eca83a3b"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/SymbolicWindowExpr.lean",
+    "sha256": "19b55c18c8c0013ddca86447523c82fc042ef98d4d52cb592474a08de7b4329f"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/SymbolicWindowLoop.lean",
+    "sha256": "c0fd95ef6232719f3c3cc3bd885ed629891b5f50813a240c455c516185a16a9b"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/SymbolicWindowSchedule.lean",
+    "sha256": "15a6925aacd362fccbcb76717a46325844c14e61a0361628c4cc099b7979d7b7"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/UnifiedPipeline.lean",
+    "sha256": "4a354fadacd1aa563b8313e076b8509cf1317b2237743e01bcf2a7cda1847264"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/WindowControl.lean",
+    "sha256": "fbe356714b47bc486d1738b01aca03e503e669c5224ef6b455c204865c9ff307"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/WindowCoverage.lean",
+    "sha256": "8c956801617193bbfea6de64706e83c0122e4f5d510d3aa86b98c461c4e41353"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/WindowFIFO.lean",
+    "sha256": "c5b9d3f8a9ebcf8ca046f42d6645b1b3b2ac9556f0daeb5fbe71f1ce038c71d7"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/WindowPipeline.lean",
+    "sha256": "f149ba3290c36dba8ff1c47993f25afecfabf968acca61c07159eedbae33559f"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/WindowSchedule.lean",
+    "sha256": "d9b388e50d9ab40d98f490699fc097f938751e042f453802918af4c7f0d96887"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/WindowTransport.lean",
+    "sha256": "6c39ebeabd26bc3cbe4b1e0bf57fc2ddd768e29092b2be095b6247f2a6fce798"
+  },
+  {
+    "path": "hls/src/IRComparison/Memory/WindowView.lean",
+    "sha256": "8bddf9930bbde0ab51757bb827318a6fc172adc71899efa983816ee252159279"
+  },
+  {
+    "path": "hls/src/IRComparison.lean",
+    "sha256": "e207a3d8038eb7ae6cb3ba5649abe3bd8086c9fe3d0a613d51a802f9d7abb458"
+  },
+  {
+    "path": "hls/src/NativeRHL/Arithmetic.lean",
+    "sha256": "a752bf5db8920cab03644d6b721545d082715f63e487dc8b2e7bd955f74548fc"
+  },
+  {
+    "path": "hls/src/NativeRHL/ExprAnalysis.lean",
+    "sha256": "c2d6ac57601b11ae9d0f7b2e6228c7df7954ded61106cdd217f2f1ef06a1c114"
+  },
+  {
+    "path": "hls/src/NativeRHL/TargetFacts.lean",
+    "sha256": "b731cee971c4e181bd4a2c0c91ea4dfb0e10b6901b5351592766ff9f624e7a6a"
+  },
+  {
+    "path": "hls/lakefile.toml",
+    "sha256": "35d5096efb85212dface8cfd256fc8a444d5b92a1e59404815598a9cd7220abe"
+  },
+  {
+    "path": "hls/lake-manifest.json",
+    "sha256": "3436f42f273dd072ca1d8594e1b1d03c4f37ba07453ab5095df1ad0b4309f15f"
+  },
+  {
+    "path": "hls/lean-toolchain",
+    "sha256": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2"
+  },
+  {
+    "path": "papercore/src/PaperCore/AccessAnalysis.lean",
+    "sha256": "1825d19a2b805b107050310d1a94916df8d3ef81e9be7dcfbaad1590f861af42"
+  },
+  {
+    "path": "papercore/src/PaperCore/AnalysisExamples.lean",
+    "sha256": "0ac445fe963cbb8c8cd5a6bd05307004ffb7ab8046bbcdc4d7aa476f08180029"
+  },
+  {
+    "path": "papercore/src/PaperCore/AtomicRules.lean",
+    "sha256": "a7bb6b4faeccf8c68e7d63f0881d41b2ea97c435f8c1bfd3057c3a6d928af9b8"
+  },
+  {
+    "path": "papercore/src/PaperCore/BodyCursorSMT.lean",
+    "sha256": "e7da37cf5f1404138e86a08cb3c7c14bcc6560effb06369a0c596f731d473093"
+  },
+  {
+    "path": "papercore/src/PaperCore/BufferMemory.lean",
+    "sha256": "10d13f4d3dcaaa9d61451abee341c735011842e4732bc6c09963b73f47028610"
+  },
+  {
+    "path": "papercore/src/PaperCore/BufferNames.lean",
+    "sha256": "3763300bc0f7ad65e8f2c98e1a2ca203f9a66480bcb407997074e03faec2947b"
+  },
+  {
+    "path": "papercore/src/PaperCore/BufferView.lean",
+    "sha256": "910825d0104444abb9a3ab67c0d2a9ddee6abdd6d2ac19a44980faa1ae107d0e"
+  },
+  {
+    "path": "papercore/src/PaperCore/CertifiedPipeline.lean",
+    "sha256": "f93c17563bac2164dd207f65ccdef1a58825617f631336fbbd8923ca2b26f6d3"
+  },
+  {
+    "path": "papercore/src/PaperCore/ControlRules.lean",
+    "sha256": "304044542f08a611c8eba50addffeb1c94399cd80a094db1942b2ad37063a23f"
+  },
+  {
+    "path": "papercore/src/PaperCore/Correspondence.lean",
+    "sha256": "394d4b23a5b4833447cd33aeccdb04d6028bb2ef76563ede407ff06b9979bebf"
+  },
+  {
+    "path": "papercore/src/PaperCore/CorrespondenceAudit.lean",
+    "sha256": "dac304e60394b62a6512277598ef00fe8f0c8fc14276d6905ce7c62c965008bd"
+  },
+  {
+    "path": "papercore/src/PaperCore/CursorObligation.lean",
+    "sha256": "2e03b4533b6f567a54d66b3e359d64ca641f4cc003e5d662fafd34a1c7f4fde6"
+  },
+  {
+    "path": "papercore/src/PaperCore/DirectBody.lean",
+    "sha256": "6ba138bb8cd87e4b94310b499b71f1198251b77aa93103774f32517e7189ebe0"
+  },
+  {
+    "path": "papercore/src/PaperCore/Evaluator.lean",
+    "sha256": "879ad0169c38cc6f9c6b19b95b8cd85b906d23441b405f1d7a0e435a7ba52aa2"
+  },
+  {
+    "path": "papercore/src/PaperCore/HybridAlternatives.lean",
+    "sha256": "8de7af38022b0f2e02279363f2caa827b08c9fd2c8b49072f0eac95374b87e11"
+  },
+  {
+    "path": "papercore/src/PaperCore/HybridBody.lean",
+    "sha256": "86c1df68b157f5e98fec3c042e35cd1ca167b1918cc5071b137cb3cf1c320057"
+  },
+  {
+    "path": "papercore/src/PaperCore/HybridCertified.lean",
+    "sha256": "fed99d2a0f6fc7161c5d538cae9acad854b6616c2a245354d15a98134e373d49"
+  },
+  {
+    "path": "papercore/src/PaperCore/HybridCorrespondence.lean",
+    "sha256": "7cd51ffc9a4cda62b0fc7ae4118d1501f7275a3ec801aaa13b48e8c634ca0d86"
+  },
+  {
+    "path": "papercore/src/PaperCore/HybridLiteralRead.lean",
+    "sha256": "e23e005e3dff6bc1254f947a3dbf8e0a5aff2196a0008b9fada1d9b232258823"
+  },
+  {
+    "path": "papercore/src/PaperCore/HybridLoop.lean",
+    "sha256": "c3f4b7ff6c515eebba299c279f2410606c008f2343a051f6135a32c60274ffc0"
+  },
+  {
+    "path": "papercore/src/PaperCore/HybridPipeline.lean",
+    "sha256": "8328936f2158190531c0ca7154ac733aead6f77e70eb2ea2dd28d2c3f22d6144"
+  },
+  {
+    "path": "papercore/src/PaperCore/HybridPreparedLoop.lean",
+    "sha256": "3475685f9b023f20875110aa1a4f88aa63d06fcfc3427e5e105a3747f8c3009d"
+  },
+  {
+    "path": "papercore/src/PaperCore/HybridRetain.lean",
+    "sha256": "b1141cfda8afd58cb0749d5529f2c9fa60b6bba2819766ff7eca266e8aeb3b07"
+  },
+  {
+    "path": "papercore/src/PaperCore/HybridRules.lean",
+    "sha256": "670886d92176d8fa8e00707d8c57f3aa03d8eae25566169be8b7aa9bb0df9b89"
+  },
+  {
+    "path": "papercore/src/PaperCore/HybridSolver.lean",
+    "sha256": "10cfe495fa2933a1445dcf4ed7f78b46acefc8257c1dfb70dfba568274ae2fc8"
+  },
+  {
+    "path": "papercore/src/PaperCore/HybridStage.lean",
+    "sha256": "785aea6b3f544d5cb8024bbb172f1935ed6fec0d4994b4a356c662e0f3f4d536"
+  },
+  {
+    "path": "papercore/src/PaperCore/IndexSequence.lean",
+    "sha256": "c77757332d886c262f59553d03917c9baf7487a8ebce841b279c2dae0adaf4fa"
+  },
+  {
+    "path": "papercore/src/PaperCore/IndexSequenceSMT.lean",
+    "sha256": "397b371fc3dec6151e59b38799a658fa28ac807177e6ed6486819d4156e93186"
+  },
+  {
+    "path": "papercore/src/PaperCore/Insertion.lean",
+    "sha256": "f0fbb1e69bbb248df103ae2be82bb7533da65c1e62e7e5232b8c1b4042570a75"
+  },
+  {
+    "path": "papercore/src/PaperCore/InsertionAudit.lean",
+    "sha256": "f96d7359dd2e05054bb5e4fa182113ddde62ce1ba307d8d4ff01858bbfe52365"
+  },
+  {
+    "path": "papercore/src/PaperCore/Language.lean",
+    "sha256": "4e7dc7c53af7e4e79b9d95ea11430a45d6e27f74afa3c5ac3319016416aea1d2"
+  },
+  {
+    "path": "papercore/src/PaperCore/LoopAnalysis.lean",
+    "sha256": "9ba7c47940dc39518f986a2595cf65d205ed7b15c6e1cc1856214f778d6d621f"
+  },
+  {
+    "path": "papercore/src/PaperCore/LoopClock.lean",
+    "sha256": "fd7cc7aea61d8086f82da2279946f8c6fcb925c63e59d16195d6c5928808516e"
+  },
+  {
+    "path": "papercore/src/PaperCore/LoopCursorSMT.lean",
+    "sha256": "39802a16fdb4c04a85954e4daf1cf05cde96c760e18bf8f30beecd73bcf0755e"
+  },
+  {
+    "path": "papercore/src/PaperCore/LoopRule.lean",
+    "sha256": "22ed84a049468d26a16eebac47ef715855429454ca0bf754a5c07d4310d5d3be"
+  },
+  {
+    "path": "papercore/src/PaperCore/LoopSimulation.lean",
+    "sha256": "52a94464217413f0f1e8e439e603295bcb4c6611b4b9b97a341d264efed61b7b"
+  },
+  {
+    "path": "papercore/src/PaperCore/MemoryBufferBody.lean",
+    "sha256": "eb18d7d32494c056784f3a94cfb97dbe36f90ce5436d23de82e72f38c0a1d64c"
+  },
+  {
+    "path": "papercore/src/PaperCore/MemoryBufferPass.lean",
+    "sha256": "523a4783cd1e6f8108484a79da3e158a0f036f2a374ef68fa0a8ddf5c336b53d"
+  },
+  {
+    "path": "papercore/src/PaperCore/MemoryBufferSimulation.lean",
+    "sha256": "0addd685b1b94a89fd7e9872cd11363dfdf8fcd9a860d4c6e2a141fa536b4f53"
+  },
+  {
+    "path": "papercore/src/PaperCore/MemoryCoverage.lean",
+    "sha256": "852aad7595f8eb412b220f5e40674266d91820d8bb3871755cee48866b871a20"
+  },
+  {
+    "path": "papercore/src/PaperCore/MemoryFacts.lean",
+    "sha256": "5b0eef7ef7c4532d515ce40ae9287b38d87899dfbeb9af72719225b2208329b5"
+  },
+  {
+    "path": "papercore/src/PaperCore/MemoryLoopCoverage.lean",
+    "sha256": "3ea0e1a8749e3ce4c3ac85d85ce8c0dcd95c65a4e7f31548ba765607c0e9ae15"
+  },
+  {
+    "path": "papercore/src/PaperCore/MemoryWindowFacts.lean",
+    "sha256": "aac76e55c7650e71ecc9777d8a4523e257580145eeb5bc650bd6d46339a7aa3d"
+  },
+  {
+    "path": "papercore/src/PaperCore/MemoryWindowIteration.lean",
+    "sha256": "d10aa6d815ef3f0d93d6287815f168ce2d06a5ec430231445717b20245b54d9d"
+  },
+  {
+    "path": "papercore/src/PaperCore/MemoryWindowLoop.lean",
+    "sha256": "5636fd4662ba97318e915af548a30880b560bd9bc220909230ffb925aee57522"
+  },
+  {
+    "path": "papercore/src/PaperCore/MemoryWindowPlan.lean",
+    "sha256": "672f2245d037f19d78c6267e07d9dee2f6ddd240a45039cb53304cfadadbb8c8"
+  },
+  {
+    "path": "papercore/src/PaperCore/MemoryWindowProgram.lean",
+    "sha256": "8b612e9d1f1d8880b8a37c3fc7d9ba9ccb9f917da8868729b88d125dc66d1a64"
+  },
+  {
+    "path": "papercore/src/PaperCore/MemoryWindowSchedule.lean",
+    "sha256": "ed520b5323225697d21a7e2d301116ac00c2d83e7cd2da0dbff254db60a4c434"
+  },
+  {
+    "path": "papercore/src/PaperCore/MixedEvaluator.lean",
+    "sha256": "db0fc4cdd19aecc4d8505a4edfad18c308a0aba218bb7c7c45c2ca6687ffce4b"
+  },
+  {
+    "path": "papercore/src/PaperCore/MixedTarget.lean",
+    "sha256": "b35d7a3dd617721dfaa293f5e35845bb2aacd7b74770414946f4bf619737466e"
+  },
+  {
+    "path": "papercore/src/PaperCore/Move.lean",
+    "sha256": "6539b84ceda8b551c3a4f60d8fb1fe02bc24d1bdda49723cd479c961e2421165"
+  },
+  {
+    "path": "papercore/src/PaperCore/MoveAudit.lean",
+    "sha256": "93cc2207f3a91d6ad125cdda72c4acbdb17e6ca697c62deea768bbfd639b5d34"
+  },
+  {
+    "path": "papercore/src/PaperCore/Notation.lean",
+    "sha256": "786e6372133d01a1058e7ed77bf80414335f54b096fd6d4ecffded96ecbd5629"
+  },
+  {
+    "path": "papercore/src/PaperCore/OrdinalCursorSMT.lean",
+    "sha256": "0774b5499f01d2550b750f058d90664b159be3cafd2d77417b7c8d740bd3f377"
+  },
+  {
+    "path": "papercore/src/PaperCore/OrientedWindow.lean",
+    "sha256": "3e61b4a237347ee57f320aa45bdac466193dc33907d25bb1ebfd7454e50cdd81"
+  },
+  {
+    "path": "papercore/src/PaperCore/ProgramState.lean",
+    "sha256": "b4ba82a43f3326fa4a416f97d904525c9fb4d18098c7b7d72d596d1f6f7bcd6d"
+  },
+  {
+    "path": "papercore/src/PaperCore/QueueInterface.lean",
+    "sha256": "e7a486f3517fe309e17318cee81fa7891a7e59e9209d75b680362fa129b3e14a"
+  },
+  {
+    "path": "papercore/src/PaperCore/QueueStepSMT.lean",
+    "sha256": "4576abb1b1dcb716120bc6949e381994119f2401b76c9a06e3f4f88f76841848"
+  },
+  {
+    "path": "papercore/src/PaperCore/ReadMem.lean",
+    "sha256": "059eda6f861eaef58d9790d8bb195c9d3dfc20552688e27919565cd629f8fa39"
+  },
+  {
+    "path": "papercore/src/PaperCore/Rules.lean",
+    "sha256": "c105dda844526624944c7cf317c7e80f1c4e76ef5a72042bf54ac0b10e02e4f2"
+  },
+  {
+    "path": "papercore/src/PaperCore/SMT/Model.lean",
+    "sha256": "76552d47b54817865ac8bbd0a7203bed53a94c8cbfab280a36772a50269fdfa3"
+  },
+  {
+    "path": "papercore/src/PaperCore/SMT/SMT.lean",
+    "sha256": "f0986e5e0d6b853eac121545bf6eaf922838ea6427a9ba22b9b43c5273d32408"
+  },
+  {
+    "path": "papercore/src/PaperCore/SMT/SMTConnection.lean",
+    "sha256": "bf6399e2d342864c3b58d3567cf325c92b68f139a0485840b09576e2e6a06700"
+  },
+  {
+    "path": "papercore/src/PaperCore/SMT/SMTReply.lean",
+    "sha256": "1374a2aa431f701d514e4345a41cfc326c7d6b515f924e2fe7323941aaaba4f2"
+  },
+  {
+    "path": "papercore/src/PaperCore/SMT/SMTRequest.lean",
+    "sha256": "757e1c1824c81facd1df2026c9a7b24ef6959f29792f9fa20a95a60ead4abe1a"
+  },
+  {
+    "path": "papercore/src/PaperCore/SMT/SMTSemantics.lean",
+    "sha256": "5252b384cebb90cfbb0b00f1230a12d543d749ea2c8bfcafe3060a45a6eff1c3"
+  },
+  {
+    "path": "papercore/src/PaperCore/SMT/VCLogic.lean",
+    "sha256": "3275f7b2872b3106afbabd2afcbca0ae1ffe0d179ac9f9fed32dc2c46430733d"
+  },
+  {
+    "path": "papercore/src/PaperCore/Semantics.lean",
+    "sha256": "f572d74284341f1078159552dc33b585d04861b13b07e62c42278b2dac9a33cc"
+  },
+  {
+    "path": "papercore/src/PaperCore/SequenceTransitions.lean",
+    "sha256": "a7e0e1371c73344d0fdf7740cee41bd10ce1bbbe544e2be39776ff6c1752c6ce"
+  },
+  {
+    "path": "papercore/src/PaperCore/SolverReply.lean",
+    "sha256": "3595300fcdb24cd5bd8040a68588a9d0cce579d93da0181614467c88ab442ddf"
+  },
+  {
+    "path": "papercore/src/PaperCore/SourceFrame.lean",
+    "sha256": "58c960ad91d84fd82de165b8e4e592a86bf7069fc660e39e11f967b661515f01"
+  },
+  {
+    "path": "papercore/src/PaperCore/SourcePass.lean",
+    "sha256": "2c8e7bbf37f8ca72447504f7583e73edfa30c433a30e0e2061761b7d5be81b50"
+  },
+  {
+    "path": "papercore/src/PaperCore/StagedCertified.lean",
+    "sha256": "5c9f85bbd621bab244836881ef6b0d769e8451b9f662414f4d359ec7e6569005"
+  },
+  {
+    "path": "papercore/src/PaperCore/WindowAnalysis.lean",
+    "sha256": "371211708ab3ade4f884eb1779e511b28a666878421f4c8a4df61fd9e4ba0a05"
+  },
+  {
+    "path": "papercore/src/PaperCore/WindowLoads.lean",
+    "sha256": "0d7e2c1093d7a1270223345f6bc53b5d004d5d3c5f10cfde059a7c95ed7a78e4"
+  },
+  {
+    "path": "papercore/src/PaperCore/WindowNames.lean",
+    "sha256": "f2844f70abad7d6cbea70f14c6d6379d09f224b0cbea2fe5f589b9d7bd747a8b"
+  },
+  {
+    "path": "papercore/src/PaperCore/WindowShifts.lean",
+    "sha256": "7b4b85af8eea039410bdeb402cb6c050d463718616a1fd48d0d06a75b85ffbd0"
+  },
+  {
+    "path": "papercore/src/PaperCore/WindowStrideShifts.lean",
+    "sha256": "7a777b5bc182f408eadbd4167a57d4bc96520bd6c6c5642a09e153569f04d228"
+  },
+  {
+    "path": "papercore/src/PaperCore/WindowTrim.lean",
+    "sha256": "67bb43f85ef47f1ea4f80021ff4ea07feb8b52642afd71e41e40cb8f98f0b27d"
+  },
+  {
+    "path": "papercore/lakefile.toml",
+    "sha256": "de48df766f7d3aeaabe7caf4ed05df7414821bd3b199c76666c2a7c2c40c5545"
+  },
+  {
+    "path": "papercore/lake-manifest.json",
+    "sha256": "34689855cdd9d77dbaafcabe70688c1eb58cdb20070205c5a196167ef9a0af74"
+  },
+  {
+    "path": "papercore/lean-toolchain",
+    "sha256": "651c8accb402b0c071cd336e9d3dc0a55516b1bfb434ddc4801f14936785b1d2"
+  },
+  {
+    "path": "hls/Audit.lean",
+    "sha256": "d7d4aaf9693db59e973360fa93ca3e088aa7469149a3d288e751a3dd8ebaadad"
+  },
+  {
+    "path": "hls/scripts/circuit-check.lean",
+    "sha256": "be3f50d47eb065c6484459cc993e24c10572c3a073673a5470c13d0e1e7e274b"
+  },
+  {
+    "path": "hls/scripts/circuit-validation.lean",
+    "sha256": "b976f91d3d86c22e202931aa7f9796614acc3c79f2d9ec577c7f0917264f4406"
+  },
+  {
+    "path": "hls/scripts/compact-fusion.lean",
+    "sha256": "9de7fa96d7c093fe436b46f5195058d70b605ecac1392312175e717e57253d6b"
+  },
+  {
+    "path": "hls/scripts/compact-pipeline.lean",
+    "sha256": "243dd80cebfa9df0ebb052563af9f0fcff8997d512376e1d7d426ff6a73055e1"
+  },
+  {
+    "path": "hls/scripts/compact-smt.lean",
+    "sha256": "4db245e6ef062f3a028f1e0f229fffc4da647d7c8cf481082f0ee9c840b561a5"
+  },
+  {
+    "path": "hls/scripts/global-pipeline.lean",
+    "sha256": "3a7372900f566aa22a7dbb71d03279e7c1382a2617a02f06d7fffe3b47de7138"
+  },
+  {
+    "path": "hls/scripts/hybrid-compact-transport.lean",
+    "sha256": "3602d7636c27a9571c3bbc0cb2496dedc2660c778d38d603f085ba42011508d4"
+  },
+  {
+    "path": "hls/scripts/hybrid-compact.lean",
+    "sha256": "f9dc547a591df4a2141dbe0cb68d38b42d6a094b7871acb5023998f2bf1a5947"
+  },
+  {
+    "path": "hls/scripts/hybrid-pipeline.lean",
+    "sha256": "caf46c844ca9d98cc0aa52dfa99a1e2148c54ef622ee9eea94989927b2ecf43a"
+  },
+  {
+    "path": "hls/scripts/hybrid-word.lean",
+    "sha256": "101ab44a62f0dd63a124cfc1a3ba6de863318a193429e205df5752dfc21fe246"
+  },
+  {
+    "path": "hls/scripts/papercore-coverage.lean",
+    "sha256": "2a1f4d879bc47515f4c10105ca38a741471777a119362041a72ef019ed879b20"
+  },
+  {
+    "path": "hls/scripts/serialization-check.lean",
+    "sha256": "91f98585cc1a1469fd6892397c0ee3d57e5e8839bcc070332dc7eddb6cfd8fb3"
+  },
+  {
+    "path": "hls/scripts/unified-smt.lean",
+    "sha256": "fc1563f743f341e61fdbfa699687035026e10857aea44543225cd5e056b3aefe"
+  },
+  {
+    "path": "hls/scripts/versioned-order.lean",
+    "sha256": "7afaa29553ab32003c94134235b27b35516a6b994fb22c5470d0c1b695abe178"
+  },
+  {
+    "path": "hls/scripts/check-circuit.py",
+    "sha256": "2d483706bc07fd1e53fc0e4588c76629ec397090d50766f96a98c903642cb7c4"
+  },
+  {
+    "path": "hls/scripts/hls-benchmark-fixtures.py",
+    "sha256": "8134467f4185ac2e9053ad15d338f6bd0e326e1d42b0672a7718da7a65139515"
+  },
+  {
+    "path": "papercore/scripts/check_paper_memory_window.lean",
+    "sha256": "92ab3e05392213cb695a3c17b71d448d5364de3047f7bb9cae3e8c99f3bdbc61"
+  },
+  {
+    "path": "papercore/scripts/check_paper_notation.lean",
+    "sha256": "1dddfa7a46e41ebba7f111405441480900ad6dd5004a4fe95824a93ffa13a21c"
+  },
+  {
+    "path": "papercore/scripts/check_paper_reverse_window.lean",
+    "sha256": "7eb9852c985a712cf0e3618823b5bb4dbe0793f9bc7bb1709d0f229f41580feb"
+  },
+  {
+    "path": "papercore/scripts/check_paper_sequence_smt.lean",
+    "sha256": "bf56a4b6daa6f68a513112a27989685538855d8e1843ff5c4f9968a0a5503ed7"
+  },
+  {
+    "path": "papercore/examples/Filter.lean",
+    "sha256": "3442377a5f756081a4ce55ca4a1c05541b7da02df10c3440f8b0beac10b70e6b"
+  },
+  {
+    "path": "evidence/baseline/circuit/manifest.json",
+    "sha256": "d14b870f9de7c7be0977e97560a58e3bd27e2f8e3ed4743bb7d5ff9f44798157"
+  },
+  {
+    "path": "evidence/baseline/circuit/synthesis-results.json",
+    "sha256": "71ac311902c5407279d817873f00688e6f5a191a1f22085e79d57705b8af30b9"
+  },
+  {
+    "path": "evidence/baseline/circuit/generation-results.json",
+    "sha256": "63da65018e731c0dd08363167d7e3e472724e12718c8458254702d3ffc45fc2c"
+  },
+  {
+    "path": "evidence/baseline/benchmarks/fixtures.json",
+    "sha256": "92b7ae1eff81cf7e6ed60cf76b517d9a8a996f0a25ce967440ab818b681b7270"
+  },
+  {
+    "path": "evidence/baseline/benchmarks/summary.json",
+    "sha256": "8ee3a535d53eb435f2bb27d88b74dd7eb0b2800a1255e2592f8f72edb19578fb"
+  },
+  {
+    "path": "evidence/baseline/benchmarks/results.csv",
+    "sha256": "f81431aa47265d71a01be3aa793cf11f5fac1b16a580b0764db05240947bcb41"
+  },
+  {
+    "path": "evidence/baseline/reorganization/audit.log",
+    "sha256": "71773af0959ca02a256cffba52796d4679be1638b35200f6461b6cd6121ad7cc"
+  },
+  {
+    "path": "evidence/baseline/reorganization/circuit-validation.log",
+    "sha256": "af7c8fd372fe956b2ad21186feada48395dbf888d27f70ca7c1a4f49d4a240a2"
+  },
+  {
+    "path": "evidence/baseline/reorganization/baseline-comparison.json",
+    "sha256": "b8abdeaebf1943fa02b4737f0e9bd947f41785f94198726e7558fc2fa846c258"
+  }
+]
