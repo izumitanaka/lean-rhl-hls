@@ -15,10 +15,10 @@ For the supported fragment, independent syntax and static conditions imply succe
 
 The input uses 32-bit words (`Word = BitVec 32`), predeclared fixed arrays, and supported Lean loops, branches and helper functions. There are two entry points into the common optimizer and backend:
 
-- **`hls_fixed_program`** takes a complete Lean function, array declarations and public outputs. The function is currently treated as one stage.
-- **`hls_certified`** registers a processing body. Explicit stage order, iteration ranges and array information expose opportunities for buffer reuse and inter-stage FIFO conversion. SMT-assisted search is available through `CertifiedHLS.compileWithSMT`; candidates are rechecked in Lean.
+- **`hls_fixed_program`** takes a complete Lean function, fixed array declarations and public outputs. It extracts source-ordered static loops and sequences, then applies buffer insertion and eligible whole-array FIFO conversion. No separate stage list or range metadata is required.
+- **`hls_certified`** remains available for explicitly described stages. Both entries use the same optimizer and backend. Optional SMT search proposes routing candidates that Lean rechecks.
 
-The goal is to infer that stage information from supported complete Lean functions and automatically apply buffering and eligible FIFO conversion. Automatic stage extraction is not yet implemented. [Entry details](hls/docs/LEAN-ENTRY.ja.md#入口の使い分け).
+Extraction preserves lexical bindings and control boundaries: regions it cannot split remain intact, and arrays unsuitable for FIFO conversion retain memory. It does not introduce arbitrary task splitting or parallel execution. [Scope and proofs](hls/docs/AUTOMATIC-STAGES.ja.md).
 
 ## Try it
 
@@ -40,16 +40,16 @@ hls_fixed_program increment using buffers as incrementHLS
 -- incrementHLS.compile [1] produces an artifact whose .text is SystemVerilog.
 ```
 
-Array 0 containing `[3,6,9,12,15]` produces `[4,7,10,13,16]` in array 1. Run this example and a producer/filter example with buffering and FIFO conversion:
+Array 0 containing `[3,6,9,12,15]` produces `[4,7,10,13,16]` in array 1. Run this example or the complete producer/filter function:
 
 ```sh
 cd hls
-lake build IRComparison IRComparison.Tests
-lake env lean --run scripts/intro-example.lean
-python3 scripts/check-intro-example.py
+lake build IRComparison
+lake env lean --run examples/Increment.lean
+lake env lean --run examples/Filter.lean
 ```
 
-Use the pinned Lean 4.29.0 toolchain; these examples also require Z3, Python 3, Icarus Verilog and Yosys. Generated RTL and local check results go to `hls/artifacts/intro-example/`. The [walkthrough](hls/docs/WALKTHROUGH.md) explains each transformation and shows the emitted RTL interface.
+Use the pinned Lean 4.29.0 toolchain. These commands need no external solver and regenerate the [published RTL](hls/examples/README.md). `python3 scripts/check-examples.py` additionally checks all five examples with Icarus and Yosys. The [walkthrough](hls/docs/WALKTHROUGH.md) explains the transformations and RTL interface.
 
 ## Documentation
 

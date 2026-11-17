@@ -70,7 +70,7 @@ stride < 0 : start + k*stride > stop である k = 0,1,...
 一般的な意味保存は`WordLoopFacts.forStatic`、`MemoryCmd.affineLocal_correct`、`Cmd.lower_correct_int`で示す。
 
 `hls_program`の成功結果は`ProgramEntry.compile_correct`で元の関数一回の計算とRTLへ接続する。
-関数全体を一つの処理として既存後段へ渡すため、ソースの複数ループからFIFO最適化用の処理列を自動抽出する部分は未完了である。
+固定配列入口は順次処理・静的ループからFIFO最適化用の処理列を自動抽出する。値束縛や分岐をまたぐ分割は行わず、その部分は本体として保つ。[抽出器の範囲と一般証明](AUTOMATIC-STAGES.ja.md)を参照。
 この入口と、既存の処理列を渡す入口の最適化範囲を混同しない。
 
 通常入口は`StructuralBody.compileRetained`。補助関数のスカラ実引数を左から順に既存の`letValue`へ保持し、本体では保持値を参照する。State更新後に実引数を再評価しない。通常入口には旧解析器へのフォールバックを置かない。

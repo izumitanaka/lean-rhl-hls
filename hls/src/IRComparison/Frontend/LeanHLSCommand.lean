@@ -94,12 +94,21 @@ elab "hls_fixed_program " source:ident " using " declarations:ident " as " targe
   elabCommand (← `(def $compileId (outputs : List Nat) (fuel : Nat := 4096)
       (strategy : Circuit.Pipelining.LoopStrategy := .rolled) :=
     FixedHLS.Entry.compile $entryId outputs fuel strategy))
+  let smtId := mkIdent (.str target.getId "compileWithSMT")
+  elabCommand (← `(def $smtId (outputs : List Nat) (directory : System.FilePath)
+      (fuel : Nat := 4096) (strategy : Circuit.Pipelining.LoopStrategy := .rolled) :=
+    FixedHLS.Entry.compileWithSMT $entryId outputs directory fuel strategy))
   let sourceName ← liftCoreM <| realizeGlobalConstNoOverloadWithInfo source
   let proof := mkApp2 (.const ``FixedHLS.Entry.compile_correct [])
     (.const sourceName []) (.const (.str base "entry") [])
   let type ← liftTermElabM <| Meta.inferType proof
   liftCoreM <| addDecl (.thmDecl {
     name := .str base "correct",levelParams := [],type,value := proof })
+  let artifactProof := mkApp2 (.const ``FixedHLS.Entry.artifact_correct [])
+    (.const sourceName []) (.const (.str base "entry") [])
+  let artifactType ← liftTermElabM <| Meta.inferType artifactProof
+  liftCoreM <| addDecl (.thmDecl {
+    name := .str base "artifact_correct",levelParams := [],type := artifactType,value := artifactProof })
   let totalProof := mkApp2 (.const ``FixedHLS.Entry.compile_total [])
     (.const sourceName []) (.const (.str base "entry") [])
   let totalType ← liftTermElabM <| Meta.inferType totalProof

@@ -1,4 +1,12 @@
 import IRComparison.Tests
+#print axioms IRComparison.AutomaticStages.indexExpr_correct
+#print axioms IRComparison.AutomaticStages.indexBody_correct
+#print axioms IRComparison.AutomaticStages.pieces_correct
+#print axioms IRComparison.AutomaticStages.pieces_declared
+#print axioms IRComparison.AutomaticStages.entry_closed
+#print axioms IRComparison.FixedHLS.Entry.staged_correct
+#print axioms IRComparison.FixedHLS.Entry.staged_closed
+#print axioms IRComparison.FixedHLS.Entry.artifact_correct
 #print axioms IRComparison.HybridSymbolicProducer.BodyShape.word
 #print axioms IRComparison.HybridSymbolicProducer.BodyShape.sendBound
 #print axioms IRComparison.HybridSymbolicProducer.Compiled.word
@@ -375,6 +383,14 @@ import IRComparison.Tests
 open Lean Elab Command in
 run_cmd do
   let audited := [
+    ``IRComparison.AutomaticStages.indexExpr_correct,
+    ``IRComparison.AutomaticStages.indexBody_correct,
+    ``IRComparison.AutomaticStages.pieces_correct,
+    ``IRComparison.AutomaticStages.pieces_declared,
+    ``IRComparison.AutomaticStages.entry_closed,
+    ``IRComparison.FixedHLS.Entry.staged_correct,
+    ``IRComparison.FixedHLS.Entry.staged_closed,
+    ``IRComparison.FixedHLS.Entry.artifact_correct,
     ``IRComparison.WordFrontend.FunctionSyntax.Syntax.valueCurrentPaired,
     ``IRComparison.WordFrontend.FunctionSyntax.Syntax.yieldPaired,
     ``IRComparison.WordFrontend.FunctionSyntax.Syntax.sequencePaired,

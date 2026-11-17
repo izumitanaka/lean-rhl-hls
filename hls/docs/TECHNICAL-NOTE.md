@@ -26,17 +26,17 @@ This applies the RHL method to a different language. BV32 rounding, explicit rea
 
 `hls_fixed_program` accepts a complete function and fixed array declarations. Its loops and sequential order come from the function. `hls_certified` accepts a processing body; the caller then specifies its designated input array, iteration range and stage position. For multiple stages the caller also supplies sizes/layout and public outputs. The generated body entries carry the source correspondence proofs.
 
-Both use the common memory compiler and backend. The whole-function entry packages the function as one stage with one external iteration. It does not automatically split source loops into separate producer/consumer stages, so it does not expose the same cross-stage FIFO opportunities as explicit stage descriptions. No automatic task decomposition is implied by the whole-function generation theorem. The intended direction is to infer the needed stage boundaries and producer/consumer relations from supported complete Lean functions, then apply buffering and eligible FIFO conversion automatically; explicit stage metadata is the current way to supply that information. This does not mean every array must become a FIFO.
+Both use the common memory compiler and backend. The fixed-array whole-function entry now extracts source-ordered sequences and static loops automatically, infers designated input arrays (preferring intermediate arrays), and passes the resulting stages to buffering and whole-array FIFO selection. It keeps lexical/control boundaries that it does not split as ordinary stage bodies. This is not arbitrary task decomposition or parallelization; [extraction scope and proofs](AUTOMATIC-STAGES.ja.md) specify the supported boundaries. `hls_certified` remains available for explicit stage descriptions.
 
 | Supplied by the caller | Derived or checked by the tool |
 |---|---|
-| Supported Lean computation and fixed array layout | Parsed body, retained scalar bindings, source/code correspondence |
+| Supported Lean computation and fixed array layout | Parsed body, retained scalar bindings, source/code correspondence and whole-function stage extraction |
 | Public output IDs | Output declaration and port-presence checks; preservation of these arrays |
-| For optimization entry: stage order, iteration ranges and designated input arrays | Access/reuse analysis, buffer candidates, per-array FIFO candidates and global plan checks |
+| Only for explicitly staged entry: stage order, iteration ranges and designated input arrays | Access/reuse analysis, buffer candidates, per-array FIFO candidates and global plan checks |
 | Optional loop strategy; default is rolled | Scheduling, admissibility of supported overlap, holding storage, width analysis and RTL |
 | Initial data and host setup | Computation after start; separate conditional setup/readout contracts |
 
-The pure `.compile` API does not invoke an external solver. `CertifiedHLS.compileWithSMT` explicitly enables solver-assisted routing. An optimization budget controls search, not how long a circuit may execute. Default choices and checked fallback plans avoid requiring users to write scheduling pragmas.
+The pure `.compile` API does not invoke an external solver. `CertifiedHLS.compileWithSMT` explicitly enables solver-assisted routing for stage entries; the generated fixed-array `.compileWithSMT` enables it after automatic extraction. An optimization budget controls search, not how long a circuit may execute. Default choices and checked fallback plans avoid requiring users to write scheduling pragmas.
 
 ## Input and guarantees
 

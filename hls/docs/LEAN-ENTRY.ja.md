@@ -3,9 +3,9 @@
 
 ## 最初に選ぶ入口
 
-完全な関数からRTLまで試すなら`hls_fixed_program`を使う。処理間の配列をFIFOへ変換する例を試すなら、`hls_certified`で本体を登録し、反復範囲と処理列を明示する。[実行できる入門例](WALKTHROUGH.md)で両方を比較できる。
+通常のLean関数からRTLまで試すなら`hls_fixed_program`を使う。静的ループから処理列を取り出し、バッファ挿入・適用可能なFIFO化まで自動的に行う。[Filter.lean](../examples/Filter.lean)がその例である。処理列を明示的に指定する場合は`hls_certified`を使う。
 
-両方とも共通の最適化器・後段を使う。ただし関数全体の入口では、関数を「外側から1回実行する1処理」として渡す。関数内のループを複数の生成側・消費側の処理へ自動分解するわけではない。そのため、明示した処理列と同じFIFO化の機会が自動的に得られるという意味ではない。
+両方とも共通の最適化器・後段を使う。`hls_fixed_program`は順次処理と静的ループを自動抽出し、反復範囲・対象配列を推論してバッファ挿入・FIFO選択へ渡す。外側の値束縛や分岐の内部を独立ステージへ分ける機能はなく、その部分は処理本体として保持する。[自動抽出の範囲と証明](AUTOMATIC-STAGES.ja.md)を参照。
 
 ## 現在の最上位保証
 
@@ -70,7 +70,7 @@ Entry.compile_total → SystemVerilog RTL生成成功
 
 ## 入力を書く
 
-固定配列の入口は`hls_fixed_program`。配列番号と長さは事前宣言し、コピーは宣言済みの領域間で行う。
+固定配列の入口は`hls_fixed_program`。処理列の自動抽出から最適化・RTL生成まで接続する。配列番号と長さは事前宣言し、コピーは宣言済みの領域間で行う。
 
 ```lean
 import IRComparison.Frontend.LeanHLSCommand
@@ -105,11 +105,11 @@ hls_fixed_program program using buffers as generated
 | `hls_word` | `Word → Word → Word → State → Option State`の本体 | 本体の解析、生成コードと元Lean定義の接続証明。単独でRTL生成を要求する入口ではない |
 | `hls_certified` | 同じ本体。コンパイル時に対象配列・開始位置・歩幅・反復回数、公開出力、配列長・配置。複数処理なら処理順も指定 | 本体の接続証明を持つEntry、バッファ／通信解析へ渡すカーネル、RTLと正しさ定理 |
 | `hls_program` | `State → Option State`の関数全体。コンパイル時に公開出力・配列長・配置 | 関数内のループ・処理順を保ってEntryを構成。固定配列の宣言検査を付ける前の入口 |
-| `hls_fixed_program` | 同じ関数全体と固定配列宣言。コンパイル時に公開出力 | 宣言から配列長・配置を構成し、`compile`／`correct`／`generates`を登録 |
+| `hls_fixed_program` | 同じ関数全体と固定配列宣言。コンパイル時に公開出力 | 宣言から配列長・配置を構成し、処理列を自動抽出。`compile`／`compileWithSMT`／`correct`／`artifact_correct`／`generates`を登録 |
 
-`hls_certified`の登録や生成された`.compile`だけではSMTを起動しない。SMT補助の探索は`CertifiedHLS.compileWithSMT`を明示して利用する。どちらも候補をLeanで検査し、同じ正しさ定理へ接続する。処理分割や任意の並列実行が自動的に追加されるわけではない。
+生成された`.compile`は外部SMTを起動しない。固定配列入口では`generated.compileWithSMT`、明示ステージ入口では`CertifiedHLS.compileWithSMT`でSMT補助の探索を利用する。どちらも候補をLeanで検査し、同じ意味保存の保証へ接続する。自動抽出はソース順を保ち、任意の処理分割や並列化を追加しない。
 
-通常の解析は全て`StructuralBody.compileRetained`を使う。関数全体からFIFO化用の処理列を自動抽出する機能と、構文全体の生成成功は別であり、前者は今後の拡張である。処理列を明示する既存の入口では、バッファ挿入・配列単位のFIFO化を利用できる。
+通常の解析は全て`StructuralBody.compileRetained`を使う。固定配列入口では、その後に`AutomaticStages.pieces`が処理列を自動抽出する。`compile`は純粋な候補探索、`compileWithSMT`はSMT補助の候補探索を使う。処理列を明示したい場合は、引き続き`hls_certified`を利用できる。
 
 ## 生成成功と意味保存
 

@@ -71,6 +71,8 @@ For example, two uses of a bound value may share one combinational node and its 
 
 ## 3. Exposing stages for buffer insertion and FIFO conversion
 
+The complete-function version is [Filter.lean](../examples/Filter.lean): its two loops are extracted automatically, so no stage list or separate range metadata is needed. The example below exposes those stages explicitly to show how buffer insertion and FIFO conversion work. Both use the same optimizer and backend.
+
 The optimization example describes a producer and a three-point filter:
 
 ```lean

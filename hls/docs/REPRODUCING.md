@@ -13,6 +13,15 @@ python3 scripts/check-intro-example.py
 
 See the [walkthrough](WALKTHROUGH.md). The Lean script compiles a whole-function increment and an explicitly staged producer/filter, checks native results and the emitted text interpreter, and checks that the latter selects FIFO array 1 with a three-value reuse buffer. It requires Z3. The Python script requires Icarus (`iverilog`, `vvp`) and Yosys; both examples are configured and invoked twice, then structurally synthesized. Generated RTL, constructor dumps, SMT records and logs are under `artifacts/intro-example/`. This is functional/structural validation, not a physical timing measurement.
 
+## Automatic stages from a whole Lean function
+
+```sh
+lake env lean --run scripts/automatic-stages.lean
+python3 scripts/check-automatic-stages.py
+```
+
+No stage metadata is supplied in these inputs. The suite checks extraction, FIFO decisions and source/text results; the external checks exercise configuration, restart and synthesis structure. See [extraction scope](AUTOMATIC-STAGES.ja.md). Generated files stay under `artifacts/automatic-stages/`.
+
 ## General proofs and frontend regressions
 
 From this HLS directory (or first run `cd hls` from the repository root):
@@ -24,7 +33,7 @@ lake env lean scripts/structural-frontend.lean
 lake env lean scripts/check-current-entry.lean
 ```
 
-The expected audit is 2273 entries (2272 distinct declarations), allowing only `propext`, `Classical.choice` and `Quot.sound`. The normal-entry regression covers 131 source cases. The entry guard checks the current entry and generation theorem and the absence of 53 retired declarations. Lake job counts depend on cache state; linter warnings are not failed proofs.
+The expected audit is 2281 entries (2280 distinct declarations), allowing only `propext`, `Classical.choice` and `Quot.sound`. The normal-entry regression covers 131 source cases. The entry guard checks the current entry and generation theorem and the absence of 53 retired declarations. Lake job counts depend on cache state; linter warnings are not failed proofs.
 
 ## Emitted RTL, restart and synthesis
 

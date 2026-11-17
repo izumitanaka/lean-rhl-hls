@@ -1,6 +1,6 @@
 # Examples at a glance
 
-For individual, runnable program files with their generated RTL, start in [`examples/`](../examples/README.md). The catalog below links to broader demonstration and regression suites.
+For individual, runnable program files with their generated RTL, start in [`examples/`](../examples/README.md). The standalone [Filter.lean](../examples/Filter.lean) uses automatic stage extraction; the explicitly staged version below illustrates the same memory transformation with its metadata exposed. The catalog also links to broader demonstration and regression suites.
 
 Start with the first two examples to see ordinary Lean input, emitted RTL, and the difference between buffer insertion and FIFO conversion. Each row links to the source and a runnable check.
 

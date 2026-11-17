@@ -10,7 +10,7 @@ Each `.lean` file is an independent, runnable example: a complete input program,
 | Reverse traversal, nested loops and conditional copies | [NestedLoops.lean](NestedLoops.lean) | [NestedLoops.sv](generated/NestedLoops.sv) | Both branches execute; output `[9,1,7,6]` |
 | Accumulate a prefix sum | [PrefixSum.lean](PrefixSum.lean) | [PrefixSum.sv](generated/PrefixSum.sv) | `[3,6,9,12,15]` → `[3,9,18,30,45]` |
 
-All examples use BV32 arithmetic and `hls_fixed_program`. In the filter example, the last two output elements are not written and retain their initial values. `sample` and `#guard` evaluate/check the Lean function; they do **not** bake these inputs into the circuit. The circuit receives data through configuration ports and exposes the selected output arrays through read ports.
+All examples use BV32 arithmetic and `hls_fixed_program`. Stage lists and iteration metadata are inferred from the complete function. In `Filter.lean`, the two loops expose the intermediate array to buffering and FIFO conversion automatically; array declarations and the public output selection remain explicit. In the filter example, the last two output elements are not written and retain their initial values. `sample` and `#guard` evaluate/check the Lean function; they do **not** bake these inputs into the circuit. The circuit receives data through configuration ports and exposes the selected output arrays through read ports.
 
 ## Run or regenerate
 

@@ -70,7 +70,8 @@ The paper’s rule names identify the inherited reasoning, not identical source 
 | Original syntax through successful RTL generation | [WordOrdinarySourceInterpretation](../src/IRComparison/Frontend/WordOrdinarySourceInterpretation.lean): `OrdinarySource.generates` |
 | Internal Syntax to retained entry | [WordFixedFunctionCompleteness](../src/IRComparison/Frontend/WordFixedFunctionCompleteness.lean): `generatesRetainedSyntaxInstalled` |
 | Actual frontend and correctness | [WordStructuralBody](../src/IRComparison/Frontend/WordStructuralBody.lean): `compileRetained`, `compileRetained_correct` |
-| Fixed-array Entry totality and correctness | [FixedHLS](../src/IRComparison/Frontend/FixedHLS.lean): `Entry.compile_total`, `Entry.compile_correct` |
+| Automatic whole-function stage extraction | [AutomaticStages](../src/IRComparison/Frontend/AutomaticStages.lean): `pieces_correct`, `entry_closed`; [FixedHLS](../src/IRComparison/Frontend/FixedHLS.lean): `staged_correct` ([scope](AUTOMATIC-STAGES.ja.md)) |
+| Fixed-array Entry totality and correctness | [FixedHLS](../src/IRComparison/Frontend/FixedHLS.lean): `Entry.compile_total`, `Entry.compile_correct`, `Entry.artifact_correct` (also for SMT-returned artifacts) |
 | Lean-to-RTL composition | [CertifiedHLS](../src/IRComparison/Frontend/CertifiedHLS.lean): `ProgramEntry.compile_correct`, `Compiled.correct` |
 | Whole-array routing and SMT candidate checking | [HybridRoutingVC](../src/IRComparison/Hybrid/HybridRoutingVC.lean): `accept`; [HybridSymbolicGlobal](../src/IRComparison/Hybrid/HybridSymbolicGlobal.lean) |
 | Shared graph and structured pipeline | [SharedPipelineSound](../src/IRComparison/Circuit/SharedPipelineSound.lean): shared pipeline correctness; [transformation rules](HLS-SYNTAX-RULES.ja.md) for scheduling and integration |
