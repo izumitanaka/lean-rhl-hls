@@ -26,7 +26,7 @@ This applies the RHL method to a different language. BV32 rounding, explicit rea
 
 `hls_fixed_program` accepts a complete function and fixed array declarations. Its loops and sequential order come from the function. `hls_certified` accepts a processing body; the caller then specifies its designated input array, iteration range and stage position. For multiple stages the caller also supplies sizes/layout and public outputs. The generated body entries carry the source correspondence proofs.
 
-Both use the common memory compiler and backend. The whole-function entry packages the function as one stage with one external iteration. It does not automatically split source loops into separate producer/consumer stages, so it does not expose the same cross-stage FIFO opportunities as explicit stage descriptions. No automatic task decomposition is implied by the whole-function generation theorem.
+Both use the common memory compiler and backend. The whole-function entry packages the function as one stage with one external iteration. It does not automatically split source loops into separate producer/consumer stages, so it does not expose the same cross-stage FIFO opportunities as explicit stage descriptions. No automatic task decomposition is implied by the whole-function generation theorem. The intended direction is to infer the needed stage boundaries and producer/consumer relations from supported complete Lean functions, then apply buffering and eligible FIFO conversion automatically; explicit stage metadata is the current way to supply that information. This does not mean every array must become a FIFO.
 
 | Supplied by the caller | Derived or checked by the tool |
 |---|---|
