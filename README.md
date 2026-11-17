@@ -1,8 +1,8 @@
 # Lean RHL HLS
 
-A Lean 4 research prototype integrating **RHL-based memory optimization with a verified path from Lean programs to SystemVerilog**. It extends [*Relational Hoare Logic for High-Level Synthesis of Hardware Accelerators*](https://arxiv.org/abs/2601.09217) (Tanaka, Sakayori, Takamaeda-Yamazaki and Kobayashi, ESOP 2026). Implementation author: **Izumi Tanaka**.
+A Lean 4 research prototype for **verified high-level synthesis from Lean programs to SystemVerilog**, combining a Lean frontend, proof-backed memory optimizations, and a verified RTL backend. Implementation author: **Izumi Tanaka**.
 
-RHL relates programs using arrays to programs using buffers and FIFOs, even though their internal states differ. This project mechanizes that reasoning and connects it to a Lean frontend and a proved RTL backend.
+Its memory optimizations use relational Hoare logic (RHL) to relate array-based programs to programs using buffers and FIFOs, even when their internal states differ. This reasoning builds on [*Relational Hoare Logic for High-Level Synthesis of Hardware Accelerators*](https://arxiv.org/abs/2601.09217) (Tanaka, Sakayori, Takamaeda-Yamazaki and Kobayashi, ESOP 2026).
 
 ```text
 Lean program → hybrid computation IR → buffer insertion / FIFO selection

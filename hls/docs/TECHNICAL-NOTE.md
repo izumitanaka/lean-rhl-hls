@@ -2,13 +2,13 @@
 
 Izumi Tanaka — source update, 2026-11-17.
 
-This project extends [*Relational Hoare Logic for High-Level Synthesis of Hardware Accelerators*](https://arxiv.org/abs/2601.09217), by Izumi Tanaka, Ken Sakayori, Shinya Takamaeda-Yamazaki and Naoki Kobayashi (ESOP 2026), toward a Lean-based, formally verified HLS compiler. Its implemented focus is connecting relational memory transformation to ordinary Lean computations and RTL, with explicit proof boundaries. A novelty claim against all other certified HLS work would require a separate comparison.
+This project develops a Lean-based, formally verified high-level synthesis compiler for supported ordinary Lean programs. It combines source analysis, relational memory optimization, scheduling and circuit lowering, and SystemVerilog generation, with explicit proof boundaries. The following sections describe the design, its use of prior RHL research, and the implemented guarantees.
 
 Start with the [executable walkthrough](WALKTHROUGH.md) for input, intermediate computations, buffer/FIFO transformation and emitted RTL.
 
 ## Design intent and relationship to the paper
 
-The paper's central contribution used here is relational reasoning about a change of representation: source arrays and target streams need not have equal internal states. Logical index sequences describe which source elements are represented by queued and held values. Insertion and read-replacement rules preserve that relation through sequencing, branches and loops.
+The memory optimization draws on [*Relational Hoare Logic for High-Level Synthesis of Hardware Accelerators*](https://arxiv.org/abs/2601.09217), by Izumi Tanaka, Ken Sakayori, Shinya Takamaeda-Yamazaki and Naoki Kobayashi (ESOP 2026). The contribution used here is relational reasoning about a change of representation: source arrays and target streams need not have equal internal states. Logical index sequences describe which source elements are represented by queued and held values. Insertion and read-replacement rules preserve that relation through sequencing, branches and loops.
 
 The Lean mechanization, ordinary-Lean input connection, hybrid BV32 language and RTL backend described here are additions to that foundation. They are not obtained simply by importing the paper's core language. The original experimental flow used an external HLS tool; this project implements the lowering and text-generation stages too. The paper's performance results are not measurements of this backend.
 
