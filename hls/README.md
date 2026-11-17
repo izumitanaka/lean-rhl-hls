@@ -16,4 +16,4 @@ lake env lean scripts/check-current-entry.lean
 - [IR syntax and transformation rules](docs/HLS-SYNTAX-RULES.ja.md) (Japanese)
 - [Dependency provenance](docs/DEPENDENCIES.md)
 
-`src/PaperCore/` contains only required support, not a second compiler. Generated files stay in local `artifacts/`.
+[PaperCore](src/PaperCore/README.md) provides semantic, array-analysis and SMT support derived from the RHL paper’s core-language formalization. Generated files stay in local `artifacts/`.

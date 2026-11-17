@@ -36,6 +36,6 @@ External IDs and addresses use 32-bit ports. `Fits` and related conditional requ
 
 The [reproduction guide](REPRODUCING.md) lists commands to build the proofs and run frontend/RTL regressions. Logs and generated artifacts are local outputs rather than part of this repository. Examples supplement general proofs; see [workload scope](BENCHMARKS.md).
 
-This implementation builds on the [RHL work of Tanaka, Sakayori, Takamaeda-Yamazaki and Kobayashi](https://arxiv.org/abs/2601.09217). The paper-AST language and related semantic/SMT support retain the `PaperCore` namespace. Only the support modules required by HLS are distributed here. The earlier paper's measured FPGA speedups do not transfer to this backend.
+This implementation builds on the [RHL work of Tanaka, Sakayori, Takamaeda-Yamazaki and Kobayashi](https://arxiv.org/abs/2601.09217). The name [PaperCore](../src/PaperCore/README.md) refers to the paper’s core language; its formalization supplies semantic, array-analysis and SMT infrastructure used by HLS. The earlier paper's measured FPGA speedups do not transfer to this backend.
 
 Verified HLS itself is not a new claim: see [Vericert](https://github.com/ymherklotz/vericert). This prototype also does not claim superiority over other Lean hardware-verification work such as [Graphiti](https://vca.epfl.ch/papers/asplos26_fvo.pdf). These references identify context, not an exhaustive comparison.

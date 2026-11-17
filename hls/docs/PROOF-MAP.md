@@ -21,4 +21,4 @@ The current ordinary entry is `StructuralBody.compileRetained`. Generation succe
 
 The current build retains common proof-construction, typing and environment infrastructure used by the retained frontend. It does not retain the old `StructuralBody.body` or an automatic direct-substitution fallback.
 
-PaperCore supplies shared index-sequence, buffer-analysis and SMT modules. The full paper-AST compiler is not part of this public distribution. Its generic solver-soundness premise must not be substituted for the current HLS candidate recheck. Current source files and proofs retain their existing namespaces.
+[PaperCore](../src/PaperCore/README.md), named for the RHL paper’s core language, supplies semantic lemmas, index-sequence reasoning, buffer analysis and SMT support. Its generic solver interface has an explicit solver-soundness premise. The HLS candidate path instead rechecks candidates in Lean; these two guarantee interfaces are distinct.

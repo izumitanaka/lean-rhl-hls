@@ -71,7 +71,7 @@ The current source and proof path no longer includes the old direct-substitution
 | Path | Purpose |
 |---|---|
 | `hls/` | Current compiler, proofs, examples, comparison paths and scripts |
-| `hls/src/PaperCore/` | 14 support modules compiled within the HLS package |
+| [PaperCore](hls/src/PaperCore/README.md) | Semantic and analysis support from the RHL paper’s core-language formalization |
 | `hls/docs/` | Public overview, proof map, reproduction and measurement scope |
 
 The `IRComparison` namespace is retained from the comparison experiments. This artifact builds on the earlier RHL research; see the [technical note](hls/docs/TECHNICAL-NOTE.md) for attribution and scope. No priority or performance superiority over other certified HLS systems is claimed.
