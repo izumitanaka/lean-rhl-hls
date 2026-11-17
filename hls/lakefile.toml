@@ -3,10 +3,6 @@ version = "0.1.0"
 defaultTargets = ["IRComparison"]
 
 [[require]]
-name = "paperCore"
-path = "../papercore"
-
-[[require]]
 name = "lean4lean"
 git = "https://github.com/digama0/lean4lean.git"
 rev = "3dc52e0cd8a218e09de9ead031f52a2675734fe7"
@@ -20,3 +16,23 @@ roots = ["IRComparison"]
 name = "NativeRHL"
 srcDir = "src"
 roots = ["NativeRHL.ExprAnalysis"]
+
+[[lean_lib]]
+name = "PaperCore"
+srcDir = "src"
+roots = [
+  "PaperCore.AccessAnalysis",
+  "PaperCore.Correspondence",
+  "PaperCore.IndexSequence",
+  "PaperCore.IndexSequenceSMT",
+  "PaperCore.Language",
+  "PaperCore.LoopAnalysis",
+  "PaperCore.SMT.Model",
+  "PaperCore.SMT.SMT",
+  "PaperCore.SMT.SMTConnection",
+  "PaperCore.SMT.SMTReply",
+  "PaperCore.SMT.SMTRequest",
+  "PaperCore.SMT.SMTSemantics",
+  "PaperCore.Semantics",
+  "PaperCore.WindowAnalysis",
+]

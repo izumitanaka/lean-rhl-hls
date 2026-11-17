@@ -1,8 +1,0 @@
-name = "paperCore"
-version = "0.4.0"
-defaultTargets = ["PaperCore"]
-
-[[lean_lib]]
-name = "PaperCore"
-srcDir = "src"
-roots = ["PaperCore.WindowAnalysis", "PaperCore.IndexSequenceSMT"]

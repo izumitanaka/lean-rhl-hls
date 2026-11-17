@@ -20,7 +20,7 @@ The fixed-array whole-function entry and the optimization entry with explicit ke
 - The ordinary structured backend uses shared combinational values and validity conditions through analysis, finite-width lowering and RTL emission. It retains loops and supports checked scheduling and limited overlap across iteration boundaries.
 - Optimization candidates are checked in Lean. Greedy whole-array FIFO selection retains the last certified plan on rejection or timeout. Removed frontend modes are not automatic fallbacks.
 
-See the [proof map](docs/PROOF-MAP.md), [technical scope](docs/TECHNICAL-NOTE.md), and [reproduction guide](docs/REPRODUCING.md). The [implementation guide](hls/README.md) links the input specification and IR transformation rules.
+See the [proof map](hls/docs/PROOF-MAP.md), [technical scope](hls/docs/TECHNICAL-NOTE.md), and [reproduction guide](hls/docs/REPRODUCING.md). The [implementation guide](hls/README.md) links the input specification and IR transformation rules.
 
 ## Input example
 
@@ -58,7 +58,7 @@ lake env lean --run scripts/shared-normal-hls.lean
 python3 scripts/check-shared-normal-hls.py
 ```
 
-Use Lean 4.29.0 and the pinned dependencies. External RTL checks require Python, Icarus Verilog and Yosys; additional SMT tests require Z3. The commands above reproduce the proof audit, ordinary-input regressions and focused RTL checks. Generated logs and measurements stay local; see [workload scope](docs/BENCHMARKS.md).
+Use Lean 4.29.0 and the pinned dependencies. External RTL checks require Python, Icarus Verilog and Yosys; additional SMT tests require Z3. The commands above reproduce the proof audit, ordinary-input regressions and focused RTL checks. Generated logs and measurements stay local; see [workload scope](hls/docs/BENCHMARKS.md).
 
 ## Boundaries
 
@@ -71,9 +71,9 @@ The current source and proof path no longer includes the old direct-substitution
 | Path | Purpose |
 |---|---|
 | `hls/` | Current compiler, proofs, examples, comparison paths and scripts |
-| `papercore/` | Only the 14 shared modules required by HLS analysis and SMT support |
-| `docs/` | Public overview, proof map, reproduction and measurement scope |
+| `hls/src/PaperCore/` | 14 support modules compiled within the HLS package |
+| `hls/docs/` | Public overview, proof map, reproduction and measurement scope |
 
-The `IRComparison` namespace is retained from the comparison experiments. This artifact builds on the earlier RHL research; see the [technical note](docs/TECHNICAL-NOTE.md) for attribution and scope. No priority or performance superiority over other certified HLS systems is claimed.
+The `IRComparison` namespace is retained from the comparison experiments. This artifact builds on the earlier RHL research; see the [technical note](hls/docs/TECHNICAL-NOTE.md) for attribution and scope. No priority or performance superiority over other certified HLS systems is claimed.
 
-[Citation metadata](CITATION.cff) identifies the project; cite a specific commit or release for reproducibility. No DOI or project license is assigned. [Dependency provenance](docs/DEPENDENCIES.md).
+[Citation metadata](CITATION.cff) identifies the project; cite a specific commit or release for reproducibility. No DOI or project license is assigned. [Dependency provenance](hls/docs/DEPENDENCIES.md).

@@ -6,7 +6,7 @@ This note describes the current implementation and its guarantee boundaries, not
 
 ## Input and guarantees
 
-The ordinary frontend accepts a specified fragment of Lean with BV32 values, an explicit State API, predeclared fixed arrays, reads/writes/copies, local scalar and State bindings, branches, static ranges, supported forIn/foldlM expansions and helper functions. The source judgments allow nesting and composition; proof coverage is not defined as “the parser happens to succeed.” The exact source conditions and coverage table are in [LEAN-ENTRY](../hls/docs/LEAN-ENTRY.ja.md).
+The ordinary frontend accepts a specified fragment of Lean with BV32 values, an explicit State API, predeclared fixed arrays, reads/writes/copies, local scalar and State bindings, branches, static ranges, supported forIn/foldlM expansions and helper functions. The source judgments allow nesting and composition; proof coverage is not defined as “the parser happens to succeed.” The exact source conditions and coverage table are in [LEAN-ENTRY](LEAN-ENTRY.ja.md).
 
 `OrdinarySource.generates` takes the native environment/input conditions, original-body syntax, latest-State usage, static register conditions, unique declarations and declared public outputs. It derives successful `StructuralBody.compileRetained`, code typing/correspondence, a `FixedHLS.Entry`, and successful `Entry.compile`. It does not take parser success, a generated Entry or internal checker success as assumptions.
 
@@ -22,7 +22,7 @@ The default symbolic route preserves loops. Communication selection starts with 
 
 The structured backend uses shared combinational nodes and references, including validity. Sharing is consumed by range/reference analysis, finite-width evaluation and emission. Unused invalid reads still fail; invalid reads in unselected branches are not observed. Binding environments do not rebuild the old expression tree at runtime. Dedicated `wrap32` supports BV32 rounding; compatibility `wrapped?`, HybridAffine arithmetic expansion and explicitly selected older backend paths remain and are not claimed to be globally sharing-free.
 
-Scheduling adds clock placement to existing operations. Branches and loops can remain structured; checked overlap across loop boundaries is implemented for the supported pattern. Arbitrary modulo scheduling, arbitrary initiation intervals, synchronous memories and multi-cycle arithmetic are not implemented. Physical timing is not part of the correctness statement. [Rules](../hls/docs/HLS-SYNTAX-RULES.ja.md), [scheduling rules](../hls/docs/HLS-SYNTAX-RULES.ja.md#6-スケジューリング).
+Scheduling adds clock placement to existing operations. Branches and loops can remain structured; checked overlap across loop boundaries is implemented for the supported pattern. Arbitrary modulo scheduling, arbitrary initiation intervals, synchronous memories and multi-cycle arithmetic are not implemented. Physical timing is not part of the correctness statement. [Rules](HLS-SYNTAX-RULES.ja.md), [scheduling rules](HLS-SYNTAX-RULES.ja.md#6-スケジューリング).
 
 ## Trust and external interfaces
 
@@ -30,7 +30,7 @@ The Lean implementation and native environment/registration interface are truste
 
 The output proof concerns a defined two-state SystemVerilog subset and its serialization/interpretation. It does not verify the full IEEE semantics, simulator, synthesis tool, host software or physical device. Finite FIFOs fail on empty receive/full send; failure reasons and post-failure intermediate state are outside the observation relation.
 
-External IDs and addresses use 32-bit ports. `Fits` and related conditional request/readout theorems must be distinguished from internal compilation. `checkExternalPorts` is not automatically called by internal compile, and a general theorem that every legal source initial state can be installed through configuration ports remains unproved. [Exact external boundary](../hls/docs/HLS-SYNTAX-RULES.ja.md#外部ポートと初期設定).
+External IDs and addresses use 32-bit ports. `Fits` and related conditional request/readout theorems must be distinguished from internal compilation. `checkExternalPorts` is not automatically called by internal compile, and a general theorem that every legal source initial state can be installed through configuration ports remains unproved. [Exact external boundary](HLS-SYNTAX-RULES.ja.md#外部ポートと初期設定).
 
 ## Validation and attribution
 

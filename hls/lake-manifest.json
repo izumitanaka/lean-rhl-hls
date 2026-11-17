@@ -25,15 +25,6 @@
       "inputRev": "v4.29.0",
       "inherited": true,
       "configFile": "lakefile.toml"
-    },
-    {
-      "type": "path",
-      "scope": "",
-      "name": "paperCore",
-      "manifestFile": "lake-manifest.json",
-      "inherited": false,
-      "dir": "../papercore",
-      "configFile": "lakefile.toml"
     }
   ],
   "name": "irComparison",

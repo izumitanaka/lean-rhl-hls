@@ -1,13 +1,12 @@
 # Reproducing the current source update
 
-Use Lean 4.29.0, fixed by `hls/lean-toolchain`, with Lake on PATH. The committed manifests pin Lean4Lean and Batteries; PaperCore is the included sibling source directory. Initial dependency fetching requires network access. No original research directory or build cache is required.
+Use Lean 4.29.0, fixed by `hls/lean-toolchain`, with Lake on PATH. The committed manifests pin Lean4Lean and Batteries; PaperCore support is included in `hls/src/PaperCore/` within the same package. Initial dependency fetching requires network access. No original research directory or build cache is required.
 
 ## General proofs and frontend regressions
 
-From the repository root:
+From this HLS directory (or first run `cd hls` from the repository root):
 
 ```sh
-cd hls
 lake build IRComparison IRComparison.Tests
 lake env lean Audit.lean
 lake env lean scripts/structural-frontend.lean
@@ -41,6 +40,6 @@ The routing suite also requires Z3. The broad circuit suite can take substantial
 
 ## Repository and generated output
 
-The shared PaperCore dependency is included as source with only its transitive HLS dependencies. No private research directory is required. Toolchain and dependency revisions are pinned in the committed manifests.
+PaperCore support is compiled as a library in the HLS package, with no sibling-directory dependency. No private research directory is required. Toolchain and dependency revisions are pinned in the committed manifests.
 
 Generated RTL, timing measurements and test logs stay under local `hls/artifacts/`; they are not committed. Git identifies the source revision. To compare runs, record the commit, tool versions, commands and inputs together with your local results.
