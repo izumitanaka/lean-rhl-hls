@@ -2,6 +2,17 @@
 
 Use Lean 4.29.0, fixed by `hls/lean-toolchain`, with Lake on PATH. The committed manifests pin Lean4Lean and Batteries; PaperCore support is included in `hls/src/PaperCore/` within the same package. Initial dependency fetching requires network access. No original research directory or build cache is required.
 
+## Start with two input-to-RTL examples
+
+After `lake build IRComparison IRComparison.Tests`, from `hls/`:
+
+```sh
+lake env lean --run scripts/intro-example.lean
+python3 scripts/check-intro-example.py
+```
+
+See the [walkthrough](WALKTHROUGH.md). The Lean script compiles a whole-function increment and an explicitly staged producer/filter, checks native results and the emitted text interpreter, and checks that the latter selects FIFO array 1 with a three-value reuse buffer. It requires Z3. The Python script requires Icarus (`iverilog`, `vvp`) and Yosys; both examples are configured and invoked twice, then structurally synthesized. Generated RTL, constructor dumps, SMT records and logs are under `artifacts/intro-example/`. This is functional/structural validation, not a physical timing measurement.
+
 ## General proofs and frontend regressions
 
 From this HLS directory (or first run `cd hls` from the repository root):

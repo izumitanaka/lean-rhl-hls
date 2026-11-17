@@ -1,79 +1,107 @@
 # Lean RHL HLS
 
-A Lean 4 research prototype for certified memory transformations and SystemVerilog generation. Author: **Izumi Tanaka**.
+This project extends the framework introduced in [*Relational Hoare Logic for High-Level Synthesis of Hardware Accelerators*](https://arxiv.org/abs/2601.09217) (Tanaka, Sakayori, Takamaeda-Yamazaki and Kobayashi, ESOP 2026) toward a Lean-based, formally verified HLS compiler. Implementation author: **Izumi Tanaka**.
+
+The focus is the **integration of relational memory transformations with a verified path from Lean computations to RTL**. RHL explains why a program using arrays and a program using buffers/FIFOs compute the same observable result, even though their internal states differ. This implementation connects that reasoning to an ordinary-Lean frontend and a SystemVerilog backend.
+
+For the supported Lean fragment, independent syntax and static conditions imply successful RTL generation. Separately, under the documented execution and initialization conditions, the generated circuit finishes and preserves source success/failure and public outputs. These are general proofs, not just tests of individual examples. See [what this guarantee assumes](#what-is-proved-and-trusted).
+
+## What goes in, and what comes out?
 
 ```text
-supported ordinary Lean definitions (Word = BitVec 32)
-    → argument-retaining frontend and source correspondence
-    → hybrid computation IR
-    → buffer insertion and whole-array FIFO / memory decisions
-    → structured control, shared expressions, cycle scheduling
-    → finite circuit → SystemVerilog text
+ordinary Lean definitions (32-bit words, fixed arrays)
+    │
+    ├─ a complete function + array declarations + public outputs
+    │      source loops and sequencing are kept inside one stage
+    │
+    └─ processing bodies + explicit stage order and iteration ranges
+           exposes producer/consumer relations for memory optimization
+    │
+    ▼
+hybrid computation IR: values + ordered reads/updates + structured control
+    → buffer insertion, then whole-array FIFO / memory selection
+    → structured circuit control and shared combinational expressions
+    → clock scheduling, finite-width storage and SystemVerilog text
 ```
 
-The fixed-array whole-function entry and the optimization entry with explicit kernel/task information are distinct. Automatic extraction of a FIFO task decomposition from arbitrary whole functions is not implemented.
+Both entries use the common optimizer and backend. A complete function is currently supplied as **one stage with one external iteration**; its inner loops are not automatically extracted into separate producer/consumer stages. Explicit stage information exposes opportunities for cross-iteration reuse and communication conversion. This is a current frontend distinction, not a requirement for two different backends.
 
-## What is proved
+| Entry | You provide | Automatic work and result |
+|---|---|---|
+| `hls_fixed_program` | A complete `State → Option State` function, fixed array IDs/lengths, public outputs | Parse loops/branches/updates, construct the fixed-array entry and proof connection, compile to RTL; source-syntax generation-success theorem applies under its conditions |
+| `hls_certified` | A processing body; then its designated input array and iteration range; for multiple bodies, stage order, sizes/layout and public outputs | Construct body correspondence proofs; analyze buffer reuse and array routing from the supplied stages; compile the accepted plan to RTL |
 
-- `OrdinarySource.generates`: independent source syntax, typing, scope, environment and fixed-array conditions imply success of the ordinary `compileRetained` frontend, a code correspondence, construction of a fixed-array entry, and RTL generation. Parser success and an already-generated entry are **not** premises of this theorem.
-- Semantic preservation is a separate chain of general theorems. Under the specified input, layout and initial-state conditions, generated execution preserves source success/failure and public outputs. Compilation success does not imply that every source input executes successfully.
-- The ordinary structured backend uses shared combinational values and validity conditions through analysis, finite-width lowering and RTL emission. It retains loops and supports checked scheduling and limited overlap across iteration boundaries.
-- Optimization candidates are checked in Lean. Greedy whole-array FIFO selection retains the last certified plan on rejection or timeout. Removed frontend modes are not automatic fallbacks.
+`hls_certified` does not invoke SMT by itself. Its `.compile` uses the pure compiler; `CertifiedHLS.compileWithSMT` adds SMT-assisted candidate search with Lean-side rechecking. `hls_word` and `hls_program` expose lower-level parts of these entries. [Exact entry API](hls/docs/LEAN-ENTRY.ja.md#入口の使い分け).
 
-See the [proof map](hls/docs/PROOF-MAP.md), [technical scope](hls/docs/TECHNICAL-NOTE.md), and [reproduction guide](hls/docs/REPRODUCING.md). The [implementation guide](hls/README.md) links the input specification and IR transformation rules.
-
-## Input example
+## A small example you can run
 
 ```lean
 import IRComparison.Frontend.LeanHLSCommand
 open IRComparison HybridWord
 
-def buffers : FixedMemory.Declarations := #[(0,4),(1,4)]
-
-def program (s : HybridWord.State) : Option HybridWord.State := do
+def buffers : FixedMemory.Declarations := #[(0,5),(1,5)]
+def increment (s : HybridWord.State) : Option HybridWord.State := do
   let mut t := s
-  for i in HybridWord.range 0 3 1 do
-    t ← t.copy 1 0 4
-    let v ← (t.arrays 1)[i.toNat]?
-    t ← t.write 0 i (v+1)
+  for i in HybridWord.range 0 5 1 do
+    let v ← (t.arrays 0)[i.toNat]?
+    t ← t.write 1 i (v+1)
   return t
 
-hls_fixed_program program using buffers as generated
-#check generated.compile
-#check generated.correct
-#check generated.generates
+hls_fixed_program increment using buffers as incrementHLS
+-- incrementHLS.compile [1] produces an artifact whose .text is SystemVerilog.
 ```
 
-Arrays are declared before computation; copies use declared equal-length regions. Helper scalar arguments retain their call-time values even if the helper updates State. The generated `.generates` declaration concerns the constructed Entry; the independent source-syntax theorem is `OrdinarySource.generates`. See [input conditions](hls/docs/LEAN-ENTRY.ja.md).
+Here `State` supplies scalar registers and arrays. `Word` is `BitVec 32`, so arithmetic wraps. The function writes `[4,7,10,13,16]` when array 0 contains `[3,6,9,12,15]`. The generated module has clock/reset/start, configuration and readout ports, and done/error outputs.
 
-## Check the artifact
+The [input-to-RTL walkthrough](hls/docs/WALKTHROUGH.md) shows the actual generated RTL interface and a second example:
+
+```text
+producer writes B → filter repeatedly reads B[i], B[i+1], B[i+2]
+    ↓ buffer insertion: hold reusable values, read one new value per refill
+    ↓ FIFO conversion: replace B's storage by ordered sends and receives
+producer sends 5 values → buffered filter receives 5 values → public output C
+```
+
+Buffer insertion reduces repeated reads; FIFO conversion changes the storage/communication mechanism. Either may be useful without the other. A FIFO decision does not by itself parallelize the stages.
 
 ```sh
 cd hls
 lake build IRComparison IRComparison.Tests
-lake env lean Audit.lean
-lake env lean scripts/structural-frontend.lean
-lake env lean scripts/check-current-entry.lean
-lake env lean --run scripts/shared-normal-hls.lean
-python3 scripts/check-shared-normal-hls.py
+lake env lean --run scripts/intro-example.lean
+python3 scripts/check-intro-example.py
 ```
 
-Use Lean 4.29.0 and the pinned dependencies. External RTL checks require Python, Icarus Verilog and Yosys; additional SMT tests require Z3. The commands above reproduce the proof audit, ordinary-input regressions and focused RTL checks. Generated logs and measurements stay local; see [workload scope](hls/docs/BENCHMARKS.md).
+Use the pinned Lean 4.29.0 toolchain. These examples additionally need Z3, Python 3, Icarus Verilog and Yosys. They generate `increment.sv` and `filter.sv` under `hls/artifacts/intro-example/`, check the formal text interpreter, and check the external RTL including restart. [Full reproduction guide](hls/docs/REPRODUCING.md).
 
-## Boundaries
+## What comes from the paper, and what is added here?
 
-This is a restricted ordinary-Lean frontend, not arbitrary Lean compilation. The text semantics covers a specified two-state SystemVerilog subset, not all IEEE semantics. Finite FIFO empty reads and full writes fail rather than wait for backpressure. Memories use combinational reads and clocked writes; synchronous RAM, physical timing and external EDA correctness are outside the guarantee. External 32-bit ports require representability conditions; arbitrary initial-state configuration through those ports is not yet proved.
-
-The current source and proof path no longer includes the old direct-substitution body or compatibility parser fallback. Type-conversion budgets and Word/BitVec alias cleanup remain separate work.
-
-## Layout and attribution
-
-| Path | Purpose |
+| Foundation from the RHL paper | What this Lean implementation adds |
 |---|---|
-| `hls/` | Current compiler, proofs, examples, comparison paths and scripts |
-| [PaperCore](hls/src/PaperCore/README.md) | Semantic and analysis support from the RHL paper’s core-language formalization |
-| `hls/docs/` | Public overview, proof map, reproduction and measurement scope |
+| Relate array and stream states using logical index sequences; justify insertion/read replacement by relational rules | Mechanize the reasoning and adapt it to the BV32 hybrid IR, including buffers backed by retained memory |
+| Buffer insertion and stream conversion as HLS-oriented memory transformations | Compose checked transformations with ordinary Lean source correspondence and a proof-carrying compilation plan |
+| A framework used with an external HLS flow | Implement and prove structured circuit lowering, scheduling, shared expressions, finite-width evaluation and SystemVerilog text emission |
 
-The `IRComparison` namespace is retained from the comparison experiments. This artifact builds on the earlier RHL research; see the [technical note](hls/docs/TECHNICAL-NOTE.md) for attribution and scope. No priority or performance superiority over other certified HLS systems is claimed.
+The paper did not provide this Lean compiler. [`PaperCore`](hls/src/PaperCore/README.md) is named for the paper's core language: its Lean formalization supplies semantic, array-analysis, index-sequence and SMT support. HLS-specific rules and backend theorems live in `IRComparison`; importing PaperCore alone does not prove the whole compiler. [Design and attribution](hls/docs/TECHNICAL-NOTE.md).
 
-[Citation metadata](CITATION.cff) identifies the project; cite a specific commit or release for reproducibility. No DOI or project license is assigned. [Dependency provenance](hls/docs/DEPENDENCIES.md).
+## What is proved and trusted?
+
+| Claim or boundary | Meaning |
+|---|---|
+| **Generation success** | `OrdinarySource.generates` derives frontend success, code correspondence, construction of a fixed-array Entry and RTL generation from independent syntax/type/scope/environment/declaration conditions. Parser success and a generated Entry are not assumptions. |
+| **Execution preservation** | Entry and backend correctness connect the original Lean computation to the defined interpretation of emitted SystemVerilog text. Under layout, plan-readiness, input-fit and post-start storage-agreement conditions, execution terminates with the same success/failure and public outputs. |
+| **Proof checking and SMT** | Lean checks the proofs. The Lean implementation and native environment interface are trusted. SMT proposes optimization candidates; Lean checks their admissibility and constructs a certified plan. Rejection or timeout retains the last accepted plan. |
+| **Setup and external tools** | Reset/configuration/readout have separate conditional theorems. External 32-bit IDs/addresses need representability checks; arbitrary source-state configuration is not proved. The formal text semantics covers a specified two-state subset, not all IEEE SystemVerilog, external EDA correctness or physical timing. |
+
+Compilation success does not mean every source input avoids an out-of-bounds access. Finite FIFOs fail on empty receive/full send rather than wait for backpressure. Failure reasons and intermediate post-failure state are outside the observation relation. [Premises and theorem map](hls/docs/PROOF-MAP.md).
+
+## Where to read next
+
+- [Walkthrough](hls/docs/WALKTHROUGH.md): Lean → hybrid IR → memory transformation → RTL, with executable examples.
+- [Technical note](hls/docs/TECHNICAL-NOTE.md): IR design, RHL rules, automatic choices and implementation scope.
+- [Proof map](hls/docs/PROOF-MAP.md): source files, theorem statements and trust boundaries.
+- [Input specification](hls/docs/LEAN-ENTRY.ja.md) and [IR syntax/transformation rules](hls/docs/HLS-SYNTAX-RULES.ja.md) (Japanese).
+- [Reproduction](hls/docs/REPRODUCING.md), [workloads](hls/docs/BENCHMARKS.md), and [dependencies](hls/docs/DEPENDENCIES.md).
+
+`hls/` is a self-contained Lean project. `IRComparison` originated in experiments comparing imperative, functional and hybrid IR designs; the current path described here uses the hybrid design. Generated RTL and logs stay in local `artifacts/`.
+
+[Citation metadata](CITATION.cff) identifies this project; cite a specific commit for reproducibility. No DOI or project license is assigned. The implementation does not establish a priority claim or inherit the original paper's measured FPGA speedups.

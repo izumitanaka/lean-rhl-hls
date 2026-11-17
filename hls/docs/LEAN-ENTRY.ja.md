@@ -1,6 +1,12 @@
 # 通常のLean入力の保証と、RTLまでの接続
 
 
+## 最初に選ぶ入口
+
+完全な関数からRTLまで試すなら`hls_fixed_program`を使う。処理間の配列をFIFOへ変換する例を試すなら、`hls_certified`で本体を登録し、反復範囲と処理列を明示する。[実行できる入門例](WALKTHROUGH.md)で両方を比較できる。
+
+両方とも共通の最適化器・後段を使う。ただし関数全体の入口では、関数を「外側から1回実行する1処理」として渡す。関数内のループを複数の生成側・消費側の処理へ自動分解するわけではない。そのため、明示した処理列と同じFIFO化の機会が自動的に得られるという意味ではない。
+
 ## 現在の最上位保証
 
 [`OrdinarySource.generates`](../src/IRComparison/Frontend/WordOrdinarySourceInterpretation.lean)は、**元の通常Lean構文と独立した型・束縛・静的条件から、実際の`StructuralBody.compileRetained`の成功、生成コードとの対応、固定配列Entryの構成、RTL生成成功まで**を接続する。
@@ -94,12 +100,14 @@ hls_fixed_program program using buffers as generated
 
 ## 入口の使い分け
 
-| 入口 | 与えるもの・役割 |
-|---|---|
-| `hls_word` | BV32本体を解析し、生成コードと元Lean定義の接続証明を登録する |
-| `hls_certified` | カーネル本体と外側の反復・配列等の情報を、メモリ最適化とRTLの全体保証へ接続する |
-| `hls_program` | 関数全体のループ・処理順をソースから取り出す。固定配列の検査を追加する前の入口 |
-| `hls_fixed_program` | 関数全体と固定配列宣言を渡す。Entryを構成し、`compile`／`correct`／`generates`を登録する |
+| 入口 | ユーザーが与えるもの | 自動処理・生成物 |
+|---|---|---|
+| `hls_word` | `Word → Word → Word → State → Option State`の本体 | 本体の解析、生成コードと元Lean定義の接続証明。単独でRTL生成を要求する入口ではない |
+| `hls_certified` | 同じ本体。コンパイル時に対象配列・開始位置・歩幅・反復回数、公開出力、配列長・配置。複数処理なら処理順も指定 | 本体の接続証明を持つEntry、バッファ／通信解析へ渡すカーネル、RTLと正しさ定理 |
+| `hls_program` | `State → Option State`の関数全体。コンパイル時に公開出力・配列長・配置 | 関数内のループ・処理順を保ってEntryを構成。固定配列の宣言検査を付ける前の入口 |
+| `hls_fixed_program` | 同じ関数全体と固定配列宣言。コンパイル時に公開出力 | 宣言から配列長・配置を構成し、`compile`／`correct`／`generates`を登録 |
+
+`hls_certified`の登録や生成された`.compile`だけではSMTを起動しない。SMT補助の探索は`CertifiedHLS.compileWithSMT`を明示して利用する。どちらも候補をLeanで検査し、同じ正しさ定理へ接続する。処理分割や任意の並列実行が自動的に追加されるわけではない。
 
 通常の解析は全て`StructuralBody.compileRetained`を使う。関数全体からFIFO化用の処理列を自動抽出する機能と、構文全体の生成成功は別であり、前者は今後の拡張である。処理列を明示する既存の入口では、バッファ挿入・配列単位のFIFO化を利用できる。
 
