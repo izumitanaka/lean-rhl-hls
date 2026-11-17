@@ -11,6 +11,7 @@ lake env lean scripts/structural-frontend.lean
 lake env lean scripts/check-current-entry.lean
 ```
 
+- [Example programs and generated RTL](examples/README.md)
 - [Input-to-RTL walkthrough](docs/WALKTHROUGH.md)
 - [Build and RTL checks](docs/REPRODUCING.md)
 - [Technical scope](docs/TECHNICAL-NOTE.md)

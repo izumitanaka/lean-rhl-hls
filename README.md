@@ -22,6 +22,8 @@ The goal is to infer that stage information from supported complete Lean functio
 
 ## Try it
 
+[Browse runnable Lean programs alongside their generated RTL](hls/examples/README.md): increment, filter, swap, nested loops and prefix sum.
+
 ```lean
 import IRComparison.Frontend.LeanHLSCommand
 open IRComparison HybridWord
