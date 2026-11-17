@@ -1,0 +1,10 @@
+**/.lake/
+**/artifacts/
+**/__pycache__/
+.DS_Store
+*.pyc
+
+# Publication excludes generated evidence and internal development records.
+/evidence/
+/hls/docs/archive/
+/hls/examples/meeting/

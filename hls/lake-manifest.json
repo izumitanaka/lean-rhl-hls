@@ -1,0 +1,41 @@
+{
+  "version": "1.1.0",
+  "packagesDir": ".lake/packages",
+  "packages": [
+    {
+      "url": "https://github.com/digama0/lean4lean.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "",
+      "rev": "3dc52e0cd8a218e09de9ead031f52a2675734fe7",
+      "name": "lean4lean",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "3dc52e0cd8a218e09de9ead031f52a2675734fe7",
+      "inherited": false,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "",
+      "rev": "756e3321fd3b02a85ffda19fef789916223e578c",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.29.0",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "type": "path",
+      "scope": "",
+      "name": "paperCore",
+      "manifestFile": "lake-manifest.json",
+      "inherited": false,
+      "dir": "../papercore",
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "name": "irComparison",
+  "lakeDir": ".lake"
+}
